@@ -6,7 +6,7 @@ import time
 t = time.time()
 
 def log(x, s=sys.argv[2], c = sys.argv[3]):
-    print(x) 
+    print(x)
     with open('logs/'+ str(t)+'_'+str(s)+'_'+str(c)+'.txt', 'a+') as file:
         file.write(x+'\n')
 
@@ -27,9 +27,10 @@ def large_k_itemsets(items, table, min_sup):
     log("start of large k")
     large_itemsets = {}
     L = one_itemsets(items, min_sup) # L_(k-1): set of large itemsets that have k-1 items, L from previous iteration
+    large_itemsets.update(L)
     k = 2
     while (L != {}):
-        C_k = apriori_gen(list(L.keys()),k) # C_k : set of potentially large itemsets that have k number of items 
+        C_k = apriori_gen(list(L.keys()),k) # C_k : set of potentially large itemsets that have k number of items
         log("C_k is after apriori: "+str(C_k))
         for row in table:
             for c in C_k:
@@ -123,9 +124,6 @@ log('Number of rows: '+str(len(table)))
 ### find large itemsets
 itemsets = large_k_itemsets(items,table,min_sup)
 log('############# ITEMSETS #############\n')
-for i in itemsets: 
+for i in itemsets:
     log(str(i)+': '+ str(itemsets[i]))
 log('\nNumber of itemsets: '+str(len(itemsets)))
-
-
-
