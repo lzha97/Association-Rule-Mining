@@ -1,6 +1,14 @@
 import sys
 import pandas as pd
 import itertools
+import time
+
+t = time.time()
+
+def log(x, s=sys.argv[2], c = sys.argv[3]):
+    print(x) 
+    with open('logs/'+ str(t)+'_'+str(s)+'_'+str(c)+'.txt', 'a+') as file:
+        file.write(x+'\n')
 
 
 ### Returns large 1-itemsets
@@ -16,44 +24,39 @@ def one_itemsets(items, min_sup):
 
 ### Find large itemsets
 def large_k_itemsets(items, table, min_sup):
-    print("start of large k")
+    log("start of large k")
     large_itemsets = {}
-    L = one_itemsets(items, min_sup)
+    L = one_itemsets(items, min_sup) # L_(k-1): set of large itemsets that have k-1 items, L from previous iteration
     k = 2
     while (L != {}):
-        C_k = apriori_gen(list(L.keys()),k)
-        print("C_k is after apriori: ", C_k)
+        C_k = apriori_gen(list(L.keys()),k) # C_k : set of potentially large itemsets that have k number of items 
+        log("C_k is after apriori: "+str(C_k))
         for row in table:
             for c in C_k:
                 if (set(c) <= set(row)):
                     C_k[c] += 1
-        print("Ck after increment: ", C_k)
+        log("Ck after increment: " + str(C_k))
         L_k = {}
         for c,count in C_k.items():
             if float(count)/len(table) >= min_sup:
                 L_k[c] = count
         k += 1
         large_itemsets.update(L_k)
-        L = L_k
-        print("L_k is: ", L_k)
-        #if k == 4:
-            #sys.exit()
+        L = L_k # L: set of large itemsets that have k number of items that meet min support out of C_k
+        log("L_k is: "+ str(L_k))
 
     return large_itemsets
 
 
 ## takes a set of large k-1 itemsets and returns a superset of all large k-itemsets.
 def apriori_gen(prior_itemsets,k):
-    print("in apriori")
-    print("prior itemsets: ", prior_itemsets)
+    log("in apriori")
+    log("prior itemsets: "+str(prior_itemsets))
     #join
     C_k = set()
-    for p in prior_itemsets:
-        #print("first p is: ", p)
-        #print(type(p))
+    for p in prior_itemsets: # L_(k-1)
         new_p = []
         if isinstance(p,tuple):
-            #print("yes")
             for i in p:
                 new_p.append(i)
             p = new_p
@@ -68,27 +71,24 @@ def apriori_gen(prior_itemsets,k):
             else:
                 q = [q]
             if p[:-1] == q[:-1] and p[-1] != q[-1]:
-                new_itemset = tuple(set(p).union(set(q)))
+                new_itemset = tuple(set(p).union(set(q))) # a set that belongs in C_k
                 if (len(new_itemset) == k):
                     C_k.add(new_itemset)
     #prune
-    print("C_k is", C_k)
-    C_new = C_k.copy()
+    log("C_k is: "+ str(C_k))
+    C_new = C_k.copy() # C_new is a copy of C_k for deletion during iteration.
     for c in C_k:
-        #for i in range(1,k):
-            #subsets = []
         subsets = [list(x) for x in itertools.combinations(list(c),k-1)]
-        #subsets = list(itertools.combinations(list(c),i))
-        print("subsets are: ",subsets)
+        log("subsets are: "+str(subsets))
         for s in subsets:
             if len(s) == 1:
                 s = s[0]
             else:
                 s = tuple(s)
-            print("subset is: ", s)
+            log("subset is: "+str(s))
             if s not in prior_itemsets:
                 C_new.remove(c)
-                print("s not in prior: ", s)
+                log("s not in prior: "+str(s))
                 break
 
     return dict.fromkeys(C_new,0)
@@ -99,6 +99,7 @@ def apriori_gen(prior_itemsets,k):
 dataset = sys.argv[1]
 min_sup = float(sys.argv[2])
 min_conf = float(sys.argv[3])
+
 
 ### read data
 data = pd.read_csv(dataset)
@@ -113,8 +114,18 @@ for row in table:
         if (item != 'nan'):
             items.append(item)
 
-print(items)
-print(table)
+log('############# ITEMS #############')
+log('Number of items: '+str(len(items)))
+#log(str(items)+ '\n\n')
+log('############# TABLE #############')
+log('Number of rows: '+str(len(table)))
+#log(str(table)+ '\n\n')
 ### find large itemsets
 itemsets = large_k_itemsets(items,table,min_sup)
-print(itemsets)
+log('############# ITEMSETS #############\n')
+for i in itemsets: 
+    log(str(i)+': '+ str(itemsets[i]))
+log('\nNumber of itemsets: '+str(len(itemsets)))
+
+
+
