@@ -103,9 +103,7 @@ min_conf = float(sys.argv[3])
 
 ### read data
 data = pd.read_csv(dataset)
-table = []
-for i in range(data.shape[0]):
-    table.append([str(data.values[i,j]) for j in range(data.shape[1])])
+table = data.values
 
 ### get list of items
 items = []
