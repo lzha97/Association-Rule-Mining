@@ -11,6 +11,26 @@ def log(x, s=sys.argv[2], c = sys.argv[3]):
         file.write(x+'\n')
 
 
+def compute_confidence(itemsets, min_conf = sys.argv[3]): 
+    ct_rules_extracted = 0
+    for iset in itemsets.keys():
+        if type(iset) == tuple: 
+            for i in iset: 
+                lhs = (set(iset)).difference(set([i]))
+                if len(lhs)> 1: lhs = tuple(lhs)
+                else: lhs= tuple(lhs)[0]
+                rhs = iset
+
+                numerator = itemsets[rhs]
+                denominator = itemsets[lhs]
+                score = numerator/denominator
+                if score >= float(min_conf): 
+                    log('Rule: ' +  str(lhs) + '--> (' +  str(i) +  ')\t Score:' +  str(score))
+                    ct_rules_extracted += 1 
+    log(str(ct_rules_extracted) + ' Rules Extracted. ')
+    return 
+
+
 ### Returns large 1-itemsets
 def one_itemsets(items, min_sup):
     L_1 = {}
@@ -120,13 +140,22 @@ for row in table:
 
 log('############# ITEMS #############')
 log('Number of items: '+str(len(items)))
-#log(str(items)+ '\n\n')
-log('############# TABLE #############')
+log(str(items)+ '\n\n')
+log('\n############# TABLE #############')
 log('Number of rows: '+str(len(table)))
-#log(str(table)+ '\n\n')
+log(str(table)+ '\n\n')
 ### find large itemsets
 itemsets = large_k_itemsets(items,table,min_sup)
-log('############# ITEMSETS #############\n')
+log('\n############# ITEMSETS #############\n')
 for i in itemsets:
     log(str(i)+': '+ str(itemsets[i]))
 log('\nNumber of itemsets: '+str(len(itemsets)))
+
+
+
+
+#print(itemsets)
+
+
+print('\n############# ASSOCIATION RULES #############\n')
+compute_confidence(itemsets)
