@@ -16,15 +16,17 @@ def one_itemsets(items, min_sup):
     L_1 = {}
     for item in items:
         L_1[item] = items.count(item)
+    L_1_copy = L_1.copy()
+    num_baskets = float(len(L_1.keys()))
     for item,count in L_1.items():
-        if (count < min_sup):
-            del L_1[item]
-    return L_1
+        if (float(count)/num_baskets < min_sup):
+            del L_1_copy[item]
+    return L_1_copy
 
 
 ### Find large itemsets
 def large_k_itemsets(items, table, min_sup):
-    log("start of large k")
+    #log("start of large k")
     large_itemsets = {}
     L = one_itemsets(items, min_sup) # L_(k-1): set of large itemsets that have k-1 items, L from previous iteration
     large_itemsets.update(L)
@@ -36,7 +38,7 @@ def large_k_itemsets(items, table, min_sup):
             for c in C_k:
                 if (set(c) <= set(row)):
                     C_k[c] += 1
-        log("Ck after increment: " + str(C_k))
+        #log("Ck after increment: " + str(C_k))
         L_k = {}
         for c,count in C_k.items():
             if float(count)/len(table) >= min_sup:
@@ -51,7 +53,7 @@ def large_k_itemsets(items, table, min_sup):
 
 ## takes a set of large k-1 itemsets and returns a superset of all large k-itemsets.
 def apriori_gen(prior_itemsets,k):
-    log("in apriori")
+    #log("in apriori")
     log("prior itemsets: "+str(prior_itemsets))
     #join
     C_k = set()
@@ -79,8 +81,9 @@ def apriori_gen(prior_itemsets,k):
     log("C_k is: "+ str(C_k))
     C_new = C_k.copy() # C_new is a copy of C_k for deletion during iteration.
     for c in C_k:
+        log("c is: " + str(c))
         subsets = [list(x) for x in itertools.combinations(list(c),k-1)]
-        log("subsets are: "+str(subsets))
+        #log("subsets are: "+str(subsets))
         for s in subsets:
             if len(s) == 1:
                 s = s[0]
