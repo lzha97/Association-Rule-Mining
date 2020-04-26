@@ -11,11 +11,11 @@ def log(x, s=sys.argv[2], c = sys.argv[3]):
         file.write(x+'\n')
 
 
-def compute_confidence(itemsets, min_conf = sys.argv[3]): 
+def compute_confidence(itemsets, min_conf = sys.argv[3]):
     ct_rules_extracted = 0
     for iset in itemsets.keys():
-        if type(iset) == tuple: 
-            for i in iset: 
+        if type(iset) == tuple:
+            for i in iset:
                 lhs = (set(iset)).difference(set([i]))
                 if len(lhs)> 1: lhs = tuple(lhs)
                 else: lhs= tuple(lhs)[0]
@@ -24,11 +24,11 @@ def compute_confidence(itemsets, min_conf = sys.argv[3]):
                 numerator = itemsets[rhs]
                 denominator = itemsets[lhs]
                 score = numerator/denominator
-                if score >= float(min_conf): 
+                if score >= float(min_conf):
                     log('Rule: ' +  str(lhs) + '--> (' +  str(i) +  ')\t Score:' +  str(score))
-                    ct_rules_extracted += 1 
+                    ct_rules_extracted += 1
     log(str(ct_rules_extracted) + ' Rules Extracted. ')
-    return 
+    return
 
 
 ### Returns large 1-itemsets
