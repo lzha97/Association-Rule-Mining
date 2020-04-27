@@ -28,7 +28,7 @@ def compute_confidence(itemsets, min_conf = sys.argv[3], out_file = None):
                 if score >= float(min_conf) and (lhs,i) not in rules:
                     rules[(lhs,i)] = score
                     lhs = str(list(set(lhs)))
-                    log(lhs + ' => [' +  str(i)+  '] (Conf: '+"{:.2f}".format(score*100)+'%, Supp: ' + "{:.1f}".format(denominator)+')', print2screen=True, output_file=out_f)
+                    log(lhs + ' => [' +  str(i)+  '] (Conf: '+"{:.2f}".format(score*100)+'%, Supp: ' + "{:.1f}".format((float(denominator)/float(len(table)))*100)+'%)', print2screen=True, output_file=out_f)
                     ct_rules_extracted += 1
 
     log(str(ct_rules_extracted) + ' Rules Extracted. ')
@@ -162,8 +162,7 @@ log('=== Frequent itemsets (min_sup=' + str(min_sup*100) + '%) === \n', print2sc
 for i in itemsets:
     if type(i) == frozenset:
       formatted_i = str(list(i))
-      print(formatted_i)
-      log(formatted_i + ', '+ "{:.1f}".format(itemsets[i]) + '%', print2screen=True, output_file=out_f)
+      log(formatted_i + ', '+ "{:.1f}".format(float(itemsets[i])/float(len(table))*100) + '%', print2screen=True, output_file=out_f)
 log('\nNumber of itemsets: '+str(len(itemsets)), print2screen=True)
 
 # find association rules satisfying min_conf threshold
