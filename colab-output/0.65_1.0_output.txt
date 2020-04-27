@@ -1,0 +1,16 @@
+=== Frequent itemsets (min_sup=65.0%) === 
+
+['EJECTION: Not Ejected'], 95.2%
+['EMOTIONAL_STATUS: Conscious'], 96.4%
+['SAFETY_EQUIPMENT: Lap Belt & Harness'], 67.4%
+['COMPLAINT: Complaint of Pain or Nausea'], 70.7%
+['EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 65.5%
+['EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 67.2%
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'], 92.1%
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected'], 68.2%
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious'], 69.3%
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious'], 66.9%
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 65.4%
+
+=== High-confidence association rules (min_conf=100.0%) ===
+

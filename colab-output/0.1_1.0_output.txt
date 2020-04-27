@@ -1,0 +1,495 @@
+=== Frequent itemsets (min_sup=10.0%) === 
+
+['EJECTION: Not Ejected'], 95.2%
+['EMOTIONAL_STATUS: Conscious'], 96.4%
+['BODILY_INJURY: Neck'], 20.7%
+['POSITION_IN_VEHICLE: Driver'], 65.7%
+['SAFETY_EQUIPMENT: Lap Belt & Harness'], 67.4%
+['COMPLAINT: Complaint of Pain or Nausea'], 70.7%
+['PED_ROLE: Driver'], 59.3%
+['PERSON_SEX: F'], 42.5%
+['AGE_RANGE: (20, 30]'], 27.1%
+['POSITION_IN_VEHICLE: Front passenger, if two or more persons, including the driver, are in the front seat'], 15.5%
+['PED_ROLE: Passenger'], 33.6%
+['PERSON_SEX: M'], 57.5%
+['AGE_RANGE: (40, 50]'], 15.7%
+['AGE_RANGE: (30, 40]'], 23.5%
+['BODILY_INJURY: Head'], 14.9%
+['SAFETY_EQUIPMENT: None'], 11.5%
+['BODILY_INJURY: Back'], 22.2%
+['AGE_RANGE: (50, 60]'], 12.3%
+['PED_ROLE: Driver', 'AGE_RANGE: (40, 50]'], 10.5%
+['EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 65.5%
+['SAFETY_EQUIPMENT: Lap Belt & Harness', 'BODILY_INJURY: Neck'], 16.2%
+['COMPLAINT: Complaint of Pain or Nausea', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 50.8%
+['EJECTION: Not Ejected', 'BODILY_INJURY: Neck'], 20.6%
+['BODILY_INJURY: Back', 'EMOTIONAL_STATUS: Conscious'], 21.8%
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'], 92.1%
+['BODILY_INJURY: Back', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 17.3%
+['SAFETY_EQUIPMENT: Lap Belt & Harness', 'AGE_RANGE: (40, 50]'], 11.0%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea'], 31.3%
+['POSITION_IN_VEHICLE: Front passenger, if two or more persons, including the driver, are in the front seat', 'COMPLAINT: Complaint of Pain or Nausea'], 11.6%
+['PERSON_SEX: F', 'POSITION_IN_VEHICLE: Driver'], 22.2%
+['SAFETY_EQUIPMENT: None', 'EMOTIONAL_STATUS: Conscious'], 10.8%
+['AGE_RANGE: (20, 30]', 'COMPLAINT: Complaint of Pain or Nausea'], 19.4%
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver'], 42.0%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea'], 39.4%
+['COMPLAINT: Complaint of Pain or Nausea', 'AGE_RANGE: (40, 50]'], 11.2%
+['PERSON_SEX: M', 'PED_ROLE: Passenger'], 13.3%
+['EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 61.4%
+['AGE_RANGE: (30, 40]', 'EJECTION: Not Ejected'], 22.2%
+['PERSON_SEX: M', 'POSITION_IN_VEHICLE: Driver'], 43.5%
+['EMOTIONAL_STATUS: Conscious', 'AGE_RANGE: (50, 60]'], 11.9%
+['EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 67.2%
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver'], 57.0%
+['COMPLAINT: Complaint of Pain or Nausea', 'BODILY_INJURY: Neck'], 15.3%
+['PERSON_SEX: F', 'PED_ROLE: Passenger'], 20.3%
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious'], 69.3%
+['EMOTIONAL_STATUS: Conscious', 'BODILY_INJURY: Neck'], 20.1%
+['BODILY_INJURY: Back', 'EJECTION: Not Ejected'], 21.8%
+['AGE_RANGE: (20, 30]', 'PED_ROLE: Driver'], 15.9%
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Passenger'], 24.8%
+['POSITION_IN_VEHICLE: Driver', 'BODILY_INJURY: Neck'], 13.2%
+['EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'], 63.1%
+['SAFETY_EQUIPMENT: Lap Belt & Harness', 'POSITION_IN_VEHICLE: Driver'], 43.7%
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected'], 68.2%
+['BODILY_INJURY: Back', 'PED_ROLE: Driver'], 13.8%
+['AGE_RANGE: (20, 30]', 'EJECTION: Not Ejected'], 25.6%
+['PED_ROLE: Driver', 'EJECTION: Not Ejected'], 57.3%
+['POSITION_IN_VEHICLE: Front passenger, if two or more persons, including the driver, are in the front seat', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 12.7%
+['BODILY_INJURY: Back', 'POSITION_IN_VEHICLE: Driver'], 14.1%
+['EMOTIONAL_STATUS: Conscious', 'BODILY_INJURY: Head'], 13.9%
+['PED_ROLE: Driver', 'BODILY_INJURY: Neck'], 13.0%
+['COMPLAINT: Complaint of Pain or Nausea', 'POSITION_IN_VEHICLE: Driver'], 45.6%
+['AGE_RANGE: (30, 40]', 'COMPLAINT: Complaint of Pain or Nausea'], 16.6%
+['PERSON_SEX: M', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 35.7%
+['POSITION_IN_VEHICLE: Front passenger, if two or more persons, including the driver, are in the front seat', 'PED_ROLE: Passenger'], 15.5%
+['PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 59.0%
+['EJECTION: Not Ejected', 'AGE_RANGE: (50, 60]'], 11.9%
+['AGE_RANGE: (30, 40]', 'POSITION_IN_VEHICLE: Driver'], 17.1%
+['AGE_RANGE: (30, 40]', 'EMOTIONAL_STATUS: Conscious'], 22.7%
+['BODILY_INJURY: Back', 'COMPLAINT: Complaint of Pain or Nausea'], 17.5%
+['PED_ROLE: Passenger', 'EJECTION: Not Ejected'], 33.4%
+['AGE_RANGE: (30, 40]', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 16.0%
+['PERSON_SEX: F', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 31.7%
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious'], 55.2%
+['EMOTIONAL_STATUS: Conscious', 'AGE_RANGE: (40, 50]'], 15.2%
+['POSITION_IN_VEHICLE: Driver', 'AGE_RANGE: (40, 50]'], 11.4%
+['PERSON_SEX: M', 'AGE_RANGE: (30, 40]'], 14.0%
+['AGE_RANGE: (20, 30]', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 17.7%
+['AGE_RANGE: (20, 30]', 'EMOTIONAL_STATUS: Conscious'], 26.1%
+['PERSON_SEX: F', 'AGE_RANGE: (20, 30]'], 10.9%
+['AGE_RANGE: (30, 40]', 'PED_ROLE: Driver'], 15.5%
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Passenger'], 32.7%
+['AGE_RANGE: (20, 30]', 'POSITION_IN_VEHICLE: Driver'], 17.8%
+['PERSON_SEX: F', 'EMOTIONAL_STATUS: Conscious'], 41.2%
+['EJECTION: Not Ejected', 'BODILY_INJURY: Head'], 14.0%
+['PERSON_SEX: M', 'PED_ROLE: Driver'], 38.1%
+['PERSON_SEX: M', 'AGE_RANGE: (20, 30]'], 16.3%
+['PERSON_SEX: M', 'BODILY_INJURY: Neck'], 10.8%
+['PED_ROLE: Passenger', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 23.9%
+['PERSON_SEX: F', 'EJECTION: Not Ejected'], 42.0%
+['POSITION_IN_VEHICLE: Front passenger, if two or more persons, including the driver, are in the front seat', 'EJECTION: Not Ejected'], 15.5%
+['PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 43.4%
+['PERSON_SEX: F', 'PED_ROLE: Driver'], 21.2%
+['POSITION_IN_VEHICLE: Front passenger, if two or more persons, including the driver, are in the front seat', 'EMOTIONAL_STATUS: Conscious'], 15.1%
+['PERSON_SEX: M', 'BODILY_INJURY: Back'], 12.8%
+['PERSON_SEX: M', 'EJECTION: Not Ejected'], 53.2%
+['EJECTION: Not Ejected', 'AGE_RANGE: (40, 50]'], 15.0%
+['BODILY_INJURY: Back', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver'], 13.6%
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious'], 66.9%
+['EJECTION: Not Ejected', 'AGE_RANGE: (20, 30]', 'PED_ROLE: Driver'], 15.2%
+['AGE_RANGE: (20, 30]', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 17.2%
+['EMOTIONAL_STATUS: Conscious', 'AGE_RANGE: (40, 50]', 'POSITION_IN_VEHICLE: Driver'], 11.1%
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 56.8%
+['EMOTIONAL_STATUS: Conscious', 'AGE_RANGE: (40, 50]', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 10.7%
+['AGE_RANGE: (30, 40]', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious'], 16.3%
+['PERSON_SEX: F', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 31.7%
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'], 44.6%
+['AGE_RANGE: (20, 30]', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 15.9%
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'], 51.3%
+['PERSON_SEX: M', 'BODILY_INJURY: Back', 'EMOTIONAL_STATUS: Conscious'], 12.6%
+['AGE_RANGE: (30, 40]', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'], 16.4%
+['AGE_RANGE: (20, 30]', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 17.6%
+['AGE_RANGE: (20, 30]', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'], 24.7%
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 43.3%
+['BODILY_INJURY: Back', 'COMPLAINT: Complaint of Pain or Nausea', 'POSITION_IN_VEHICLE: Driver'], 11.2%
+['AGE_RANGE: (30, 40]', 'PED_ROLE: Driver', 'EJECTION: Not Ejected'], 14.8%
+['PERSON_SEX: F', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'POSITION_IN_VEHICLE: Driver'], 17.1%
+['PED_ROLE: Driver', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 57.1%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver'], 26.1%
+['PERSON_SEX: F', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'], 40.7%
+['PERSON_SEX: M', 'AGE_RANGE: (20, 30]', 'PED_ROLE: Driver'], 10.7%
+['PERSON_SEX: M', 'AGE_RANGE: (30, 40]', 'POSITION_IN_VEHICLE: Driver'], 11.2%
+['AGE_RANGE: (20, 30]', 'POSITION_IN_VEHICLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 11.2%
+['AGE_RANGE: (20, 30]', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver'], 11.3%
+['AGE_RANGE: (30, 40]', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 15.4%
+['BODILY_INJURY: Back', 'COMPLAINT: Complaint of Pain or Nausea', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 14.1%
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 50.7%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver'], 15.9%
+['PED_ROLE: Passenger', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 23.8%
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'AGE_RANGE: (40, 50]'], 14.6%
+['BODILY_INJURY: Back', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 11.3%
+['AGE_RANGE: (20, 30]', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 11.1%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious'], 38.7%
+['POSITION_IN_VEHICLE: Driver', 'PED_ROLE: Driver', 'AGE_RANGE: (40, 50]'], 10.5%
+['AGE_RANGE: (40, 50]', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 10.9%
+['AGE_RANGE: (20, 30]', 'COMPLAINT: Complaint of Pain or Nausea', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 13.4%
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 42.1%
+['POSITION_IN_VEHICLE: Front passenger, if two or more persons, including the driver, are in the front seat', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'], 15.1%
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'], 41.7%
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'BODILY_INJURY: Neck'], 10.5%
+['BODILY_INJURY: Back', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver'], 10.9%
+['AGE_RANGE: (20, 30]', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'], 17.1%
+['EJECTION: Not Ejected', 'PERSON_SEX: M', 'PED_ROLE: Driver'], 36.2%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious'], 30.6%
+['PED_ROLE: Driver', 'EJECTION: Not Ejected', 'AGE_RANGE: (40, 50]'], 10.3%
+['PERSON_SEX: F', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'], 21.5%
+['BODILY_INJURY: Back', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'], 21.5%
+['BODILY_INJURY: Back', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 17.3%
+['EJECTION: Not Ejected', 'PED_ROLE: Driver', 'PERSON_SEX: F'], 21.1%
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Passenger', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 18.0%
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'AGE_RANGE: (40, 50]'], 11.1%
+['PERSON_SEX: M', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 37.9%
+['PERSON_SEX: M', 'AGE_RANGE: (20, 30]', 'EMOTIONAL_STATUS: Conscious'], 15.6%
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'BODILY_INJURY: Neck'], 20.0%
+['COMPLAINT: Complaint of Pain or Nausea', 'POSITION_IN_VEHICLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 32.9%
+['BODILY_INJURY: Back', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'], 13.9%
+['POSITION_IN_VEHICLE: Front passenger, if two or more persons, including the driver, are in the front seat', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious'], 11.4%
+['POSITION_IN_VEHICLE: Front passenger, if two or more persons, including the driver, are in the front seat', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Passenger'], 15.1%
+['PERSON_SEX: F', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 21.1%
+['POSITION_IN_VEHICLE: Front passenger, if two or more persons, including the driver, are in the front seat', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 12.4%
+['BODILY_INJURY: Back', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 17.1%
+['BODILY_INJURY: Back', 'PED_ROLE: Driver', 'EJECTION: Not Ejected'], 13.6%
+['PERSON_SEX: M', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 39.5%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 26.6%
+['POSITION_IN_VEHICLE: Front passenger, if two or more persons, including the driver, are in the front seat', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Passenger'], 11.5%
+['AGE_RANGE: (20, 30]', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver'], 15.2%
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'AGE_RANGE: (50, 60]'], 11.4%
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Passenger'], 13.0%
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver'], 36.5%
+['BODILY_INJURY: Back', 'EMOTIONAL_STATUS: Conscious', 'COMPLAINT: Complaint of Pain or Nausea'], 17.3%
+['AGE_RANGE: (30, 40]', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 15.9%
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Passenger', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 23.3%
+['POSITION_IN_VEHICLE: Front passenger, if two or more persons, including the driver, are in the front seat', 'PED_ROLE: Passenger', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 12.6%
+['AGE_RANGE: (20, 30]', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected'], 18.5%
+['BODILY_INJURY: Back', 'POSITION_IN_VEHICLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 11.3%
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'BODILY_INJURY: Neck'], 15.0%
+['SAFETY_EQUIPMENT: Lap Belt & Harness', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 43.6%
+['AGE_RANGE: (30, 40]', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver'], 15.0%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected'], 37.2%
+['EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver', 'BODILY_INJURY: Neck'], 12.9%
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Passenger', 'EMOTIONAL_STATUS: Conscious'], 24.4%
+['AGE_RANGE: (20, 30]', 'COMPLAINT: Complaint of Pain or Nausea', 'POSITION_IN_VEHICLE: Driver'], 12.4%
+['PED_ROLE: Driver', 'EJECTION: Not Ejected', 'BODILY_INJURY: Neck'], 13.0%
+['AGE_RANGE: (30, 40]', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected'], 15.9%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'POSITION_IN_VEHICLE: Driver'], 29.1%
+['PERSON_SEX: M', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 35.6%
+['EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Front passenger, if two or more persons, including the driver, are in the front seat', 'PED_ROLE: Passenger'], 15.4%
+['BODILY_INJURY: Back', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 13.7%
+['AGE_RANGE: (30, 40]', 'COMPLAINT: Complaint of Pain or Nausea', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 12.3%
+['PERSON_SEX: M', 'AGE_RANGE: (20, 30]', 'COMPLAINT: Complaint of Pain or Nausea'], 11.3%
+['POSITION_IN_VEHICLE: Driver', 'PED_ROLE: Driver', 'BODILY_INJURY: Neck'], 13.0%
+['AGE_RANGE: (30, 40]', 'COMPLAINT: Complaint of Pain or Nausea', 'POSITION_IN_VEHICLE: Driver'], 11.8%
+['PERSON_SEX: M', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'POSITION_IN_VEHICLE: Driver'], 26.6%
+['PERSON_SEX: M', 'EJECTION: Not Ejected', 'BODILY_INJURY: Neck'], 10.7%
+['PED_ROLE: Driver', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 43.3%
+['PERSON_SEX: F', 'AGE_RANGE: (20, 30]', 'EJECTION: Not Ejected'], 10.7%
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Passenger', 'EJECTION: Not Ejected'], 32.5%
+['AGE_RANGE: (20, 30]', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 16.4%
+['PERSON_SEX: M', 'AGE_RANGE: (30, 40]', 'EMOTIONAL_STATUS: Conscious'], 13.4%
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 50.0%
+['AGE_RANGE: (30, 40]', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 16.0%
+['PERSON_SEX: M', 'AGE_RANGE: (20, 30]', 'EJECTION: Not Ejected'], 14.9%
+['AGE_RANGE: (40, 50]', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 10.8%
+['AGE_RANGE: (30, 40]', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'POSITION_IN_VEHICLE: Driver'], 11.4%
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 32.7%
+['POSITION_IN_VEHICLE: Front passenger, if two or more persons, including the driver, are in the front seat', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected'], 11.5%
+['SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver', 'BODILY_INJURY: Neck'], 10.5%
+['PERSON_SEX: F', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 17.0%
+['AGE_RANGE: (30, 40]', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 11.3%
+['PERSON_SEX: M', 'BODILY_INJURY: Back', 'EJECTION: Not Ejected'], 12.4%
+['COMPLAINT: Complaint of Pain or Nausea', 'BODILY_INJURY: Neck', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 12.2%
+['SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 43.3%
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 65.4%
+['PERSON_SEX: M', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 26.4%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Passenger'], 14.9%
+['EMOTIONAL_STATUS: Conscious', 'BODILY_INJURY: Neck', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 15.8%
+['PERSON_SEX: M', 'AGE_RANGE: (20, 30]', 'POSITION_IN_VEHICLE: Driver'], 12.3%
+['PERSON_SEX: F', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 30.9%
+['AGE_RANGE: (30, 40]', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 15.6%
+['EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 42.4%
+['EJECTION: Not Ejected', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Passenger'], 24.8%
+['PERSON_SEX: F', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 21.8%
+['EJECTION: Not Ejected', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver'], 41.0%
+['POSITION_IN_VEHICLE: Driver', 'EJECTION: Not Ejected', 'BODILY_INJURY: Neck'], 13.1%
+['PERSON_SEX: F', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Passenger'], 19.7%
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 34.6%
+['PERSON_SEX: F', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver'], 20.5%
+['PERSON_SEX: F', 'AGE_RANGE: (20, 30]', 'EMOTIONAL_STATUS: Conscious'], 10.5%
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'AGE_RANGE: (40, 50]'], 10.9%
+['SAFETY_EQUIPMENT: Lap Belt & Harness', 'EJECTION: Not Ejected', 'BODILY_INJURY: Neck'], 16.2%
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'BODILY_INJURY: Neck'], 12.6%
+['EJECTION: Not Ejected', 'PERSON_SEX: M', 'PED_ROLE: Passenger'], 13.3%
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious'], 41.2%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected'], 31.0%
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'AGE_RANGE: (40, 50]'], 10.3%
+['SAFETY_EQUIPMENT: Lap Belt & Harness', 'BODILY_INJURY: Neck', 'POSITION_IN_VEHICLE: Driver'], 10.5%
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'BODILY_INJURY: Neck'], 15.2%
+['EJECTION: Not Ejected', 'PED_ROLE: Passenger', 'PERSON_SEX: F'], 20.1%
+['AGE_RANGE: (30, 40]', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'], 21.5%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 24.2%
+['PERSON_SEX: F', 'PED_ROLE: Passenger', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 14.7%
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 59.2%
+['BODILY_INJURY: Back', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected'], 17.2%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'POSITION_IN_VEHICLE: Driver'], 16.5%
+['POSITION_IN_VEHICLE: Front passenger, if two or more persons, including the driver, are in the front seat', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 12.6%
+['AGE_RANGE: (20, 30]', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious'], 19.1%
+['BODILY_INJURY: Back', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 13.8%
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'BODILY_INJURY: Head'], 13.2%
+['AGE_RANGE: (30, 40]', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver'], 10.9%
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 41.9%
+['PERSON_SEX: M', 'AGE_RANGE: (30, 40]', 'EJECTION: Not Ejected'], 12.8%
+['PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'], 55.2%
+['BODILY_INJURY: Back', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 11.0%
+['AGE_RANGE: (30, 40]', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 14.8%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 19.5%
+['PERSON_SEX: F', 'POSITION_IN_VEHICLE: Driver', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 17.1%
+['BODILY_INJURY: Back', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious'], 17.1%
+['AGE_RANGE: (20, 30]', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'], 12.1%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 24.2%
+['PERSON_SEX: M', 'AGE_RANGE: (30, 40]', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 10.1%
+['AGE_RANGE: (20, 30]', 'POSITION_IN_VEHICLE: Driver', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 11.1%
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious', 'BODILY_INJURY: Neck'], 14.9%
+['AGE_RANGE: (30, 40]', 'PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'], 14.3%
+['AGE_RANGE: (30, 40]', 'PED_ROLE: Driver', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 14.7%
+['AGE_RANGE: (20, 30]', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious'], 18.2%
+['AGE_RANGE: (20, 30]', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 10.8%
+['AGE_RANGE: (30, 40]', 'PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'], 10.6%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 26.0%
+['AGE_RANGE: (30, 40]', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 11.0%
+['AGE_RANGE: (30, 40]', 'PED_ROLE: Driver', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected'], 10.6%
+['COMPLAINT: Complaint of Pain or Nausea', 'POSITION_IN_VEHICLE: Driver', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 32.4%
+['AGE_RANGE: (20, 30]', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 11.3%
+['POSITION_IN_VEHICLE: Front passenger, if two or more persons, including the driver, are in the front seat', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 12.4%
+['BODILY_INJURY: Back', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'EJECTION: Not Ejected'], 13.4%
+['AGE_RANGE: (30, 40]', 'POSITION_IN_VEHICLE: Driver', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 11.4%
+['AGE_RANGE: (30, 40]', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'], 11.5%
+['AGE_RANGE: (20, 30]', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious'], 11.1%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Passenger', 'EMOTIONAL_STATUS: Conscious'], 14.6%
+['AGE_RANGE: (20, 30]', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 17.1%
+['POSITION_IN_VEHICLE: Front passenger, if two or more persons, including the driver, are in the front seat', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Passenger', 'EMOTIONAL_STATUS: Conscious'], 11.4%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 15.9%
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 38.0%
+['EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver', 'EJECTION: Not Ejected', 'AGE_RANGE: (40, 50]'], 10.5%
+['AGE_RANGE: (30, 40]', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 12.2%
+['PERSON_SEX: M', 'AGE_RANGE: (20, 30]', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected'], 10.6%
+['PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 43.2%
+['AGE_RANGE: (20, 30]', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 15.7%
+['AGE_RANGE: (20, 30]', 'POSITION_IN_VEHICLE: Driver', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 11.1%
+['AGE_RANGE: (30, 40]', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious'], 15.6%
+['POSITION_IN_VEHICLE: Driver', 'PED_ROLE: Driver', 'BODILY_INJURY: Neck', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 10.5%
+['EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 42.0%
+['PERSON_SEX: M', 'AGE_RANGE: (20, 30]', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver'], 10.2%
+['PERSON_SEX: F', 'POSITION_IN_VEHICLE: Driver', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 16.9%
+['PERSON_SEX: F', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 21.2%
+['PERSON_SEX: M', 'BODILY_INJURY: Back', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'], 12.2%
+['PERSON_SEX: M', 'AGE_RANGE: (20, 30]', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 10.7%
+['AGE_RANGE: (30, 40]', 'POSITION_IN_VEHICLE: Driver', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 11.3%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Passenger', 'EJECTION: Not Ejected'], 14.8%
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Passenger', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 18.0%
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious', 'AGE_RANGE: (40, 50]'], 10.8%
+['PERSON_SEX: M', 'PED_ROLE: Driver', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 36.0%
+['PERSON_SEX: M', 'AGE_RANGE: (20, 30]', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 11.0%
+['EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 42.2%
+['COMPLAINT: Complaint of Pain or Nausea', 'POSITION_IN_VEHICLE: Driver', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 32.8%
+['AGE_RANGE: (30, 40]', 'PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'], 12.3%
+['PERSON_SEX: M', 'PED_ROLE: Driver', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected'], 25.2%
+['PERSON_SEX: M', 'POSITION_IN_VEHICLE: Driver', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 26.4%
+['BODILY_INJURY: Back', 'POSITION_IN_VEHICLE: Driver', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 11.2%
+['BODILY_INJURY: Back', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 13.6%
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 49.8%
+['AGE_RANGE: (20, 30]', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'EJECTION: Not Ejected'], 10.9%
+['AGE_RANGE: (20, 30]', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 13.2%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'], 28.5%
+['PERSON_SEX: F', 'PED_ROLE: Driver', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 21.0%
+['PERSON_SEX: M', 'AGE_RANGE: (20, 30]', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'], 11.7%
+['COMPLAINT: Complaint of Pain or Nausea', 'POSITION_IN_VEHICLE: Driver', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 32.6%
+['AGE_RANGE: (20, 30]', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 10.8%
+['BODILY_INJURY: Back', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 14.0%
+['BODILY_INJURY: Neck', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 12.1%
+['PERSON_SEX: F', 'PED_ROLE: Driver', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected'], 15.9%
+['POSITION_IN_VEHICLE: Front passenger, if two or more persons, including the driver, are in the front seat', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Passenger', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 12.4%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 23.8%
+['PERSON_SEX: M', 'AGE_RANGE: (20, 30]', 'EMOTIONAL_STATUS: Conscious', 'COMPLAINT: Complaint of Pain or Nausea'], 11.2%
+['AGE_RANGE: (30, 40]', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 12.1%
+['EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Front passenger, if two or more persons, including the driver, are in the front seat', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Passenger'], 11.5%
+['BODILY_INJURY: Back', 'PED_ROLE: Driver', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 11.3%
+['BODILY_INJURY: Back', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 10.8%
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'BODILY_INJURY: Neck', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 10.2%
+['AGE_RANGE: (20, 30]', 'PED_ROLE: Driver', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 11.1%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'], 16.1%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious'], 36.6%
+['PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'AGE_RANGE: (40, 50]'], 10.0%
+['BODILY_INJURY: Back', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 11.2%
+['POSITION_IN_VEHICLE: Driver', 'EJECTION: Not Ejected', 'BODILY_INJURY: Neck', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 10.5%
+['PED_ROLE: Driver', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 32.6%
+['AGE_RANGE: (20, 30]', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 13.3%
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'], 41.0%
+['BODILY_INJURY: Back', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 11.2%
+['PED_ROLE: Driver', 'EJECTION: Not Ejected', 'BODILY_INJURY: Neck', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 10.5%
+['PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 42.0%
+['PERSON_SEX: F', 'PED_ROLE: Driver', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 17.0%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 26.2%
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Passenger', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 23.3%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious'], 15.5%
+['AGE_RANGE: (30, 40]', 'PED_ROLE: Driver', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 11.3%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'POSITION_IN_VEHICLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 19.6%
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'BODILY_INJURY: Neck'], 10.4%
+['PERSON_SEX: F', 'PED_ROLE: Passenger', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 14.6%
+['POSITION_IN_VEHICLE: Front passenger, if two or more persons, including the driver, are in the front seat', 'PED_ROLE: Passenger', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 12.6%
+['BODILY_INJURY: Back', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 13.9%
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'BODILY_INJURY: Neck', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 12.2%
+['BODILY_INJURY: Back', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'EJECTION: Not Ejected'], 10.8%
+['BODILY_INJURY: Back', 'POSITION_IN_VEHICLE: Driver', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 11.3%
+['EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver', 'BODILY_INJURY: Neck', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 10.3%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious'], 30.4%
+['PERSON_SEX: F', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 16.7%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 16.3%
+['AGE_RANGE: (30, 40]', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 11.1%
+['EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver', 'PED_ROLE: Driver', 'AGE_RANGE: (40, 50]'], 10.2%
+['BODILY_INJURY: Back', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'], 11.1%
+['PERSON_SEX: F', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Passenger', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 14.3%
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'BODILY_INJURY: Neck', 'POSITION_IN_VEHICLE: Driver'], 12.8%
+['PERSON_SEX: M', 'PED_ROLE: Driver', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 26.4%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious'], 25.7%
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Passenger', 'EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious'], 24.3%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'POSITION_IN_VEHICLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 13.3%
+['AGE_RANGE: (20, 30]', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 11.5%
+['PED_ROLE: Driver', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 40.9%
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'BODILY_INJURY: Neck', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 15.8%
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 25.7%
+['PERSON_SEX: F', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 30.9%
+['PERSON_SEX: F', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 20.4%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 27.0%
+['PERSON_SEX: M', 'AGE_RANGE: (20, 30]', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'], 14.4%
+['AGE_RANGE: (30, 40]', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 15.5%
+['EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver', 'PED_ROLE: Driver', 'BODILY_INJURY: Neck'], 12.6%
+['BODILY_INJURY: Back', 'PED_ROLE: Driver', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 13.5%
+['AGE_RANGE: (30, 40]', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious'], 10.7%
+['AGE_RANGE: (30, 40]', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 10.9%
+['AGE_RANGE: (20, 30]', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 15.2%
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 25.5%
+['PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 55.0%
+['BODILY_INJURY: Back', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 13.5%
+['POSITION_IN_VEHICLE: Front passenger, if two or more persons, including the driver, are in the front seat', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious'], 11.4%
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 32.2%
+['PED_ROLE: Driver', 'EJECTION: Not Ejected', 'BODILY_INJURY: Neck', 'POSITION_IN_VEHICLE: Driver'], 13.0%
+['EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'EJECTION: Not Ejected', 'AGE_RANGE: (40, 50]'], 10.7%
+['AGE_RANGE: (30, 40]', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 11.1%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 13.2%
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 34.5%
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 36.3%
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Passenger', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 17.8%
+['PERSON_SEX: M', 'POSITION_IN_VEHICLE: Driver', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 26.5%
+['PERSON_SEX: F', 'AGE_RANGE: (20, 30]', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'], 10.3%
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'], 42.5%
+['BODILY_INJURY: Back', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 17.1%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Passenger', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 11.0%
+['PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'BODILY_INJURY: Neck'], 12.6%
+['AGE_RANGE: (20, 30]', 'PED_ROLE: Driver', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 15.2%
+['PED_ROLE: Driver', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious'], 40.2%
+['BODILY_INJURY: Back', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious'], 10.8%
+['AGE_RANGE: (30, 40]', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 15.3%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 26.5%
+['PERSON_SEX: F', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 16.6%
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'AGE_RANGE: (30, 40]', 'PED_ROLE: Driver'], 11.0%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 25.1%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 26.1%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'POSITION_IN_VEHICLE: Driver'], 13.1%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'POSITION_IN_VEHICLE: Driver'], 13.3%
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'POSITION_IN_VEHICLE: Driver'], 32.3%
+['AGE_RANGE: (20, 30]', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 10.9%
+['AGE_RANGE: (20, 30]', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 11.1%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver'], 13.2%
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Passenger', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 17.7%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver'], 13.0%
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'BODILY_INJURY: Back', 'PED_ROLE: Driver'], 10.7%
+['EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'AGE_RANGE: (30, 40]', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 11.0%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 15.8%
+['PERSON_SEX: F', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 16.9%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'POSITION_IN_VEHICLE: Driver'], 19.3%
+['EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'AGE_RANGE: (30, 40]', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 11.3%
+['EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'BODILY_INJURY: Back', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 11.2%
+['EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver', 'BODILY_INJURY: Neck', 'POSITION_IN_VEHICLE: Driver'], 10.2%
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'BODILY_INJURY: Back', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 10.7%
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'BODILY_INJURY: Back', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 13.3%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 26.5%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver'], 19.4%
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'AGE_RANGE: (30, 40]', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 14.2%
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 32.5%
+['EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'BODILY_INJURY: Back', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 11.1%
+['AGE_RANGE: (20, 30]', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 11.3%
+['AGE_RANGE: (20, 30]', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'POSITION_IN_VEHICLE: Driver'], 10.8%
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 41.9%
+['PERSON_SEX: M', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 26.3%
+['PERSON_SEX: M', 'AGE_RANGE: (20, 30]', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'], 10.4%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 15.5%
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'AGE_RANGE: (30, 40]', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 10.5%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Passenger', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 10.8%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 15.9%
+['PERSON_SEX: F', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'POSITION_IN_VEHICLE: Driver'], 16.7%
+['PERSON_SEX: M', 'AGE_RANGE: (20, 30]', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 10.5%
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'AGE_RANGE: (30, 40]', 'POSITION_IN_VEHICLE: Driver'], 11.0%
+['AGE_RANGE: (20, 30]', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 11.1%
+['PERSON_SEX: M', 'AGE_RANGE: (20, 30]', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 10.2%
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'AGE_RANGE: (30, 40]', 'PED_ROLE: Driver'], 10.4%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 25.5%
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 25.5%
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'BODILY_INJURY: Neck', 'POSITION_IN_VEHICLE: Driver'], 10.3%
+['AGE_RANGE: (20, 30]', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 13.1%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 13.2%
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'POSITION_IN_VEHICLE: Driver'], 25.6%
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'AGE_RANGE: (30, 40]', 'POSITION_IN_VEHICLE: Driver'], 10.9%
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'BODILY_INJURY: Back', 'PED_ROLE: Driver'], 11.2%
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'BODILY_INJURY: Back', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 10.7%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 23.7%
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'AGE_RANGE: (30, 40]', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 10.6%
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'AGE_RANGE: (30, 40]'], 12.0%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'POSITION_IN_VEHICLE: Driver'], 19.5%
+['PERSON_SEX: F', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 16.5%
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'BODILY_INJURY: Back'], 13.9%
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 32.1%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 19.4%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver'], 19.2%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Passenger', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 11.0%
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'BODILY_INJURY: Back', 'POSITION_IN_VEHICLE: Driver'], 11.2%
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'BODILY_INJURY: Back', 'POSITION_IN_VEHICLE: Driver'], 10.9%
+['AGE_RANGE: (20, 30]', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 10.8%
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'BODILY_INJURY: Neck'], 12.1%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 13.2%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'POSITION_IN_VEHICLE: Driver'], 19.2%
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'BODILY_INJURY: Back', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 11.1%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'POSITION_IN_VEHICLE: Driver'], 13.1%
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'AGE_RANGE: (30, 40]', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 10.9%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 12.9%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 19.1%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 19.4%
+
+=== High-confidence association rules (min_conf=100.0%) ===
+
+['BODILY_INJURY: Neck', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EJECTION: Not Ejected] (Conf: 100.00%, Supp: 16.2%)
+['AGE_RANGE: (20, 30]', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver'] => [POSITION_IN_VEHICLE: Driver] (Conf: 100.00%, Supp: 11.3%)
+['AGE_RANGE: (20, 30]', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [POSITION_IN_VEHICLE: Driver] (Conf: 100.00%, Supp: 11.1%)
+['SAFETY_EQUIPMENT: Lap Belt & Harness', 'BODILY_INJURY: Neck', 'POSITION_IN_VEHICLE: Driver'] => [EJECTION: Not Ejected] (Conf: 100.00%, Supp: 10.5%)
+['SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver', 'BODILY_INJURY: Neck'] => [EJECTION: Not Ejected] (Conf: 100.00%, Supp: 10.5%)
+['COMPLAINT: Complaint of Pain or Nausea', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'BODILY_INJURY: Neck'] => [EJECTION: Not Ejected] (Conf: 100.00%, Supp: 12.2%)
+['EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'BODILY_INJURY: Neck'] => [EJECTION: Not Ejected] (Conf: 100.00%, Supp: 15.8%)
+['AGE_RANGE: (20, 30]', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver'] => [POSITION_IN_VEHICLE: Driver] (Conf: 100.00%, Supp: 15.2%)
+['AGE_RANGE: (20, 30]', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'EJECTION: Not Ejected'] => [POSITION_IN_VEHICLE: Driver] (Conf: 100.00%, Supp: 10.9%)
+['AGE_RANGE: (20, 30]', 'PED_ROLE: Driver', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [POSITION_IN_VEHICLE: Driver] (Conf: 100.00%, Supp: 11.1%)
+['AGE_RANGE: (20, 30]', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious'] => [POSITION_IN_VEHICLE: Driver] (Conf: 100.00%, Supp: 11.1%)
+['PERSON_SEX: M', 'AGE_RANGE: (20, 30]', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver'] => [POSITION_IN_VEHICLE: Driver] (Conf: 100.00%, Supp: 10.2%)
+['EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver', 'BODILY_INJURY: Neck', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EJECTION: Not Ejected] (Conf: 100.00%, Supp: 10.3%)
+['AGE_RANGE: (20, 30]', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [POSITION_IN_VEHICLE: Driver] (Conf: 100.00%, Supp: 10.8%)
+['BODILY_INJURY: Neck', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EJECTION: Not Ejected] (Conf: 100.00%, Supp: 12.1%)

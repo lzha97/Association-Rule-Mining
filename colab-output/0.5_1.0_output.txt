@@ -1,0 +1,35 @@
+=== Frequent itemsets (min_sup=50.0%) === 
+
+['EJECTION: Not Ejected'], 95.2%
+['EMOTIONAL_STATUS: Conscious'], 96.4%
+['POSITION_IN_VEHICLE: Driver'], 65.7%
+['SAFETY_EQUIPMENT: Lap Belt & Harness'], 67.4%
+['COMPLAINT: Complaint of Pain or Nausea'], 70.7%
+['PED_ROLE: Driver'], 59.3%
+['PERSON_SEX: M'], 57.5%
+['EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 61.4%
+['EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'], 63.1%
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected'], 68.2%
+['EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 65.5%
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious'], 55.2%
+['PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 59.0%
+['COMPLAINT: Complaint of Pain or Nausea', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 50.8%
+['EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 67.2%
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver'], 57.0%
+['PED_ROLE: Driver', 'EJECTION: Not Ejected'], 57.3%
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'], 92.1%
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious'], 69.3%
+['PERSON_SEX: M', 'EJECTION: Not Ejected'], 53.2%
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 59.2%
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'], 51.3%
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious'], 66.9%
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 50.0%
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 65.4%
+['EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver'], 55.2%
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 56.8%
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 50.7%
+['PED_ROLE: Driver', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 57.1%
+['PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 55.0%
+
+=== High-confidence association rules (min_conf=100.0%) ===
+

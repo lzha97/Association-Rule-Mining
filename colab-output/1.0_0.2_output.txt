@@ -1,0 +1,5 @@
+=== Frequent itemsets (min_sup=100.0%) === 
+
+
+=== High-confidence association rules (min_conf=20.0%) ===
+

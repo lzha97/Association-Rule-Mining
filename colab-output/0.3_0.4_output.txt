@@ -1,0 +1,381 @@
+=== Frequent itemsets (min_sup=30.0%) === 
+
+['EJECTION: Not Ejected'], 95.2%
+['EMOTIONAL_STATUS: Conscious'], 96.4%
+['POSITION_IN_VEHICLE: Driver'], 65.7%
+['SAFETY_EQUIPMENT: Lap Belt & Harness'], 67.4%
+['COMPLAINT: Complaint of Pain or Nausea'], 70.7%
+['PED_ROLE: Driver'], 59.3%
+['PERSON_SEX: F'], 42.5%
+['PED_ROLE: Passenger'], 33.6%
+['PERSON_SEX: M'], 57.5%
+['EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 61.4%
+['COMPLAINT: Complaint of Pain or Nausea', 'POSITION_IN_VEHICLE: Driver'], 45.6%
+['PERSON_SEX: F', 'EMOTIONAL_STATUS: Conscious'], 41.2%
+['PERSON_SEX: M', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 35.7%
+['PERSON_SEX: M', 'POSITION_IN_VEHICLE: Driver'], 43.5%
+['EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 65.5%
+['PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 59.0%
+['COMPLAINT: Complaint of Pain or Nausea', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 50.8%
+['EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 67.2%
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver'], 57.0%
+['PERSON_SEX: M', 'PED_ROLE: Driver'], 38.1%
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'], 92.1%
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious'], 69.3%
+['PED_ROLE: Passenger', 'EJECTION: Not Ejected'], 33.4%
+['PERSON_SEX: F', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 31.7%
+['PERSON_SEX: F', 'EJECTION: Not Ejected'], 42.0%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea'], 31.3%
+['PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 43.4%
+['EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'], 63.1%
+['SAFETY_EQUIPMENT: Lap Belt & Harness', 'POSITION_IN_VEHICLE: Driver'], 43.7%
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected'], 68.2%
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious'], 55.2%
+['PED_ROLE: Driver', 'EJECTION: Not Ejected'], 57.3%
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver'], 42.0%
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Passenger'], 32.7%
+['PERSON_SEX: M', 'EJECTION: Not Ejected'], 53.2%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea'], 39.4%
+['PERSON_SEX: F', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'], 40.7%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious'], 30.6%
+['EJECTION: Not Ejected', 'PERSON_SEX: M', 'PED_ROLE: Driver'], 36.2%
+['PERSON_SEX: M', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 39.5%
+['PERSON_SEX: M', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 35.6%
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious'], 41.2%
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious'], 66.9%
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 50.0%
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 65.4%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected'], 31.0%
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver'], 36.5%
+['EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver'], 55.2%
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 56.8%
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 50.7%
+['PERSON_SEX: M', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 37.9%
+['PERSON_SEX: F', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 30.9%
+['PERSON_SEX: F', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 31.7%
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 59.2%
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'], 44.6%
+['EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 42.4%
+['SAFETY_EQUIPMENT: Lap Belt & Harness', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 43.6%
+['COMPLAINT: Complaint of Pain or Nausea', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'POSITION_IN_VEHICLE: Driver'], 32.9%
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'], 51.3%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious'], 38.7%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected'], 37.2%
+['PED_ROLE: Driver', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected'], 41.0%
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 32.7%
+['PED_ROLE: Driver', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 43.3%
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 43.3%
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 42.1%
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'], 41.7%
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 34.6%
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Passenger', 'EJECTION: Not Ejected'], 32.5%
+['PED_ROLE: Driver', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 57.1%
+['SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 43.3%
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 41.9%
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 38.0%
+['PERSON_SEX: M', 'PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'], 34.8%
+['PED_ROLE: Driver', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 40.9%
+['PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 43.2%
+['COMPLAINT: Complaint of Pain or Nausea', 'POSITION_IN_VEHICLE: Driver', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 32.6%
+['PERSON_SEX: F', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 30.9%
+['EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 42.0%
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious'], 36.6%
+['PED_ROLE: Driver', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 32.6%
+['PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 55.0%
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'], 41.0%
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 32.2%
+['PERSON_SEX: M', 'PED_ROLE: Driver', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'], 36.0%
+['PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 42.0%
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 34.5%
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 36.3%
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'], 42.5%
+['COMPLAINT: Complaint of Pain or Nausea', 'POSITION_IN_VEHICLE: Driver', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 32.4%
+['EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 42.2%
+['PED_ROLE: Driver', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious'], 40.2%
+['COMPLAINT: Complaint of Pain or Nausea', 'POSITION_IN_VEHICLE: Driver', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 32.8%
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious'], 30.4%
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'], 49.8%
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 32.5%
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'POSITION_IN_VEHICLE: Driver'], 32.3%
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 34.6%
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 41.9%
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'], 32.1%
+
+=== High-confidence association rules (min_conf=40.0%) ===
+
+['POSITION_IN_VEHICLE: Driver'] => [EJECTION: Not Ejected] (Conf: 93.39%, Supp: 65.7%)
+['EJECTION: Not Ejected'] => [POSITION_IN_VEHICLE: Driver] (Conf: 64.50%, Supp: 95.2%)
+['POSITION_IN_VEHICLE: Driver'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 69.32%, Supp: 65.7%)
+['COMPLAINT: Complaint of Pain or Nausea'] => [POSITION_IN_VEHICLE: Driver] (Conf: 64.47%, Supp: 70.7%)
+['EMOTIONAL_STATUS: Conscious'] => [PERSON_SEX: F] (Conf: 42.72%, Supp: 96.4%)
+['PERSON_SEX: F'] => [EMOTIONAL_STATUS: Conscious] (Conf: 96.85%, Supp: 42.5%)
+['SAFETY_EQUIPMENT: Lap Belt & Harness'] => [PERSON_SEX: M] (Conf: 52.96%, Supp: 67.4%)
+['PERSON_SEX: M'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 62.13%, Supp: 57.5%)
+['POSITION_IN_VEHICLE: Driver'] => [PERSON_SEX: M] (Conf: 66.21%, Supp: 65.7%)
+['PERSON_SEX: M'] => [POSITION_IN_VEHICLE: Driver] (Conf: 75.73%, Supp: 57.5%)
+['SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EMOTIONAL_STATUS: Conscious] (Conf: 97.19%, Supp: 67.4%)
+['EMOTIONAL_STATUS: Conscious'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 67.98%, Supp: 96.4%)
+['POSITION_IN_VEHICLE: Driver'] => [PED_ROLE: Driver] (Conf: 89.81%, Supp: 65.7%)
+['PED_ROLE: Driver'] => [POSITION_IN_VEHICLE: Driver] (Conf: 99.51%, Supp: 59.3%)
+['SAFETY_EQUIPMENT: Lap Belt & Harness'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 75.35%, Supp: 67.4%)
+['COMPLAINT: Complaint of Pain or Nausea'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 71.86%, Supp: 70.7%)
+['SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EJECTION: Not Ejected] (Conf: 99.71%, Supp: 67.4%)
+['EJECTION: Not Ejected'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 70.63%, Supp: 95.2%)
+['PED_ROLE: Driver'] => [EMOTIONAL_STATUS: Conscious] (Conf: 96.12%, Supp: 59.3%)
+['EMOTIONAL_STATUS: Conscious'] => [PED_ROLE: Driver] (Conf: 59.17%, Supp: 96.4%)
+['PED_ROLE: Driver'] => [PERSON_SEX: M] (Conf: 64.28%, Supp: 59.3%)
+['PERSON_SEX: M'] => [PED_ROLE: Driver] (Conf: 66.35%, Supp: 57.5%)
+['EJECTION: Not Ejected'] => [EMOTIONAL_STATUS: Conscious] (Conf: 96.70%, Supp: 95.2%)
+['EMOTIONAL_STATUS: Conscious'] => [EJECTION: Not Ejected] (Conf: 95.49%, Supp: 96.4%)
+['EMOTIONAL_STATUS: Conscious'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 71.94%, Supp: 96.4%)
+['COMPLAINT: Complaint of Pain or Nausea'] => [EMOTIONAL_STATUS: Conscious] (Conf: 98.09%, Supp: 70.7%)
+['PED_ROLE: Passenger'] => [EJECTION: Not Ejected] (Conf: 99.41%, Supp: 33.6%)
+['SAFETY_EQUIPMENT: Lap Belt & Harness'] => [PERSON_SEX: F] (Conf: 47.04%, Supp: 67.4%)
+['PERSON_SEX: F'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 74.60%, Supp: 42.5%)
+['EJECTION: Not Ejected'] => [PERSON_SEX: F] (Conf: 44.07%, Supp: 95.2%)
+['PERSON_SEX: F'] => [EJECTION: Not Ejected] (Conf: 98.67%, Supp: 42.5%)
+['COMPLAINT: Complaint of Pain or Nausea'] => [PERSON_SEX: F] (Conf: 44.34%, Supp: 70.7%)
+['PERSON_SEX: F'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 73.73%, Supp: 42.5%)
+['SAFETY_EQUIPMENT: Lap Belt & Harness'] => [PED_ROLE: Driver] (Conf: 64.40%, Supp: 67.4%)
+['PED_ROLE: Driver'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 73.18%, Supp: 59.3%)
+['POSITION_IN_VEHICLE: Driver'] => [EMOTIONAL_STATUS: Conscious] (Conf: 96.02%, Supp: 65.7%)
+['EMOTIONAL_STATUS: Conscious'] => [POSITION_IN_VEHICLE: Driver] (Conf: 65.49%, Supp: 96.4%)
+['POSITION_IN_VEHICLE: Driver'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 66.47%, Supp: 65.7%)
+['SAFETY_EQUIPMENT: Lap Belt & Harness'] => [POSITION_IN_VEHICLE: Driver] (Conf: 64.81%, Supp: 67.4%)
+['EJECTION: Not Ejected'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 71.64%, Supp: 95.2%)
+['COMPLAINT: Complaint of Pain or Nausea'] => [EJECTION: Not Ejected] (Conf: 96.45%, Supp: 70.7%)
+['EMOTIONAL_STATUS: Conscious'] => [PERSON_SEX: M] (Conf: 57.28%, Supp: 96.4%)
+['PERSON_SEX: M'] => [EMOTIONAL_STATUS: Conscious] (Conf: 96.07%, Supp: 57.5%)
+['EJECTION: Not Ejected'] => [PED_ROLE: Driver] (Conf: 60.22%, Supp: 95.2%)
+['PED_ROLE: Driver'] => [EJECTION: Not Ejected] (Conf: 96.61%, Supp: 59.3%)
+['PED_ROLE: Driver'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 70.86%, Supp: 59.3%)
+['COMPLAINT: Complaint of Pain or Nausea'] => [PED_ROLE: Driver] (Conf: 59.47%, Supp: 70.7%)
+['PED_ROLE: Passenger'] => [EMOTIONAL_STATUS: Conscious] (Conf: 97.22%, Supp: 33.6%)
+['EJECTION: Not Ejected'] => [PERSON_SEX: M] (Conf: 55.93%, Supp: 95.2%)
+['PERSON_SEX: M'] => [EJECTION: Not Ejected] (Conf: 92.62%, Supp: 57.5%)
+['COMPLAINT: Complaint of Pain or Nausea'] => [PERSON_SEX: M] (Conf: 55.66%, Supp: 70.7%)
+['PERSON_SEX: M'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 68.46%, Supp: 57.5%)
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'] => [PERSON_SEX: F] (Conf: 44.22%, Supp: 92.1%)
+['PERSON_SEX: F', 'EJECTION: Not Ejected'] => [EMOTIONAL_STATUS: Conscious] (Conf: 97.02%, Supp: 42.0%)
+['PERSON_SEX: F', 'EMOTIONAL_STATUS: Conscious'] => [EJECTION: Not Ejected] (Conf: 98.85%, Supp: 41.2%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious'] => [PERSON_SEX: F] (Conf: 44.16%, Supp: 69.3%)
+['PERSON_SEX: F', 'EMOTIONAL_STATUS: Conscious'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 74.38%, Supp: 41.2%)
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea'] => [EMOTIONAL_STATUS: Conscious] (Conf: 97.69%, Supp: 31.3%)
+['PERSON_SEX: M', 'PED_ROLE: Driver'] => [EJECTION: Not Ejected] (Conf: 94.94%, Supp: 38.1%)
+['PED_ROLE: Driver', 'EJECTION: Not Ejected'] => [PERSON_SEX: M] (Conf: 63.17%, Supp: 57.3%)
+['PERSON_SEX: M', 'EJECTION: Not Ejected'] => [PED_ROLE: Driver] (Conf: 68.02%, Supp: 53.2%)
+['EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'] => [PERSON_SEX: M] (Conf: 64.41%, Supp: 61.4%)
+['PERSON_SEX: M', 'POSITION_IN_VEHICLE: Driver'] => [EJECTION: Not Ejected] (Conf: 90.85%, Supp: 43.5%)
+['PERSON_SEX: M', 'EJECTION: Not Ejected'] => [POSITION_IN_VEHICLE: Driver] (Conf: 74.28%, Supp: 53.2%)
+['EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [PERSON_SEX: M] (Conf: 52.92%, Supp: 67.2%)
+['PERSON_SEX: M', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EJECTION: Not Ejected] (Conf: 99.63%, Supp: 35.7%)
+['PERSON_SEX: M', 'EJECTION: Not Ejected'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 66.83%, Supp: 53.2%)
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 72.24%, Supp: 57.0%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious'] => [PED_ROLE: Driver] (Conf: 59.42%, Supp: 69.3%)
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver'] => [EMOTIONAL_STATUS: Conscious] (Conf: 98.00%, Supp: 42.0%)
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 72.71%, Supp: 92.1%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious'] => [EJECTION: Not Ejected] (Conf: 96.51%, Supp: 69.3%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected'] => [EMOTIONAL_STATUS: Conscious] (Conf: 98.15%, Supp: 68.2%)
+['EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 76.30%, Supp: 65.5%)
+['COMPLAINT: Complaint of Pain or Nausea', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EMOTIONAL_STATUS: Conscious] (Conf: 98.42%, Supp: 50.8%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 72.11%, Supp: 69.3%)
+['EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EMOTIONAL_STATUS: Conscious] (Conf: 97.21%, Supp: 67.2%)
+['EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EJECTION: Not Ejected] (Conf: 99.72%, Supp: 65.5%)
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 71.00%, Supp: 92.1%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected'] => [PERSON_SEX: F] (Conf: 45.51%, Supp: 68.2%)
+['PERSON_SEX: F', 'EJECTION: Not Ejected'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 73.97%, Supp: 42.0%)
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea'] => [EJECTION: Not Ejected] (Conf: 98.99%, Supp: 31.3%)
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver'] => [PERSON_SEX: M] (Conf: 64.02%, Supp: 57.0%)
+['PERSON_SEX: M', 'PED_ROLE: Driver'] => [EMOTIONAL_STATUS: Conscious] (Conf: 95.73%, Supp: 38.1%)
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious'] => [PED_ROLE: Driver] (Conf: 66.12%, Supp: 55.2%)
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver'] => [EJECTION: Not Ejected] (Conf: 96.77%, Supp: 57.0%)
+['PED_ROLE: Driver', 'EJECTION: Not Ejected'] => [EMOTIONAL_STATUS: Conscious] (Conf: 96.29%, Supp: 57.3%)
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'] => [PED_ROLE: Driver] (Conf: 59.96%, Supp: 92.1%)
+['PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'] => [EMOTIONAL_STATUS: Conscious] (Conf: 96.13%, Supp: 59.0%)
+['EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'] => [PED_ROLE: Driver] (Conf: 89.91%, Supp: 63.1%)
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver'] => [POSITION_IN_VEHICLE: Driver] (Conf: 99.52%, Supp: 57.0%)
+['EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 75.34%, Supp: 67.2%)
+['COMPLAINT: Complaint of Pain or Nausea', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EJECTION: Not Ejected] (Conf: 99.69%, Supp: 50.8%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 74.28%, Supp: 68.2%)
+['PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'] => [PERSON_SEX: M] (Conf: 64.24%, Supp: 59.0%)
+['PERSON_SEX: M', 'POSITION_IN_VEHICLE: Driver'] => [PED_ROLE: Driver] (Conf: 87.14%, Supp: 43.5%)
+['PERSON_SEX: M', 'PED_ROLE: Driver'] => [POSITION_IN_VEHICLE: Driver] (Conf: 99.45%, Supp: 38.1%)
+['EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [PERSON_SEX: F] (Conf: 47.19%, Supp: 65.5%)
+['PERSON_SEX: F', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EMOTIONAL_STATUS: Conscious] (Conf: 97.51%, Supp: 31.7%)
+['PERSON_SEX: F', 'EMOTIONAL_STATUS: Conscious'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 75.11%, Supp: 41.2%)
+['EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [PERSON_SEX: F] (Conf: 47.08%, Supp: 67.2%)
+['PERSON_SEX: F', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EJECTION: Not Ejected] (Conf: 99.79%, Supp: 31.7%)
+['PERSON_SEX: F', 'EJECTION: Not Ejected'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 75.45%, Supp: 42.0%)
+['EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'] => [EMOTIONAL_STATUS: Conscious] (Conf: 96.38%, Supp: 61.4%)
+['EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'] => [EJECTION: Not Ejected] (Conf: 93.74%, Supp: 63.1%)
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'] => [POSITION_IN_VEHICLE: Driver] (Conf: 64.29%, Supp: 92.1%)
+['EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 70.72%, Supp: 63.1%)
+['COMPLAINT: Complaint of Pain or Nausea', 'POSITION_IN_VEHICLE: Driver'] => [EMOTIONAL_STATUS: Conscious] (Conf: 97.95%, Supp: 45.6%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious'] => [POSITION_IN_VEHICLE: Driver] (Conf: 64.38%, Supp: 69.3%)
+['SAFETY_EQUIPMENT: Lap Belt & Harness', 'POSITION_IN_VEHICLE: Driver'] => [EMOTIONAL_STATUS: Conscious] (Conf: 96.96%, Supp: 43.7%)
+['EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [POSITION_IN_VEHICLE: Driver] (Conf: 64.66%, Supp: 65.5%)
+['EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 67.12%, Supp: 63.1%)
+['EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 70.94%, Supp: 61.4%)
+['POSITION_IN_VEHICLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EJECTION: Not Ejected] (Conf: 99.67%, Supp: 43.7%)
+['EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [POSITION_IN_VEHICLE: Driver] (Conf: 64.78%, Supp: 67.2%)
+['POSITION_IN_VEHICLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 75.32%, Supp: 43.7%)
+['COMPLAINT: Complaint of Pain or Nausea', 'POSITION_IN_VEHICLE: Driver'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 72.21%, Supp: 45.6%)
+['COMPLAINT: Complaint of Pain or Nausea', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [POSITION_IN_VEHICLE: Driver] (Conf: 64.78%, Supp: 50.8%)
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'] => [PERSON_SEX: M] (Conf: 55.78%, Supp: 92.1%)
+['PERSON_SEX: M', 'EJECTION: Not Ejected'] => [EMOTIONAL_STATUS: Conscious] (Conf: 96.45%, Supp: 53.2%)
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious'] => [EJECTION: Not Ejected] (Conf: 92.98%, Supp: 55.2%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious'] => [PERSON_SEX: M] (Conf: 55.84%, Supp: 69.3%)
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 70.12%, Supp: 55.2%)
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea'] => [EMOTIONAL_STATUS: Conscious] (Conf: 98.40%, Supp: 39.4%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected'] => [PERSON_SEX: M] (Conf: 54.49%, Supp: 68.2%)
+['PERSON_SEX: M', 'EJECTION: Not Ejected'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 69.79%, Supp: 53.2%)
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea'] => [EJECTION: Not Ejected] (Conf: 94.42%, Supp: 39.4%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected'] => [PED_ROLE: Driver] (Conf: 60.17%, Supp: 68.2%)
+['EJECTION: Not Ejected', 'PED_ROLE: Driver'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 71.58%, Supp: 57.3%)
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver'] => [EJECTION: Not Ejected] (Conf: 97.59%, Supp: 42.0%)
+['PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 75.28%, Supp: 43.4%)
+['COMPLAINT: Complaint of Pain or Nausea', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [PED_ROLE: Driver] (Conf: 64.34%, Supp: 50.8%)
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 77.75%, Supp: 42.0%)
+['EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [PED_ROLE: Driver] (Conf: 64.43%, Supp: 67.2%)
+['PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EJECTION: Not Ejected] (Conf: 99.76%, Supp: 43.4%)
+['EJECTION: Not Ejected', 'PED_ROLE: Driver'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 75.57%, Supp: 57.3%)
+['EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 70.58%, Supp: 61.4%)
+['COMPLAINT: Complaint of Pain or Nausea', 'POSITION_IN_VEHICLE: Driver'] => [EJECTION: Not Ejected] (Conf: 95.07%, Supp: 45.6%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected'] => [POSITION_IN_VEHICLE: Driver] (Conf: 63.55%, Supp: 68.2%)
+['PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EMOTIONAL_STATUS: Conscious] (Conf: 96.94%, Supp: 43.4%)
+['EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [PED_ROLE: Driver] (Conf: 64.23%, Supp: 65.5%)
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 73.81%, Supp: 57.0%)
+['EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'] => [PERSON_SEX: M] (Conf: 65.97%, Supp: 63.1%)
+['PERSON_SEX: M', 'POSITION_IN_VEHICLE: Driver'] => [EMOTIONAL_STATUS: Conscious] (Conf: 95.68%, Supp: 43.5%)
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious'] => [POSITION_IN_VEHICLE: Driver] (Conf: 75.42%, Supp: 55.2%)
+['EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [PERSON_SEX: M] (Conf: 52.81%, Supp: 65.5%)
+['PERSON_SEX: M', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EMOTIONAL_STATUS: Conscious] (Conf: 96.91%, Supp: 35.7%)
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 62.67%, Supp: 55.2%)
+['EJECTION: Not Ejected', 'PED_ROLE: Passenger'] => [EMOTIONAL_STATUS: Conscious] (Conf: 97.33%, Supp: 33.4%)
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Passenger'] => [EJECTION: Not Ejected] (Conf: 99.52%, Supp: 32.7%)
+['EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'] => [PED_ROLE: Driver] (Conf: 92.96%, Supp: 61.4%)
+['PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'] => [EJECTION: Not Ejected] (Conf: 96.66%, Supp: 59.0%)
+['EJECTION: Not Ejected', 'PED_ROLE: Driver'] => [POSITION_IN_VEHICLE: Driver] (Conf: 99.56%, Supp: 57.3%)
+['PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 73.34%, Supp: 59.0%)
+['POSITION_IN_VEHICLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [PED_ROLE: Driver] (Conf: 99.10%, Supp: 43.7%)
+['PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [POSITION_IN_VEHICLE: Driver] (Conf: 99.73%, Supp: 43.4%)
+['PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 70.89%, Supp: 59.0%)
+['COMPLAINT: Complaint of Pain or Nausea', 'POSITION_IN_VEHICLE: Driver'] => [PED_ROLE: Driver] (Conf: 91.84%, Supp: 45.6%)
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver'] => [POSITION_IN_VEHICLE: Driver] (Conf: 99.56%, Supp: 42.0%)
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'] => [PERSON_SEX: M] (Conf: 64.21%, Supp: 59.2%)
+['PERSON_SEX: M', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'] => [EMOTIONAL_STATUS: Conscious] (Conf: 96.08%, Supp: 39.5%)
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'] => [EJECTION: Not Ejected] (Conf: 91.23%, Supp: 41.7%)
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'] => [POSITION_IN_VEHICLE: Driver] (Conf: 74.00%, Supp: 51.3%)
+['EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver'] => [PERSON_SEX: M] (Conf: 62.96%, Supp: 55.2%)
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'] => [PED_ROLE: Driver] (Conf: 67.68%, Supp: 51.3%)
+['EJECTION: Not Ejected', 'PERSON_SEX: M', 'PED_ROLE: Driver'] => [EMOTIONAL_STATUS: Conscious] (Conf: 95.97%, Supp: 36.2%)
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver'] => [EJECTION: Not Ejected] (Conf: 95.18%, Supp: 36.5%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'] => [PED_ROLE: Driver] (Conf: 94.33%, Supp: 43.3%)
+['EJECTION: Not Ejected', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 71.62%, Supp: 57.1%)
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'] => [EJECTION: Not Ejected] (Conf: 97.65%, Supp: 41.9%)
+['EJECTION: Not Ejected', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver'] => [POSITION_IN_VEHICLE: Driver] (Conf: 99.62%, Supp: 41.0%)
+['SAFETY_EQUIPMENT: Lap Belt & Harness', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'] => [PED_ROLE: Driver] (Conf: 99.19%, Supp: 43.6%)
+['EJECTION: Not Ejected', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [POSITION_IN_VEHICLE: Driver] (Conf: 99.73%, Supp: 43.3%)
+['SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'] => [EJECTION: Not Ejected] (Conf: 99.76%, Supp: 43.3%)
+['EJECTION: Not Ejected', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 75.69%, Supp: 57.1%)
+['SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 75.30%, Supp: 43.3%)
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [POSITION_IN_VEHICLE: Driver] (Conf: 99.76%, Supp: 32.7%)
+['COMPLAINT: Complaint of Pain or Nausea', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'POSITION_IN_VEHICLE: Driver'] => [PED_ROLE: Driver] (Conf: 99.08%, Supp: 32.9%)
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 77.90%, Supp: 41.9%)
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [PERSON_SEX: F] (Conf: 47.25%, Supp: 65.4%)
+['PERSON_SEX: F', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EMOTIONAL_STATUS: Conscious] (Conf: 97.55%, Supp: 31.7%)
+['PERSON_SEX: F', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EJECTION: Not Ejected] (Conf: 99.83%, Supp: 30.9%)
+['PERSON_SEX: F', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 75.86%, Supp: 40.7%)
+['SAFETY_EQUIPMENT: Lap Belt & Harness', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'] => [EMOTIONAL_STATUS: Conscious] (Conf: 96.94%, Supp: 43.3%)
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [POSITION_IN_VEHICLE: Driver] (Conf: 99.72%, Supp: 42.1%)
+['EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'POSITION_IN_VEHICLE: Driver'] => [PED_ROLE: Driver] (Conf: 99.07%, Supp: 42.4%)
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 73.96%, Supp: 56.8%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious'] => [PERSON_SEX: M] (Conf: 54.65%, Supp: 66.9%)
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 71.24%, Supp: 51.3%)
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious'] => [EJECTION: Not Ejected] (Conf: 94.47%, Supp: 38.7%)
+['PERSON_SEX: M', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected'] => [EMOTIONAL_STATUS: Conscious] (Conf: 98.44%, Supp: 37.2%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [PED_ROLE: Driver] (Conf: 64.36%, Supp: 50.7%)
+['EJECTION: Not Ejected', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 75.25%, Supp: 43.3%)
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EJECTION: Not Ejected] (Conf: 99.72%, Supp: 32.7%)
+['EJECTION: Not Ejected', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 79.44%, Supp: 41.0%)
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'] => [PED_ROLE: Driver] (Conf: 92.87%, Supp: 59.2%)
+['EJECTION: Not Ejected', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'] => [EMOTIONAL_STATUS: Conscious] (Conf: 96.29%, Supp: 57.1%)
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'] => [EJECTION: Not Ejected] (Conf: 96.83%, Supp: 56.8%)
+['EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver'] => [POSITION_IN_VEHICLE: Driver] (Conf: 99.57%, Supp: 55.2%)
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 72.27%, Supp: 56.8%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'] => [PED_ROLE: Driver] (Conf: 91.88%, Supp: 44.6%)
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'] => [EMOTIONAL_STATUS: Conscious] (Conf: 97.99%, Supp: 41.9%)
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious'] => [POSITION_IN_VEHICLE: Driver] (Conf: 99.55%, Supp: 41.2%)
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 76.40%, Supp: 42.1%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [PED_ROLE: Driver] (Conf: 64.32%, Supp: 50.0%)
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EMOTIONAL_STATUS: Conscious] (Conf: 98.39%, Supp: 32.7%)
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 78.06%, Supp: 41.2%)
+['EJECTION: Not Ejected', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'] => [PERSON_SEX: M] (Conf: 63.14%, Supp: 57.1%)
+['PERSON_SEX: M', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'] => [PED_ROLE: Driver] (Conf: 91.13%, Supp: 39.5%)
+['PERSON_SEX: M', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'] => [EJECTION: Not Ejected] (Conf: 95.01%, Supp: 37.9%)
+['EJECTION: Not Ejected', 'PERSON_SEX: M', 'PED_ROLE: Driver'] => [POSITION_IN_VEHICLE: Driver] (Conf: 99.53%, Supp: 36.2%)
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [PED_ROLE: Driver] (Conf: 64.25%, Supp: 65.4%)
+['EJECTION: Not Ejected', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EMOTIONAL_STATUS: Conscious] (Conf: 96.94%, Supp: 43.3%)
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EJECTION: Not Ejected] (Conf: 99.75%, Supp: 42.1%)
+['EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 76.08%, Supp: 55.2%)
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [PERSON_SEX: M] (Conf: 52.75%, Supp: 65.4%)
+['PERSON_SEX: M', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EMOTIONAL_STATUS: Conscious] (Conf: 96.90%, Supp: 35.6%)
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EJECTION: Not Ejected] (Conf: 99.62%, Supp: 34.6%)
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 67.14%, Supp: 51.3%)
+['EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'] => [PERSON_SEX: M] (Conf: 63.98%, Supp: 56.8%)
+['PERSON_SEX: M', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'] => [EMOTIONAL_STATUS: Conscious] (Conf: 95.74%, Supp: 37.9%)
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'] => [PED_ROLE: Driver] (Conf: 87.19%, Supp: 41.7%)
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver'] => [POSITION_IN_VEHICLE: Driver] (Conf: 99.46%, Supp: 36.5%)
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 71.78%, Supp: 59.2%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'] => [EJECTION: Not Ejected] (Conf: 95.14%, Supp: 44.6%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'] => [EMOTIONAL_STATUS: Conscious] (Conf: 98.03%, Supp: 43.3%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious'] => [POSITION_IN_VEHICLE: Driver] (Conf: 63.47%, Supp: 66.9%)
+['EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'POSITION_IN_VEHICLE: Driver'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 76.43%, Supp: 42.4%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [POSITION_IN_VEHICLE: Driver] (Conf: 64.77%, Supp: 50.0%)
+['COMPLAINT: Complaint of Pain or Nausea', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'POSITION_IN_VEHICLE: Driver'] => [EMOTIONAL_STATUS: Conscious] (Conf: 98.40%, Supp: 32.9%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 72.54%, Supp: 44.6%)
+['SAFETY_EQUIPMENT: Lap Belt & Harness', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'] => [EMOTIONAL_STATUS: Conscious] (Conf: 96.95%, Supp: 43.6%)
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [POSITION_IN_VEHICLE: Driver] (Conf: 64.62%, Supp: 65.4%)
+['EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'POSITION_IN_VEHICLE: Driver'] => [EJECTION: Not Ejected] (Conf: 99.66%, Supp: 42.4%)
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 71.36%, Supp: 59.2%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious'] => [PED_ROLE: Driver] (Conf: 60.09%, Supp: 66.9%)
+['EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 72.86%, Supp: 55.2%)
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious'] => [EJECTION: Not Ejected] (Conf: 97.61%, Supp: 41.2%)
+['EJECTION: Not Ejected', 'COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver'] => [EMOTIONAL_STATUS: Conscious] (Conf: 98.01%, Supp: 41.0%)
+['SAFETY_EQUIPMENT: Lap Belt & Harness', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 75.29%, Supp: 43.6%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [POSITION_IN_VEHICLE: Driver] (Conf: 64.75%, Supp: 50.7%)
+['COMPLAINT: Complaint of Pain or Nausea', 'SAFETY_EQUIPMENT: Lap Belt & Harness', 'POSITION_IN_VEHICLE: Driver'] => [EJECTION: Not Ejected] (Conf: 99.64%, Supp: 32.9%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 75.68%, Supp: 43.3%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious'] => [PERSON_SEX: F] (Conf: 45.35%, Supp: 66.9%)
+['PERSON_SEX: F', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 74.56%, Supp: 40.7%)
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious'] => [EJECTION: Not Ejected] (Conf: 99.10%, Supp: 30.6%)
+['PERSON_SEX: F', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected'] => [EMOTIONAL_STATUS: Conscious] (Conf: 97.80%, Supp: 31.0%)
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 76.28%, Supp: 65.4%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EJECTION: Not Ejected] (Conf: 99.68%, Supp: 50.0%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EMOTIONAL_STATUS: Conscious] (Conf: 98.42%, Supp: 50.7%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 74.48%, Supp: 66.9%)
+['PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 75.27%, Supp: 43.2%)
+['COMPLAINT: Complaint of Pain or Nausea', 'POSITION_IN_VEHICLE: Driver', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EJECTION: Not Ejected] (Conf: 99.72%, Supp: 32.6%)
+['PED_ROLE: Driver', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 79.56%, Supp: 40.9%)
+['COMPLAINT: Complaint of Pain or Nausea', 'POSITION_IN_VEHICLE: Driver', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [PED_ROLE: Driver] (Conf: 99.16%, Supp: 32.8%)
+['PED_ROLE: Driver', 'COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [POSITION_IN_VEHICLE: Driver] (Conf: 99.76%, Supp: 32.6%)
+['EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 76.42%, Supp: 42.2%)
+['COMPLAINT: Complaint of Pain or Nausea', 'POSITION_IN_VEHICLE: Driver', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EMOTIONAL_STATUS: Conscious] (Conf: 98.40%, Supp: 32.8%)
+['COMPLAINT: Complaint of Pain or Nausea', 'POSITION_IN_VEHICLE: Driver', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EJECTION: Not Ejected] (Conf: 99.63%, Supp: 32.4%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 75.97%, Supp: 42.5%)
+['COMPLAINT: Complaint of Pain or Nausea', 'EJECTION: Not Ejected', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [POSITION_IN_VEHICLE: Driver] (Conf: 64.73%, Supp: 49.8%)
+['PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'] => [PERSON_SEX: M] (Conf: 62.95%, Supp: 55.0%)
+['PERSON_SEX: M', 'PED_ROLE: Driver', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'] => [EMOTIONAL_STATUS: Conscious] (Conf: 95.99%, Supp: 36.0%)
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver'] => [EJECTION: Not Ejected] (Conf: 95.26%, Supp: 36.3%)
+['PERSON_SEX: M', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'] => [PED_ROLE: Driver] (Conf: 91.04%, Supp: 38.0%)
+['PERSON_SEX: M', 'PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'] => [POSITION_IN_VEHICLE: Driver] (Conf: 99.55%, Supp: 34.8%)
+['PED_ROLE: Driver', 'POSITION_IN_VEHICLE: Driver', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EMOTIONAL_STATUS: Conscious] (Conf: 96.93%, Supp: 43.2%)
+['EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EJECTION: Not Ejected] (Conf: 99.75%, Supp: 42.0%)
+['PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'POSITION_IN_VEHICLE: Driver'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 76.19%, Supp: 55.0%)
+['EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [PED_ROLE: Driver] (Conf: 99.16%, Supp: 42.2%)
+['PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [POSITION_IN_VEHICLE: Driver] (Conf: 99.72%, Supp: 42.0%)
+['EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [COMPLAINT: Complaint of Pain or Nausea] (Conf: 76.43%, Supp: 42.0%)
+['COMPLAINT: Complaint of Pain or Nausea', 'POSITION_IN_VEHICLE: Driver', 'PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EMOTIONAL_STATUS: Conscious] (Conf: 98.39%, Supp: 32.6%)
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious', 'POSITION_IN_VEHICLE: Driver'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 78.22%, Supp: 41.0%)
+['COMPLAINT: Complaint of Pain or Nausea', 'POSITION_IN_VEHICLE: Driver', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [PED_ROLE: Driver] (Conf: 99.07%, Supp: 32.4%)
+['COMPLAINT: Complaint of Pain or Nausea', 'PED_ROLE: Driver', 'EMOTIONAL_STATUS: Conscious', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [POSITION_IN_VEHICLE: Driver] (Conf: 99.75%, Supp: 32.2%)
