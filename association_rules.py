@@ -7,8 +7,8 @@ t = time.time()
 
 def log(x, s=sys.argv[2], c = sys.argv[3], print2screen=False, output_file =None):
     if print2screen: print(x)
-    if output_file: 
-        with open(output_file, 'a+') as ofile: 
+    if output_file:
+        with open(output_file, 'a+') as ofile:
             ofile.write(x+'\n')
     with open('logs/'+ str(t)+'_'+str(s)+'_'+str(c)+'.txt', 'a+') as file:
         file.write(x+'\n')
@@ -18,74 +18,68 @@ def compute_confidence(itemsets, min_conf = sys.argv[3], out_file = None):
     rules = {}
     ct_rules_extracted = 0
     for iset in itemsets.keys():
-        if type(iset) == tuple:
+        if len(iset) >= 2:
             for i in iset:
-                lhs = (set(iset)).difference(set([i]))
-                if len(lhs)> 1: lhs = tuple(lhs)
-                else: lhs= tuple(lhs)[0]
+                lhs = iset.difference([i])
                 rhs = iset
-
                 numerator = itemsets[rhs]
                 denominator = itemsets[lhs]
-                score = numerator/denominator
-
+                score = float(numerator)/float(denominator)
                 if score >= float(min_conf) and (lhs,i) not in rules:
-                        rules[(lhs,i)] = score
-                        if type(lhs) == tuple: 
-                            lhs = str(list(lhs))
-                        else: 
-                            lhs = '[' + str(lhs) + ']'
-                            log(lhs + ' => [' +  str(i)+  '] (Conf: '+"{:.2f}".format(score*100)+'%, Supp: ' + "{:.1f}".format(denominator)+')', print2screen=True, output_file=out_f)
-                            ct_rules_extracted += 1
-    log(str(ct_rules_extracted) + ' Rules Extracted. ')
-    return rules, ct_rules_extracted
+                    rules[(lhs,i)] = score
+                    lhs = str(list(set(lhs)))
+                    log(lhs + ' => [' +  str(i)+  '] (Conf: '+"{:.2f}".format(score*100)+'%, Supp: ' + "{:.1f}".format(denominator)+')', print2screen=True, output_file=out_f)
+                    ct_rules_extracted += 1
 
+    log(str(ct_rules_extracted) + ' Rules Extracted. ')
+
+    return rules, ct_rules_extracted
 
 
 ### Returns large 1-itemsets
 def one_itemsets(items, min_sup):
     L_1 = {}
     for item in items:
-        L_1[item] = items.count(item)
+        if frozenset([item]) not in L_1:
+            L_1[frozenset([item])] = 1
+        else: L_1[frozenset([item])] += 1
+
     L_1_copy = L_1.copy()
     num_baskets = float(len(L_1.keys()))
     for item,count in L_1.items():
         if (float(count)/num_baskets < min_sup):
             del L_1_copy[item]
+
     return L_1_copy
 
 
 ### Find large itemsets
 def large_k_itemsets(items, table, min_sup):
-    #log("start of large k")
     large_itemsets = {}
     L = one_itemsets(items, min_sup) # L_(k-1): set of large itemsets that have k-1 items, L from previous iteration
     large_itemsets.update(L)
     k = 2
     while (L != {}):
         C_k = apriori_gen(list(L.keys()),k) # C_k : set of potentially large itemsets that have k number of items
-        #log("C_k is after apriori: "+str(C_k))
         for row in table:
             for c in C_k:
-                if (set(c) <= set(row)):
+                if (c <= set(row)):
                     C_k[c] += 1
-        #log("Ck after increment: " + str(C_k))
+
         L_k = {}
         for c,count in C_k.items():
             if float(count)/len(table) >= min_sup:
                 L_k[c] = count
+
         k += 1
         large_itemsets.update(L_k)
         L = L_k # L: set of large itemsets that have k number of items that meet min support out of C_k
-        #log("L_k is: "+ str(L_k))
 
     return large_itemsets
 
 
 ## takes a set of large k-1 itemsets and returns a superset of all large k-itemsets.
 def apriori_gen(prior_itemsets,k):
-    #log("in apriori")
-    #log("prior itemsets: "+str(prior_itemsets))
     #join
     C_k = set()
     for p in prior_itemsets: # L_(k-1)
@@ -95,7 +89,7 @@ def apriori_gen(prior_itemsets,k):
                 new_p.append(i)
             p = new_p
         else:
-            p = [p]
+            p = list(p)
         for q in prior_itemsets:
             new_q = []
             if isinstance(q,tuple):
@@ -103,27 +97,19 @@ def apriori_gen(prior_itemsets,k):
                     new_q.append(i)
                 q = new_q
             else:
-                q = [q]
-            if p[:-1] == q[:-1] and p[-1] != q[-1]:
-                new_itemset = tuple(set(p).union(set(q))) # a set that belongs in C_k
+                q = list(q)
+            if p[:-1] == q[:-1] and p[-1] < q[-1]:
+                new_itemset = frozenset(set(p).union(set(q))) # a set that belongs in C_k
                 if (len(new_itemset) == k):
                     C_k.add(new_itemset)
+
     #prune
-    #log("C_k is: "+ str(C_k))
     C_new = C_k.copy() # C_new is a copy of C_k for deletion during iteration.
     for c in C_k:
-        #log("c is: " + str(c))
         subsets = [list(x) for x in itertools.combinations(list(c),k-1)]
-        #log("subsets are: "+str(subsets))
         for s in subsets:
-            if len(s) == 1:
-                s = s[0]
-            else:
-                s = tuple(s)
-            #log("subset is: "+str(s))
-            if s not in prior_itemsets:
-                C_new.remove(c)
-                #log("s not in prior: "+str(s))
+            if frozenset(s) not in prior_itemsets:
+                C_new.remove(frozenset(c))
                 break
 
     return dict.fromkeys(C_new,0)
@@ -173,7 +159,7 @@ log(str(table)+ '\n\n')
 itemsets = large_k_itemsets(items,table,min_sup)
 log('=== Frequent itemsets (min_sup=' + str(min_sup*100) + '%) === \n', print2screen=True, output_file=out_f)
 for i in itemsets:
-    if type(i) == tuple and len(i) > 1: 
+    if type(i) == frozenset:
       formatted_i = str(list(i))
       print(formatted_i)
       log(formatted_i + ', '+ "{:.1f}".format(itemsets[i]) + '%', print2screen=True, output_file=out_f)
