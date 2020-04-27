@@ -69,4 +69,4 @@ To find the high confidence association rules, we generate possible association 
 The command line specification of a compelling sample run (i.e., a min_sup, min_conf combination that produces association rules that are revealing, surprising, useful, or helpful; see above). Briefly explain why the results are indeed compelling.
 
 ## Additional Info:
-Any additional information that you consider significant.
+Sample output for combinations of every 0.05 increment of `min_sup` and `min_conf` are included in the `colab output` folder in [this repo](https://github.com/lzha97/Association-Rule-Mining). The summary of these sample runs can be found in the file `colab-results.txt` in the same repo. These outputs were obtained by running the algorithm for possible 0.05 increment combinations of `min_sup` and `min_conf` in a colaboratory notebook. 
