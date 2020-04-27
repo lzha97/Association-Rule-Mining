@@ -2,6 +2,7 @@ import sys
 import pandas as pd
 import itertools
 import time
+import os
 
 t = time.time()
 
@@ -31,7 +32,7 @@ def compute_confidence(itemsets, min_conf = sys.argv[3], out_file = None):
                     log(lhs + ' => [' +  str(i)+  '] (Conf: '+"{:.2f}".format(score*100)+'%, Supp: ' + "{:.1f}".format((float(denominator)/float(len(table)))*100)+'%)', print2screen=True, output_file=out_f)
                     ct_rules_extracted += 1
 
-    log(str(ct_rules_extracted) + ' Rules Extracted. ')
+    log(str(ct_rules_extracted) + ' Rules Extracted. \n', print2screen=True)
 
     return rules, ct_rules_extracted
 
@@ -114,6 +115,16 @@ def apriori_gen(prior_itemsets,k):
 
     return dict.fromkeys(C_new,0)
 
+
+### Check for logs directory and create one if not already exists
+### specify output location and remove existing output files
+out_f = 'output.txt'
+
+if os.path.exists(out_f):
+  os.remove(out_f)
+if not os.path.isdir('logs'):
+    print('Made a logs folder')
+    os.mkdir('logs')
 
 
 ### Get input
