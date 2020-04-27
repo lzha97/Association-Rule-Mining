@@ -57,7 +57,7 @@ To map the original Motor Collisions data set into the Integrated Dataset (proce
 
 
 ## Internal Project Design
-To find large itemsets in the dataset, we implemented the a-priori algorithm described in Section 2.1 of Agrawal and Srikant, 1994. The main part of the algorithm is implemented in <code>large-k-itemsets()</code>, which takes a list of items in the dataset, min_sup, and the table itself. It first calls <code>one_itemsets()></code>, which returns L_1, a dictionary of 1-large itemsets and their counts. Then, while the set of k-1-large-itemsets  is not empty, <code>apriori_gen()</code> returns C_k, the set of candidate k-large-itemsets. We iterate through the table's rows to check how many rows each candidate itemset appears in, and check if the itemset's support is at least min_sup. If so, then that itemset is added a set of new k-large itemsets. <code>large-k-itemsets()</code> returns a dictionary of all large-itemsets and their counts.
+To find large itemsets in the dataset, we implemented the a-priori algorithm described in Section 2.1 of Agrawal and Srikant, 1994. The main part of the algorithm is implemented in <code>large-k-itemsets()</code>, which takes a list of items in the dataset, min_sup, and the table itself. It first calls <code>one_itemsets()</code>, which returns L_1, a dictionary of 1-large itemsets and their counts. Then, while the set of k-1-large-itemsets  is not empty, <code>apriori_gen()</code> returns C_k, the set of candidate k-large-itemsets. We iterate through the table's rows to check how many rows each candidate itemset appears in, and check if the itemset's support is at least min_sup. If so, then that itemset is added a set of new k-large itemsets. <code>large-k-itemsets()</code> returns a dictionary of all large-itemsets and their counts.
 
 We implemented <code>aprior_gen()</code> as described in Agrawal and Srikant, 1994, using their join and prune algorithm.
 
@@ -65,8 +65,42 @@ To find the high confidence association rules, we generate possible association 
 
 
 ## Example run
+<code>python3 association_rules.py processed_motor_collisions .5 .6</code>
+min_sup = .5 and min_conf = .6 seems to result in the most appropriate amount of meaningful association rules.
 
-The command line specification of a compelling sample run (i.e., a min_sup, min_conf combination that produces association rules that are revealing, surprising, useful, or helpful; see above). Briefly explain why the results are indeed compelling.
+Some interesting rules include:
+['EMOTIONAL_STATUS: Conscious'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 67.98%, Supp: 96.4%)
+['EJECTION: Not Ejected'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 70.63%, Supp: 95.2%)
+['EJECTION: Not Ejected', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EMOTIONAL_STATUS: Conscious] (Conf: 97.21%, Supp: 67.2%)
+['POSITION_IN_VEHICLE: Driver'] => [EJECTION: Not Ejected] (Conf: 93.39%, Supp: 65.7%)
+
+We can see that 67% of the time when the participant was conscious, there was a lab belt and harness, thus suggesting seatbelt's safety importance. Similarly, 70.63% of the time when the participant was not ejected from the vehicle, he or she was wearing a seatbelt. Also, when the participant was not ejected and wearing a seatbelt, 97% of the time the participant was conscious. Therefore, from these rules we can hypothesize that seatbelts do protect participants from severe outcomes in accidents.
+
+If we lower the min_sup and min_conf thresholds to allow for more rules, we can see even more revealing association rules associated with safety. Although lower min_sup and min_conf result lots of rules that might not be meaningful, there are still plenty that we extract information from. 
+
+For example (from min_sup=.15 and min_conf=.55):
+['PERSON_SEX: M'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 62.13%, Supp: 57.5%)
+['PERSON_SEX: F'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 74.60%, Supp: 42.5%)
+['AGE_RANGE: (30, 40]'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 68.14%, Supp: 23.5%)
+['AGE_RANGE: (20, 30]'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 65.16%, Supp: 27.1%)
+['SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EJECTION: Not Ejected] (Conf: 99.71%, Supp: 67.4%)
+['POSITION_IN_VEHICLE: Driver'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 66.47%, Supp: 65.7%)
+['AGE_RANGE: (20, 30]', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EMOTIONAL_STATUS: Conscious] (Conf: 97.10%, Supp: 17.7%)
+['PERSON_SEX: F', 'POSITION_IN_VEHICLE: Driver'] => [SAFETY_EQUIPMENT: Lap Belt & Harness] (Conf: 77.05%, Supp: 22.2%)
+['PED_ROLE: Passenger', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EJECTION: Not Ejected] (Conf: 99.78%, Supp: 23.9%)
+['PED_ROLE: Driver', 'SAFETY_EQUIPMENT: Lap Belt & Harness'] => [EMOTIONAL_STATUS: Conscious] (Conf: 96.94%, Supp: 43.4%)
+
+Some of these relations show some shocking statistics about seatbelt usage in accidents:
+  Only 62% of men in these accidents were lab belts and harnesses, while 75% of women did.
+  Only 68% and 65% of people in their 30s and 20s, respectively, wore seatbelts.
+  77% of female drivers wore seatbelts.
+  Only 66% of drivers wore seatbelts.
+
+Seatbelts are also shown to be effective in preventing severe injury:
+  Nearly 100% of the time wearing seat belts led to not being ejected.
+  97% of participants who are in their 20s and are wearing seatbelts will be conscious.
+  Nearly 100% of passengers who wore seatbelts were not ejected.
+  97% of drivers who wore seatbelts were not ejected.
 
 ## Additional Info:
 Any additional information that you consider significant.
