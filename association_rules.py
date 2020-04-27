@@ -5,13 +5,16 @@ import time
 
 t = time.time()
 
-def log(x, s=sys.argv[2], c = sys.argv[3]):
-    print(x)
+def log(x, s=sys.argv[2], c = sys.argv[3], print2screen=False, output_file =None):
+    if print2screen: print(x)
+    if output_file: 
+        with open(output_file, 'a+') as ofile: 
+            ofile.write(x+'\n')
     with open('logs/'+ str(t)+'_'+str(s)+'_'+str(c)+'.txt', 'a+') as file:
         file.write(x+'\n')
 
 
-def compute_confidence(itemsets, min_conf = sys.argv[3]):
+def compute_confidence(itemsets, min_conf = sys.argv[3], out_file = None):
     ct_rules_extracted = 0
     for iset in itemsets.keys():
         if type(iset) == tuple:
@@ -25,10 +28,15 @@ def compute_confidence(itemsets, min_conf = sys.argv[3]):
                 denominator = itemsets[lhs]
                 score = numerator/denominator
                 if score >= float(min_conf):
-                    log('Rule: ' +  str(lhs) + '--> (' +  str(i) +  ')\t Score:' +  str(score))
+                  if type(lhs) == tuple: 
+                    lhs = str(list(lhs))
+                  else: 
+                    lhs = '[' + str(lhs) + ']'
+                    log(lhs + ' => [' +  str(i)+  '] (Conf: '+"{:.2f}".format(score*100)+'%, Supp: ' + "{:.1f}".format(denominator)+')', print2screen=True, output_file=out_f)
                     ct_rules_extracted += 1
     log(str(ct_rules_extracted) + ' Rules Extracted. ')
     return
+
 
 
 ### Returns large 1-itemsets
@@ -124,12 +132,15 @@ dataset = sys.argv[1]
 min_sup = float(sys.argv[2])
 min_conf = float(sys.argv[3])
 
+log('Reading data', print2screen=True)
 
 ### read data
-data = pd.read_csv(dataset)
+data = pd.read_csv(dataset)[:100]
 table = []
 for i in range(data.shape[0]):
     table.append([str(data.values[i,j]) for j in range(data.shape[1])])
+
+log('Finished building table', print2screen=True)
 
 ### get list of items
 items = []
@@ -138,24 +149,33 @@ for row in table:
         if (item != 'nan'):
             items.append(item)
 
-log('############# ITEMS #############')
-log('Number of items: '+str(len(items)))
+log('Finished building items list', print2screen=True)
+
+
+out_f = 'output.txt'
+
+import os
+if os.path.exists(out_f):
+  os.remove(out_f)
+
+log('############# ITEMS #############', print2screen=True)
+log('Number of items: '+str(len(items)), print2screen=True)
 log(str(items)+ '\n\n')
-log('\n############# TABLE #############')
-log('Number of rows: '+str(len(table)))
+
+log('\n############# TABLE #############', print2screen=True)
+log('Number of rows: '+str(len(table)), print2screen=True)
 log(str(table)+ '\n\n')
-### find large itemsets
+
+### find large itemsets satisfying min_sup threshold
 itemsets = large_k_itemsets(items,table,min_sup)
-log('\n############# ITEMSETS #############\n')
+log('=== Frequent itemsets (min_sup=' + str(min_sup*100) + '%) === \n', print2screen=True, output_file=out_f)
 for i in itemsets:
-    log(str(i)+': '+ str(itemsets[i]))
-log('\nNumber of itemsets: '+str(len(itemsets)))
+    if type(i) == tuple and len(i) > 1: 
+      formatted_i = str(list(i))
+      print(formatted_i)
+      log(formatted_i + ', '+ "{:.1f}".format(itemsets[i]) + '%', print2screen=True, output_file=out_f)
+log('\nNumber of itemsets: '+str(len(itemsets)), print2screen=True)
 
-
-
-
-#print(itemsets)
-
-
-print('\n############# ASSOCIATION RULES #############\n')
-compute_confidence(itemsets)
+# find association rules satisfying min_conf threshold
+log('\n=== High-confidence association rules (min_conf=' +str(min_conf*100) +') ===\n', print2screen=True, output_file=out_f)
+compute_confidence(itemsets, out_file = out_f)
