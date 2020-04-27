@@ -167,3 +167,4 @@ log('\nNumber of itemsets: '+str(len(itemsets)), print2screen=True)
 # find association rules satisfying min_conf threshold
 log('\n=== High-confidence association rules (min_conf=' +str(min_conf*100) +') ===\n', print2screen=True, output_file=out_f)
 compute_confidence(itemsets, out_file = out_f)
+
