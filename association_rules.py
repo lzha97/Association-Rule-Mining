@@ -99,7 +99,12 @@ def apriori_gen(prior_itemsets,k):
                 q = new_q
             else:
                 q = list(q)
-            if p[:-1] == q[:-1] and p[-1] < q[-1]:
+            if len(p) == 1 and len(q) == 1:
+                if p[:-1] == q[:-1] and p[-1] < q[-1]:
+                    new_itemset = frozenset(set(p).union(set(q))) # a set that belongs in C_k
+                    if (len(new_itemset) == k):
+                        C_k.add(new_itemset)
+            elif p[:-2] == q[:-2] and p[-2] < q[-2]:
                 new_itemset = frozenset(set(p).union(set(q))) # a set that belongs in C_k
                 if (len(new_itemset) == k):
                     C_k.add(new_itemset)
