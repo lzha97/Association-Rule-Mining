@@ -32,7 +32,7 @@ def compute_confidence(itemsets, min_conf = sys.argv[3], out_file = None):
                     log(lhs + ' => [' +  str(i)+  '] (Conf: '+"{:.2f}".format(score*100)+'%, Supp: ' + "{:.1f}".format((float(denominator)/float(len(table)))*100)+'%)', print2screen=True, output_file=out_f)
                     ct_rules_extracted += 1
 
-    log(str(ct_rules_extracted) + ' Rules Extracted. ')
+    log(str(ct_rules_extracted) + ' Rules Extracted. \n', print2screen=True)
 
     return rules, ct_rules_extracted
 
@@ -135,7 +135,7 @@ min_conf = float(sys.argv[3])
 log('Reading data', print2screen=True)
 
 ### read data
-data = pd.read_csv(dataset)[:100]
+data = pd.read_csv(dataset)
 table = []
 for i in range(data.shape[0]):
     table.append([str(data.values[i,j]) for j in range(data.shape[1])])
