@@ -138,7 +138,6 @@ for row in table:
         if (item != 'nan'):
             items.append(item)
 
-
 log('Finished building items list', print2screen=True)
 
 
