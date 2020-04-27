@@ -2,6 +2,7 @@ import sys
 import pandas as pd
 import itertools
 import time
+import os
 
 t = time.time()
 
@@ -115,6 +116,16 @@ def apriori_gen(prior_itemsets,k):
     return dict.fromkeys(C_new,0)
 
 
+### Check for logs directory and create one if not already exists 
+### specify output location and remove existing output files
+out_f = 'output.txt'
+
+if os.path.exists(out_f):
+  os.remove(out_f)
+if not os.path.isdir('logs'):
+    print('Made a logs folder') 
+    os.mkdir('logs')
+
 
 ### Get input
 dataset = sys.argv[1]
@@ -139,15 +150,6 @@ for row in table:
             items.append(item)
 
 log('Finished building items list', print2screen=True)
-
-
-out_f = 'output.txt'
-
-import os
-if os.path.exists(out_f):
-  os.remove(out_f)
-if not os.path.isdir('./logs'): 
-    os.mkdir('./logs')
 
 log('############# ITEMS #############', print2screen=True)
 log('Number of items: '+str(len(items)), print2screen=True)
