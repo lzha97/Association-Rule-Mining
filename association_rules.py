@@ -14,8 +14,12 @@ def log(x, s=sys.argv[2], c = sys.argv[3], print2screen=False, output_file =None
         file.write(x+'\n')
 
 
+<<<<<<< HEAD
 def compute_confidence(itemsets, min_conf = sys.argv[3], out_file = None):
 
+=======
+def compute_confidence(itemsets, min_conf = sys.argv[3]):
+>>>>>>> 1eb0d9af6e799d897d3e2d4c346e1aaed3805d80
     rules = {}
     ct_rules_extracted = 0
     for iset in itemsets.keys():
@@ -29,6 +33,7 @@ def compute_confidence(itemsets, min_conf = sys.argv[3], out_file = None):
                 numerator = itemsets[rhs]
                 denominator = itemsets[lhs]
                 score = numerator/denominator
+<<<<<<< HEAD
 
                 if score >= float(min_conf) and (lhs,i) not in rules:
                         rules[(lhs,i)] = score
@@ -41,6 +46,14 @@ def compute_confidence(itemsets, min_conf = sys.argv[3], out_file = None):
     log(str(ct_rules_extracted) + ' Rules Extracted. ')
     return rules, ct_rules_extracted
 
+=======
+                if score >= float(min_conf) and (lhs,i) not in rules:
+                        rules[(lhs,i)] = score
+                        #log('Rule: ' +  str(lhs) + '--> (' +  str(i) +  ')\t Score:' +  str(score))
+                        ct_rules_extracted += 1
+    #log(str(ct_rules_extracted) + ' Rules Extracted. ')
+    return rules, ct_rules_extracted
+>>>>>>> 1eb0d9af6e799d897d3e2d4c346e1aaed3805d80
 
 
 ### Returns large 1-itemsets
@@ -153,6 +166,7 @@ for row in table:
         if (item != 'nan'):
             items.append(item)
 
+<<<<<<< HEAD
 log('Finished building items list', print2screen=True)
 
 
@@ -183,3 +197,25 @@ log('\nNumber of itemsets: '+str(len(itemsets)), print2screen=True)
 # find association rules satisfying min_conf threshold
 log('\n=== High-confidence association rules (min_conf=' +str(min_conf*100) +') ===\n', print2screen=True, output_file=out_f)
 compute_confidence(itemsets, out_file = out_f)
+=======
+log('############# ITEMS #############')
+log('Number of items: '+str(len(items)))
+#log(str(items)+ '\n\n')
+log('\n############# TABLE #############')
+log('Number of rows: '+str(len(table)))
+#log(str(table)+ '\n\n')
+### find large itemsets
+itemsets = large_k_itemsets(items,table,min_sup)
+log('\n############# ITEMSETS #############\n')
+for i in itemsets:
+    log(str(i)+': '+ str(itemsets[i]))
+log('\nNumber of itemsets: '+str(len(itemsets)))
+
+
+print('\n############# ASSOCIATION RULES #############\n')
+high_conf_rules, ct_rules = compute_confidence(itemsets)
+for r in high_conf_rules:
+    log('Rule: ' +  str(r[0]) + '--> (' +  str(r[1]) +  ')\t Score:' +  str(high_conf_rules[r]))
+    #log(str(i) + ' : ' + str(high_conf_rules[r]))
+log(str(ct_rules) + ' Rules Extracted. ')
+>>>>>>> 1eb0d9af6e799d897d3e2d4c346e1aaed3805d80
