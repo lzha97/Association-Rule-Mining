@@ -1,0 +1,8 @@
+=== Frequent itemsets (min_sup=85.0%) === 
+
+['EJECTION: Not Ejected'], 95.2%
+['EMOTIONAL_STATUS: Conscious'], 96.4%
+['EMOTIONAL_STATUS: Conscious', 'EJECTION: Not Ejected'], 92.1%
+
+=== High-confidence association rules (min_conf=100.0%) ===
+

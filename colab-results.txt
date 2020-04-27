@@ -1,0 +1,4804 @@
+############# ITEMS #############
+Number of items: 83721
+
+############# TABLE #############
+Number of rows: 7611
+
+
+=========== min_sup:  0.05 	 min_conf: 0.05 ==============
+=== Frequent itemsets (min_sup=5.0%) === 
+
+
+Number of itemsets: 1202
+
+=== High-confidence association rules (min_conf=5.0%) ===
+
+4280 Rules Extracted. 
+
+
+
+=========== min_sup:  0.05 	 min_conf: 0.1 ==============
+=== Frequent itemsets (min_sup=5.0%) === 
+
+
+Number of itemsets: 1202
+
+=== High-confidence association rules (min_conf=10.0%) ===
+
+4162 Rules Extracted. 
+
+
+
+=========== min_sup:  0.05 	 min_conf: 0.15 ==============
+=== Frequent itemsets (min_sup=5.0%) === 
+
+
+Number of itemsets: 1202
+
+=== High-confidence association rules (min_conf=15.0%) ===
+
+4015 Rules Extracted. 
+
+
+
+=========== min_sup:  0.05 	 min_conf: 0.2 ==============
+=== Frequent itemsets (min_sup=5.0%) === 
+
+
+Number of itemsets: 1202
+
+=== High-confidence association rules (min_conf=20.0%) ===
+
+3898 Rules Extracted. 
+
+
+
+=========== min_sup:  0.05 	 min_conf: 0.25 ==============
+=== Frequent itemsets (min_sup=5.0%) === 
+
+
+Number of itemsets: 1202
+
+=== High-confidence association rules (min_conf=25.0%) ===
+
+3639 Rules Extracted. 
+
+
+
+=========== min_sup:  0.05 	 min_conf: 0.3 ==============
+=== Frequent itemsets (min_sup=5.0%) === 
+
+
+Number of itemsets: 1202
+
+=== High-confidence association rules (min_conf=30.0%) ===
+
+3321 Rules Extracted. 
+
+
+
+=========== min_sup:  0.05 	 min_conf: 0.35 ==============
+=== Frequent itemsets (min_sup=5.0%) === 
+
+
+Number of itemsets: 1202
+
+=== High-confidence association rules (min_conf=35.0%) ===
+
+3301 Rules Extracted. 
+
+
+
+=========== min_sup:  0.05 	 min_conf: 0.4 ==============
+=== Frequent itemsets (min_sup=5.0%) === 
+
+
+Number of itemsets: 1202
+
+=== High-confidence association rules (min_conf=40.0%) ===
+
+3198 Rules Extracted. 
+
+
+
+=========== min_sup:  0.05 	 min_conf: 0.45 ==============
+=== Frequent itemsets (min_sup=5.0%) === 
+
+
+Number of itemsets: 1202
+
+=== High-confidence association rules (min_conf=45.0%) ===
+
+3147 Rules Extracted. 
+
+
+
+=========== min_sup:  0.05 	 min_conf: 0.5 ==============
+=== Frequent itemsets (min_sup=5.0%) === 
+
+
+Number of itemsets: 1202
+
+=== High-confidence association rules (min_conf=50.0%) ===
+
+3052 Rules Extracted. 
+
+
+
+=========== min_sup:  0.05 	 min_conf: 0.55 ==============
+=== Frequent itemsets (min_sup=5.0%) === 
+
+
+Number of itemsets: 1202
+
+=== High-confidence association rules (min_conf=55.00000000000001%) ===
+
+2945 Rules Extracted. 
+
+
+
+=========== min_sup:  0.05 	 min_conf: 0.6 ==============
+=== Frequent itemsets (min_sup=5.0%) === 
+
+
+Number of itemsets: 1202
+
+=== High-confidence association rules (min_conf=60.0%) ===
+
+2846 Rules Extracted. 
+
+
+
+=========== min_sup:  0.05 	 min_conf: 0.65 ==============
+=== Frequent itemsets (min_sup=5.0%) === 
+
+
+Number of itemsets: 1202
+
+=== High-confidence association rules (min_conf=65.0%) ===
+
+2514 Rules Extracted. 
+
+
+
+=========== min_sup:  0.05 	 min_conf: 0.7 ==============
+=== Frequent itemsets (min_sup=5.0%) === 
+
+
+Number of itemsets: 1202
+
+=== High-confidence association rules (min_conf=70.0%) ===
+
+2318 Rules Extracted. 
+
+
+
+=========== min_sup:  0.05 	 min_conf: 0.75 ==============
+=== Frequent itemsets (min_sup=5.0%) === 
+
+
+Number of itemsets: 1202
+
+=== High-confidence association rules (min_conf=75.0%) ===
+
+1881 Rules Extracted. 
+
+
+
+=========== min_sup:  0.05 	 min_conf: 0.8 ==============
+=== Frequent itemsets (min_sup=5.0%) === 
+
+
+Number of itemsets: 1202
+
+=== High-confidence association rules (min_conf=80.0%) ===
+
+1554 Rules Extracted. 
+
+
+
+=========== min_sup:  0.05 	 min_conf: 0.85 ==============
+=== Frequent itemsets (min_sup=5.0%) === 
+
+
+Number of itemsets: 1202
+
+=== High-confidence association rules (min_conf=85.0%) ===
+
+1396 Rules Extracted. 
+
+
+
+=========== min_sup:  0.05 	 min_conf: 0.9 ==============
+=== Frequent itemsets (min_sup=5.0%) === 
+
+
+Number of itemsets: 1202
+
+=== High-confidence association rules (min_conf=90.0%) ===
+
+1359 Rules Extracted. 
+
+
+
+=========== min_sup:  0.05 	 min_conf: 0.95 ==============
+=== Frequent itemsets (min_sup=5.0%) === 
+
+
+Number of itemsets: 1202
+
+=== High-confidence association rules (min_conf=95.0%) ===
+
+1207 Rules Extracted. 
+
+
+
+=========== min_sup:  0.05 	 min_conf: 1.0 ==============
+=== Frequent itemsets (min_sup=5.0%) === 
+
+
+Number of itemsets: 1202
+
+=== High-confidence association rules (min_conf=100.0%) ===
+
+96 Rules Extracted. 
+
+
+
+=========== min_sup:  0.1 	 min_conf: 0.05 ==============
+=== Frequent itemsets (min_sup=10.0%) === 
+
+
+Number of itemsets: 475
+
+=== High-confidence association rules (min_conf=5.0%) ===
+
+1597 Rules Extracted. 
+
+
+
+=========== min_sup:  0.1 	 min_conf: 0.1 ==============
+=== Frequent itemsets (min_sup=10.0%) === 
+
+
+Number of itemsets: 475
+
+=== High-confidence association rules (min_conf=10.0%) ===
+
+1597 Rules Extracted. 
+
+
+
+=========== min_sup:  0.1 	 min_conf: 0.15 ==============
+=== Frequent itemsets (min_sup=10.0%) === 
+
+
+Number of itemsets: 475
+
+=== High-confidence association rules (min_conf=15.0%) ===
+
+1590 Rules Extracted. 
+
+
+
+=========== min_sup:  0.1 	 min_conf: 0.2 ==============
+=== Frequent itemsets (min_sup=10.0%) === 
+
+
+Number of itemsets: 475
+
+=== High-confidence association rules (min_conf=20.0%) ===
+
+1556 Rules Extracted. 
+
+
+
+=========== min_sup:  0.1 	 min_conf: 0.25 ==============
+=== Frequent itemsets (min_sup=10.0%) === 
+
+
+Number of itemsets: 475
+
+=== High-confidence association rules (min_conf=25.0%) ===
+
+1474 Rules Extracted. 
+
+
+
+=========== min_sup:  0.1 	 min_conf: 0.3 ==============
+=== Frequent itemsets (min_sup=10.0%) === 
+
+
+Number of itemsets: 475
+
+=== High-confidence association rules (min_conf=30.0%) ===
+
+1340 Rules Extracted. 
+
+
+
+=========== min_sup:  0.1 	 min_conf: 0.35 ==============
+=== Frequent itemsets (min_sup=10.0%) === 
+
+
+Number of itemsets: 475
+
+=== High-confidence association rules (min_conf=35.0%) ===
+
+1337 Rules Extracted. 
+
+
+
+=========== min_sup:  0.1 	 min_conf: 0.4 ==============
+=== Frequent itemsets (min_sup=10.0%) === 
+
+
+Number of itemsets: 475
+
+=== High-confidence association rules (min_conf=40.0%) ===
+
+1292 Rules Extracted. 
+
+
+
+=========== min_sup:  0.1 	 min_conf: 0.45 ==============
+=== Frequent itemsets (min_sup=10.0%) === 
+
+
+Number of itemsets: 475
+
+=== High-confidence association rules (min_conf=45.0%) ===
+
+1273 Rules Extracted. 
+
+
+
+=========== min_sup:  0.1 	 min_conf: 0.5 ==============
+=== Frequent itemsets (min_sup=10.0%) === 
+
+
+Number of itemsets: 475
+
+=== High-confidence association rules (min_conf=50.0%) ===
+
+1243 Rules Extracted. 
+
+
+
+=========== min_sup:  0.1 	 min_conf: 0.55 ==============
+=== Frequent itemsets (min_sup=10.0%) === 
+
+
+Number of itemsets: 475
+
+=== High-confidence association rules (min_conf=55.00000000000001%) ===
+
+1204 Rules Extracted. 
+
+
+
+=========== min_sup:  0.1 	 min_conf: 0.6 ==============
+=== Frequent itemsets (min_sup=10.0%) === 
+
+
+Number of itemsets: 475
+
+=== High-confidence association rules (min_conf=60.0%) ===
+
+1156 Rules Extracted. 
+
+
+
+=========== min_sup:  0.1 	 min_conf: 0.65 ==============
+=== Frequent itemsets (min_sup=10.0%) === 
+
+
+Number of itemsets: 475
+
+=== High-confidence association rules (min_conf=65.0%) ===
+
+1043 Rules Extracted. 
+
+
+
+=========== min_sup:  0.1 	 min_conf: 0.7 ==============
+=== Frequent itemsets (min_sup=10.0%) === 
+
+
+Number of itemsets: 475
+
+=== High-confidence association rules (min_conf=70.0%) ===
+
+956 Rules Extracted. 
+
+
+
+=========== min_sup:  0.1 	 min_conf: 0.75 ==============
+=== Frequent itemsets (min_sup=10.0%) === 
+
+
+Number of itemsets: 475
+
+=== High-confidence association rules (min_conf=75.0%) ===
+
+775 Rules Extracted. 
+
+
+
+=========== min_sup:  0.1 	 min_conf: 0.8 ==============
+=== Frequent itemsets (min_sup=10.0%) === 
+
+
+Number of itemsets: 475
+
+=== High-confidence association rules (min_conf=80.0%) ===
+
+649 Rules Extracted. 
+
+
+
+=========== min_sup:  0.1 	 min_conf: 0.85 ==============
+=== Frequent itemsets (min_sup=10.0%) === 
+
+
+Number of itemsets: 475
+
+=== High-confidence association rules (min_conf=85.0%) ===
+
+596 Rules Extracted. 
+
+
+
+=========== min_sup:  0.1 	 min_conf: 0.9 ==============
+=== Frequent itemsets (min_sup=10.0%) === 
+
+
+Number of itemsets: 475
+
+=== High-confidence association rules (min_conf=90.0%) ===
+
+584 Rules Extracted. 
+
+
+
+=========== min_sup:  0.1 	 min_conf: 0.95 ==============
+=== Frequent itemsets (min_sup=10.0%) === 
+
+
+Number of itemsets: 475
+
+=== High-confidence association rules (min_conf=95.0%) ===
+
+528 Rules Extracted. 
+
+
+
+=========== min_sup:  0.1 	 min_conf: 1.0 ==============
+=== Frequent itemsets (min_sup=10.0%) === 
+
+
+Number of itemsets: 475
+
+=== High-confidence association rules (min_conf=100.0%) ===
+
+15 Rules Extracted. 
+
+
+
+=========== min_sup:  0.15 	 min_conf: 0.05 ==============
+=== Frequent itemsets (min_sup=15.0%) === 
+
+
+Number of itemsets: 255
+
+=== High-confidence association rules (min_conf=5.0%) ===
+
+785 Rules Extracted. 
+
+
+
+=========== min_sup:  0.15 	 min_conf: 0.1 ==============
+=== Frequent itemsets (min_sup=15.0%) === 
+
+
+Number of itemsets: 255
+
+=== High-confidence association rules (min_conf=10.0%) ===
+
+785 Rules Extracted. 
+
+
+
+=========== min_sup:  0.15 	 min_conf: 0.15 ==============
+=== Frequent itemsets (min_sup=15.0%) === 
+
+
+Number of itemsets: 255
+
+=== High-confidence association rules (min_conf=15.0%) ===
+
+785 Rules Extracted. 
+
+
+
+=========== min_sup:  0.15 	 min_conf: 0.2 ==============
+=== Frequent itemsets (min_sup=15.0%) === 
+
+
+Number of itemsets: 255
+
+=== High-confidence association rules (min_conf=20.0%) ===
+
+780 Rules Extracted. 
+
+
+
+=========== min_sup:  0.15 	 min_conf: 0.25 ==============
+=== Frequent itemsets (min_sup=15.0%) === 
+
+
+Number of itemsets: 255
+
+=== High-confidence association rules (min_conf=25.0%) ===
+
+755 Rules Extracted. 
+
+
+
+=========== min_sup:  0.15 	 min_conf: 0.3 ==============
+=== Frequent itemsets (min_sup=15.0%) === 
+
+
+Number of itemsets: 255
+
+=== High-confidence association rules (min_conf=30.0%) ===
+
+720 Rules Extracted. 
+
+
+
+=========== min_sup:  0.15 	 min_conf: 0.35 ==============
+=== Frequent itemsets (min_sup=15.0%) === 
+
+
+Number of itemsets: 255
+
+=== High-confidence association rules (min_conf=35.0%) ===
+
+717 Rules Extracted. 
+
+
+
+=========== min_sup:  0.15 	 min_conf: 0.4 ==============
+=== Frequent itemsets (min_sup=15.0%) === 
+
+
+Number of itemsets: 255
+
+=== High-confidence association rules (min_conf=40.0%) ===
+
+675 Rules Extracted. 
+
+
+
+=========== min_sup:  0.15 	 min_conf: 0.45 ==============
+=== Frequent itemsets (min_sup=15.0%) === 
+
+
+Number of itemsets: 255
+
+=== High-confidence association rules (min_conf=45.0%) ===
+
+670 Rules Extracted. 
+
+
+
+=========== min_sup:  0.15 	 min_conf: 0.5 ==============
+=== Frequent itemsets (min_sup=15.0%) === 
+
+
+Number of itemsets: 255
+
+=== High-confidence association rules (min_conf=50.0%) ===
+
+652 Rules Extracted. 
+
+
+
+=========== min_sup:  0.15 	 min_conf: 0.55 ==============
+=== Frequent itemsets (min_sup=15.0%) === 
+
+
+Number of itemsets: 255
+
+=== High-confidence association rules (min_conf=55.00000000000001%) ===
+
+623 Rules Extracted. 
+
+
+
+=========== min_sup:  0.15 	 min_conf: 0.6 ==============
+=== Frequent itemsets (min_sup=15.0%) === 
+
+
+Number of itemsets: 255
+
+=== High-confidence association rules (min_conf=60.0%) ===
+
+599 Rules Extracted. 
+
+
+
+=========== min_sup:  0.15 	 min_conf: 0.65 ==============
+=== Frequent itemsets (min_sup=15.0%) === 
+
+
+Number of itemsets: 255
+
+=== High-confidence association rules (min_conf=65.0%) ===
+
+538 Rules Extracted. 
+
+
+
+=========== min_sup:  0.15 	 min_conf: 0.7 ==============
+=== Frequent itemsets (min_sup=15.0%) === 
+
+
+Number of itemsets: 255
+
+=== High-confidence association rules (min_conf=70.0%) ===
+
+495 Rules Extracted. 
+
+
+
+=========== min_sup:  0.15 	 min_conf: 0.75 ==============
+=== Frequent itemsets (min_sup=15.0%) === 
+
+
+Number of itemsets: 255
+
+=== High-confidence association rules (min_conf=75.0%) ===
+
+390 Rules Extracted. 
+
+
+
+=========== min_sup:  0.15 	 min_conf: 0.8 ==============
+=== Frequent itemsets (min_sup=15.0%) === 
+
+
+Number of itemsets: 255
+
+=== High-confidence association rules (min_conf=80.0%) ===
+
+315 Rules Extracted. 
+
+
+
+=========== min_sup:  0.15 	 min_conf: 0.85 ==============
+=== Frequent itemsets (min_sup=15.0%) === 
+
+
+Number of itemsets: 255
+
+=== High-confidence association rules (min_conf=85.0%) ===
+
+309 Rules Extracted. 
+
+
+
+=========== min_sup:  0.15 	 min_conf: 0.9 ==============
+=== Frequent itemsets (min_sup=15.0%) === 
+
+
+Number of itemsets: 255
+
+=== High-confidence association rules (min_conf=90.0%) ===
+
+301 Rules Extracted. 
+
+
+
+=========== min_sup:  0.15 	 min_conf: 0.95 ==============
+=== Frequent itemsets (min_sup=15.0%) === 
+
+
+Number of itemsets: 255
+
+=== High-confidence association rules (min_conf=95.0%) ===
+
+273 Rules Extracted. 
+
+
+
+=========== min_sup:  0.15 	 min_conf: 1.0 ==============
+=== Frequent itemsets (min_sup=15.0%) === 
+
+
+Number of itemsets: 255
+
+=== High-confidence association rules (min_conf=100.0%) ===
+
+3 Rules Extracted. 
+
+
+
+=========== min_sup:  0.2 	 min_conf: 0.05 ==============
+=== Frequent itemsets (min_sup=20.0%) === 
+
+
+Number of itemsets: 161
+
+=== High-confidence association rules (min_conf=5.0%) ===
+
+469 Rules Extracted. 
+
+
+
+=========== min_sup:  0.2 	 min_conf: 0.1 ==============
+=== Frequent itemsets (min_sup=20.0%) === 
+
+
+Number of itemsets: 161
+
+=== High-confidence association rules (min_conf=10.0%) ===
+
+469 Rules Extracted. 
+
+
+
+=========== min_sup:  0.2 	 min_conf: 0.15 ==============
+=== Frequent itemsets (min_sup=20.0%) === 
+
+
+Number of itemsets: 161
+
+=== High-confidence association rules (min_conf=15.0%) ===
+
+469 Rules Extracted. 
+
+
+
+=========== min_sup:  0.2 	 min_conf: 0.2 ==============
+=== Frequent itemsets (min_sup=20.0%) === 
+
+
+Number of itemsets: 161
+
+=== High-confidence association rules (min_conf=20.0%) ===
+
+469 Rules Extracted. 
+
+
+
+=========== min_sup:  0.2 	 min_conf: 0.25 ==============
+=== Frequent itemsets (min_sup=20.0%) === 
+
+
+Number of itemsets: 161
+
+=== High-confidence association rules (min_conf=25.0%) ===
+
+461 Rules Extracted. 
+
+
+
+=========== min_sup:  0.2 	 min_conf: 0.3 ==============
+=== Frequent itemsets (min_sup=20.0%) === 
+
+
+Number of itemsets: 161
+
+=== High-confidence association rules (min_conf=30.0%) ===
+
+458 Rules Extracted. 
+
+
+
+=========== min_sup:  0.2 	 min_conf: 0.35 ==============
+=== Frequent itemsets (min_sup=20.0%) === 
+
+
+Number of itemsets: 161
+
+=== High-confidence association rules (min_conf=35.0%) ===
+
+455 Rules Extracted. 
+
+
+
+=========== min_sup:  0.2 	 min_conf: 0.4 ==============
+=== Frequent itemsets (min_sup=20.0%) === 
+
+
+Number of itemsets: 161
+
+=== High-confidence association rules (min_conf=40.0%) ===
+
+437 Rules Extracted. 
+
+
+
+=========== min_sup:  0.2 	 min_conf: 0.45 ==============
+=== Frequent itemsets (min_sup=20.0%) === 
+
+
+Number of itemsets: 161
+
+=== High-confidence association rules (min_conf=45.0%) ===
+
+432 Rules Extracted. 
+
+
+
+=========== min_sup:  0.2 	 min_conf: 0.5 ==============
+=== Frequent itemsets (min_sup=20.0%) === 
+
+
+Number of itemsets: 161
+
+=== High-confidence association rules (min_conf=50.0%) ===
+
+418 Rules Extracted. 
+
+
+
+=========== min_sup:  0.2 	 min_conf: 0.55 ==============
+=== Frequent itemsets (min_sup=20.0%) === 
+
+
+Number of itemsets: 161
+
+=== High-confidence association rules (min_conf=55.00000000000001%) ===
+
+403 Rules Extracted. 
+
+
+
+=========== min_sup:  0.2 	 min_conf: 0.6 ==============
+=== Frequent itemsets (min_sup=20.0%) === 
+
+
+Number of itemsets: 161
+
+=== High-confidence association rules (min_conf=60.0%) ===
+
+394 Rules Extracted. 
+
+
+
+=========== min_sup:  0.2 	 min_conf: 0.65 ==============
+=== Frequent itemsets (min_sup=20.0%) === 
+
+
+Number of itemsets: 161
+
+=== High-confidence association rules (min_conf=65.0%) ===
+
+336 Rules Extracted. 
+
+
+
+=========== min_sup:  0.2 	 min_conf: 0.7 ==============
+=== Frequent itemsets (min_sup=20.0%) === 
+
+
+Number of itemsets: 161
+
+=== High-confidence association rules (min_conf=70.0%) ===
+
+304 Rules Extracted. 
+
+
+
+=========== min_sup:  0.2 	 min_conf: 0.75 ==============
+=== Frequent itemsets (min_sup=20.0%) === 
+
+
+Number of itemsets: 161
+
+=== High-confidence association rules (min_conf=75.0%) ===
+
+240 Rules Extracted. 
+
+
+
+=========== min_sup:  0.2 	 min_conf: 0.8 ==============
+=== Frequent itemsets (min_sup=20.0%) === 
+
+
+Number of itemsets: 161
+
+=== High-confidence association rules (min_conf=80.0%) ===
+
+199 Rules Extracted. 
+
+
+
+=========== min_sup:  0.2 	 min_conf: 0.85 ==============
+=== Frequent itemsets (min_sup=20.0%) === 
+
+
+Number of itemsets: 161
+
+=== High-confidence association rules (min_conf=85.0%) ===
+
+199 Rules Extracted. 
+
+
+
+=========== min_sup:  0.2 	 min_conf: 0.9 ==============
+=== Frequent itemsets (min_sup=20.0%) === 
+
+
+Number of itemsets: 161
+
+=== High-confidence association rules (min_conf=90.0%) ===
+
+193 Rules Extracted. 
+
+
+
+=========== min_sup:  0.2 	 min_conf: 0.95 ==============
+=== Frequent itemsets (min_sup=20.0%) === 
+
+
+Number of itemsets: 161
+
+=== High-confidence association rules (min_conf=95.0%) ===
+
+171 Rules Extracted. 
+
+
+
+=========== min_sup:  0.2 	 min_conf: 1.0 ==============
+=== Frequent itemsets (min_sup=20.0%) === 
+
+
+Number of itemsets: 161
+
+=== High-confidence association rules (min_conf=100.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.25 	 min_conf: 0.05 ==============
+=== Frequent itemsets (min_sup=25.0%) === 
+
+
+Number of itemsets: 127
+
+=== High-confidence association rules (min_conf=5.0%) ===
+
+383 Rules Extracted. 
+
+
+
+=========== min_sup:  0.25 	 min_conf: 0.1 ==============
+=== Frequent itemsets (min_sup=25.0%) === 
+
+
+Number of itemsets: 127
+
+=== High-confidence association rules (min_conf=10.0%) ===
+
+383 Rules Extracted. 
+
+
+
+=========== min_sup:  0.25 	 min_conf: 0.15 ==============
+=== Frequent itemsets (min_sup=25.0%) === 
+
+
+Number of itemsets: 127
+
+=== High-confidence association rules (min_conf=15.0%) ===
+
+383 Rules Extracted. 
+
+
+
+=========== min_sup:  0.25 	 min_conf: 0.2 ==============
+=== Frequent itemsets (min_sup=25.0%) === 
+
+
+Number of itemsets: 127
+
+=== High-confidence association rules (min_conf=20.0%) ===
+
+383 Rules Extracted. 
+
+
+
+=========== min_sup:  0.25 	 min_conf: 0.25 ==============
+=== Frequent itemsets (min_sup=25.0%) === 
+
+
+Number of itemsets: 127
+
+=== High-confidence association rules (min_conf=25.0%) ===
+
+383 Rules Extracted. 
+
+
+
+=========== min_sup:  0.25 	 min_conf: 0.3 ==============
+=== Frequent itemsets (min_sup=25.0%) === 
+
+
+Number of itemsets: 127
+
+=== High-confidence association rules (min_conf=30.0%) ===
+
+381 Rules Extracted. 
+
+
+
+=========== min_sup:  0.25 	 min_conf: 0.35 ==============
+=== Frequent itemsets (min_sup=25.0%) === 
+
+
+Number of itemsets: 127
+
+=== High-confidence association rules (min_conf=35.0%) ===
+
+380 Rules Extracted. 
+
+
+
+=========== min_sup:  0.25 	 min_conf: 0.4 ==============
+=== Frequent itemsets (min_sup=25.0%) === 
+
+
+Number of itemsets: 127
+
+=== High-confidence association rules (min_conf=40.0%) ===
+
+378 Rules Extracted. 
+
+
+
+=========== min_sup:  0.25 	 min_conf: 0.45 ==============
+=== Frequent itemsets (min_sup=25.0%) === 
+
+
+Number of itemsets: 127
+
+=== High-confidence association rules (min_conf=45.0%) ===
+
+373 Rules Extracted. 
+
+
+
+=========== min_sup:  0.25 	 min_conf: 0.5 ==============
+=== Frequent itemsets (min_sup=25.0%) === 
+
+
+Number of itemsets: 127
+
+=== High-confidence association rules (min_conf=50.0%) ===
+
+367 Rules Extracted. 
+
+
+
+=========== min_sup:  0.25 	 min_conf: 0.55 ==============
+=== Frequent itemsets (min_sup=25.0%) === 
+
+
+Number of itemsets: 127
+
+=== High-confidence association rules (min_conf=55.00000000000001%) ===
+
+357 Rules Extracted. 
+
+
+
+=========== min_sup:  0.25 	 min_conf: 0.6 ==============
+=== Frequent itemsets (min_sup=25.0%) === 
+
+
+Number of itemsets: 127
+
+=== High-confidence association rules (min_conf=60.0%) ===
+
+348 Rules Extracted. 
+
+
+
+=========== min_sup:  0.25 	 min_conf: 0.65 ==============
+=== Frequent itemsets (min_sup=25.0%) === 
+
+
+Number of itemsets: 127
+
+=== High-confidence association rules (min_conf=65.0%) ===
+
+290 Rules Extracted. 
+
+
+
+=========== min_sup:  0.25 	 min_conf: 0.7 ==============
+=== Frequent itemsets (min_sup=25.0%) === 
+
+
+Number of itemsets: 127
+
+=== High-confidence association rules (min_conf=70.0%) ===
+
+260 Rules Extracted. 
+
+
+
+=========== min_sup:  0.25 	 min_conf: 0.75 ==============
+=== Frequent itemsets (min_sup=25.0%) === 
+
+
+Number of itemsets: 127
+
+=== High-confidence association rules (min_conf=75.0%) ===
+
+201 Rules Extracted. 
+
+
+
+=========== min_sup:  0.25 	 min_conf: 0.8 ==============
+=== Frequent itemsets (min_sup=25.0%) === 
+
+
+Number of itemsets: 127
+
+=== High-confidence association rules (min_conf=80.0%) ===
+
+168 Rules Extracted. 
+
+
+
+=========== min_sup:  0.25 	 min_conf: 0.85 ==============
+=== Frequent itemsets (min_sup=25.0%) === 
+
+
+Number of itemsets: 127
+
+=== High-confidence association rules (min_conf=85.0%) ===
+
+168 Rules Extracted. 
+
+
+
+=========== min_sup:  0.25 	 min_conf: 0.9 ==============
+=== Frequent itemsets (min_sup=25.0%) === 
+
+
+Number of itemsets: 127
+
+=== High-confidence association rules (min_conf=90.0%) ===
+
+162 Rules Extracted. 
+
+
+
+=========== min_sup:  0.25 	 min_conf: 0.95 ==============
+=== Frequent itemsets (min_sup=25.0%) === 
+
+
+Number of itemsets: 127
+
+=== High-confidence association rules (min_conf=95.0%) ===
+
+143 Rules Extracted. 
+
+
+
+=========== min_sup:  0.25 	 min_conf: 1.0 ==============
+=== Frequent itemsets (min_sup=25.0%) === 
+
+
+Number of itemsets: 127
+
+=== High-confidence association rules (min_conf=100.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.3 	 min_conf: 0.05 ==============
+=== Frequent itemsets (min_sup=30.0%) === 
+
+
+Number of itemsets: 100
+
+=== High-confidence association rules (min_conf=5.0%) ===
+
+279 Rules Extracted. 
+
+
+
+=========== min_sup:  0.3 	 min_conf: 0.1 ==============
+=== Frequent itemsets (min_sup=30.0%) === 
+
+
+Number of itemsets: 100
+
+=== High-confidence association rules (min_conf=10.0%) ===
+
+279 Rules Extracted. 
+
+
+
+=========== min_sup:  0.3 	 min_conf: 0.15 ==============
+=== Frequent itemsets (min_sup=30.0%) === 
+
+
+Number of itemsets: 100
+
+=== High-confidence association rules (min_conf=15.0%) ===
+
+279 Rules Extracted. 
+
+
+
+=========== min_sup:  0.3 	 min_conf: 0.2 ==============
+=== Frequent itemsets (min_sup=30.0%) === 
+
+
+Number of itemsets: 100
+
+=== High-confidence association rules (min_conf=20.0%) ===
+
+279 Rules Extracted. 
+
+
+
+=========== min_sup:  0.3 	 min_conf: 0.25 ==============
+=== Frequent itemsets (min_sup=30.0%) === 
+
+
+Number of itemsets: 100
+
+=== High-confidence association rules (min_conf=25.0%) ===
+
+279 Rules Extracted. 
+
+
+
+=========== min_sup:  0.3 	 min_conf: 0.3 ==============
+=== Frequent itemsets (min_sup=30.0%) === 
+
+
+Number of itemsets: 100
+
+=== High-confidence association rules (min_conf=30.0%) ===
+
+279 Rules Extracted. 
+
+
+
+=========== min_sup:  0.3 	 min_conf: 0.35 ==============
+=== Frequent itemsets (min_sup=30.0%) === 
+
+
+Number of itemsets: 100
+
+=== High-confidence association rules (min_conf=35.0%) ===
+
+278 Rules Extracted. 
+
+
+
+=========== min_sup:  0.3 	 min_conf: 0.4 ==============
+=== Frequent itemsets (min_sup=30.0%) === 
+
+
+Number of itemsets: 100
+
+=== High-confidence association rules (min_conf=40.0%) ===
+
+276 Rules Extracted. 
+
+
+
+=========== min_sup:  0.3 	 min_conf: 0.45 ==============
+=== Frequent itemsets (min_sup=30.0%) === 
+
+
+Number of itemsets: 100
+
+=== High-confidence association rules (min_conf=45.0%) ===
+
+271 Rules Extracted. 
+
+
+
+=========== min_sup:  0.3 	 min_conf: 0.5 ==============
+=== Frequent itemsets (min_sup=30.0%) === 
+
+
+Number of itemsets: 100
+
+=== High-confidence association rules (min_conf=50.0%) ===
+
+265 Rules Extracted. 
+
+
+
+=========== min_sup:  0.3 	 min_conf: 0.55 ==============
+=== Frequent itemsets (min_sup=30.0%) === 
+
+
+Number of itemsets: 100
+
+=== High-confidence association rules (min_conf=55.00000000000001%) ===
+
+259 Rules Extracted. 
+
+
+
+=========== min_sup:  0.3 	 min_conf: 0.6 ==============
+=== Frequent itemsets (min_sup=30.0%) === 
+
+
+Number of itemsets: 100
+
+=== High-confidence association rules (min_conf=60.0%) ===
+
+250 Rules Extracted. 
+
+
+
+=========== min_sup:  0.3 	 min_conf: 0.65 ==============
+=== Frequent itemsets (min_sup=30.0%) === 
+
+
+Number of itemsets: 100
+
+=== High-confidence association rules (min_conf=65.0%) ===
+
+214 Rules Extracted. 
+
+
+
+=========== min_sup:  0.3 	 min_conf: 0.7 ==============
+=== Frequent itemsets (min_sup=30.0%) === 
+
+
+Number of itemsets: 100
+
+=== High-confidence association rules (min_conf=70.0%) ===
+
+199 Rules Extracted. 
+
+
+
+=========== min_sup:  0.3 	 min_conf: 0.75 ==============
+=== Frequent itemsets (min_sup=30.0%) === 
+
+
+Number of itemsets: 100
+
+=== High-confidence association rules (min_conf=75.0%) ===
+
+163 Rules Extracted. 
+
+
+
+=========== min_sup:  0.3 	 min_conf: 0.8 ==============
+=== Frequent itemsets (min_sup=30.0%) === 
+
+
+Number of itemsets: 100
+
+=== High-confidence association rules (min_conf=80.0%) ===
+
+132 Rules Extracted. 
+
+
+
+=========== min_sup:  0.3 	 min_conf: 0.85 ==============
+=== Frequent itemsets (min_sup=30.0%) === 
+
+
+Number of itemsets: 100
+
+=== High-confidence association rules (min_conf=85.0%) ===
+
+132 Rules Extracted. 
+
+
+
+=========== min_sup:  0.3 	 min_conf: 0.9 ==============
+=== Frequent itemsets (min_sup=30.0%) === 
+
+
+Number of itemsets: 100
+
+=== High-confidence association rules (min_conf=90.0%) ===
+
+128 Rules Extracted. 
+
+
+
+=========== min_sup:  0.3 	 min_conf: 0.95 ==============
+=== Frequent itemsets (min_sup=30.0%) === 
+
+
+Number of itemsets: 100
+
+=== High-confidence association rules (min_conf=95.0%) ===
+
+112 Rules Extracted. 
+
+
+
+=========== min_sup:  0.3 	 min_conf: 1.0 ==============
+=== Frequent itemsets (min_sup=30.0%) === 
+
+
+Number of itemsets: 100
+
+=== High-confidence association rules (min_conf=100.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.35 	 min_conf: 0.05 ==============
+=== Frequent itemsets (min_sup=35.0%) === 
+
+
+Number of itemsets: 72
+
+=== High-confidence association rules (min_conf=5.0%) ===
+
+182 Rules Extracted. 
+
+
+
+=========== min_sup:  0.35 	 min_conf: 0.1 ==============
+=== Frequent itemsets (min_sup=35.0%) === 
+
+
+Number of itemsets: 72
+
+=== High-confidence association rules (min_conf=10.0%) ===
+
+182 Rules Extracted. 
+
+
+
+=========== min_sup:  0.35 	 min_conf: 0.15 ==============
+=== Frequent itemsets (min_sup=35.0%) === 
+
+
+Number of itemsets: 72
+
+=== High-confidence association rules (min_conf=15.0%) ===
+
+182 Rules Extracted. 
+
+
+
+=========== min_sup:  0.35 	 min_conf: 0.2 ==============
+=== Frequent itemsets (min_sup=35.0%) === 
+
+
+Number of itemsets: 72
+
+=== High-confidence association rules (min_conf=20.0%) ===
+
+182 Rules Extracted. 
+
+
+
+=========== min_sup:  0.35 	 min_conf: 0.25 ==============
+=== Frequent itemsets (min_sup=35.0%) === 
+
+
+Number of itemsets: 72
+
+=== High-confidence association rules (min_conf=25.0%) ===
+
+182 Rules Extracted. 
+
+
+
+=========== min_sup:  0.35 	 min_conf: 0.3 ==============
+=== Frequent itemsets (min_sup=35.0%) === 
+
+
+Number of itemsets: 72
+
+=== High-confidence association rules (min_conf=30.0%) ===
+
+182 Rules Extracted. 
+
+
+
+=========== min_sup:  0.35 	 min_conf: 0.35 ==============
+=== Frequent itemsets (min_sup=35.0%) === 
+
+
+Number of itemsets: 72
+
+=== High-confidence association rules (min_conf=35.0%) ===
+
+182 Rules Extracted. 
+
+
+
+=========== min_sup:  0.35 	 min_conf: 0.4 ==============
+=== Frequent itemsets (min_sup=35.0%) === 
+
+
+Number of itemsets: 72
+
+=== High-confidence association rules (min_conf=40.0%) ===
+
+182 Rules Extracted. 
+
+
+
+=========== min_sup:  0.35 	 min_conf: 0.45 ==============
+=== Frequent itemsets (min_sup=35.0%) === 
+
+
+Number of itemsets: 72
+
+=== High-confidence association rules (min_conf=45.0%) ===
+
+179 Rules Extracted. 
+
+
+
+=========== min_sup:  0.35 	 min_conf: 0.5 ==============
+=== Frequent itemsets (min_sup=35.0%) === 
+
+
+Number of itemsets: 72
+
+=== High-confidence association rules (min_conf=50.0%) ===
+
+179 Rules Extracted. 
+
+
+
+=========== min_sup:  0.35 	 min_conf: 0.55 ==============
+=== Frequent itemsets (min_sup=35.0%) === 
+
+
+Number of itemsets: 72
+
+=== High-confidence association rules (min_conf=55.00000000000001%) ===
+
+175 Rules Extracted. 
+
+
+
+=========== min_sup:  0.35 	 min_conf: 0.6 ==============
+=== Frequent itemsets (min_sup=35.0%) === 
+
+
+Number of itemsets: 72
+
+=== High-confidence association rules (min_conf=60.0%) ===
+
+166 Rules Extracted. 
+
+
+
+=========== min_sup:  0.35 	 min_conf: 0.65 ==============
+=== Frequent itemsets (min_sup=35.0%) === 
+
+
+Number of itemsets: 72
+
+=== High-confidence association rules (min_conf=65.0%) ===
+
+140 Rules Extracted. 
+
+
+
+=========== min_sup:  0.35 	 min_conf: 0.7 ==============
+=== Frequent itemsets (min_sup=35.0%) === 
+
+
+Number of itemsets: 72
+
+=== High-confidence association rules (min_conf=70.0%) ===
+
+127 Rules Extracted. 
+
+
+
+=========== min_sup:  0.35 	 min_conf: 0.75 ==============
+=== Frequent itemsets (min_sup=35.0%) === 
+
+
+Number of itemsets: 72
+
+=== High-confidence association rules (min_conf=75.0%) ===
+
+98 Rules Extracted. 
+
+
+
+=========== min_sup:  0.35 	 min_conf: 0.8 ==============
+=== Frequent itemsets (min_sup=35.0%) === 
+
+
+Number of itemsets: 72
+
+=== High-confidence association rules (min_conf=80.0%) ===
+
+90 Rules Extracted. 
+
+
+
+=========== min_sup:  0.35 	 min_conf: 0.85 ==============
+=== Frequent itemsets (min_sup=35.0%) === 
+
+
+Number of itemsets: 72
+
+=== High-confidence association rules (min_conf=85.0%) ===
+
+90 Rules Extracted. 
+
+
+
+=========== min_sup:  0.35 	 min_conf: 0.9 ==============
+=== Frequent itemsets (min_sup=35.0%) === 
+
+
+Number of itemsets: 72
+
+=== High-confidence association rules (min_conf=90.0%) ===
+
+86 Rules Extracted. 
+
+
+
+=========== min_sup:  0.35 	 min_conf: 0.95 ==============
+=== Frequent itemsets (min_sup=35.0%) === 
+
+
+Number of itemsets: 72
+
+=== High-confidence association rules (min_conf=95.0%) ===
+
+71 Rules Extracted. 
+
+
+
+=========== min_sup:  0.35 	 min_conf: 1.0 ==============
+=== Frequent itemsets (min_sup=35.0%) === 
+
+
+Number of itemsets: 72
+
+=== High-confidence association rules (min_conf=100.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.4 	 min_conf: 0.05 ==============
+=== Frequent itemsets (min_sup=40.0%) === 
+
+
+Number of itemsets: 58
+
+=== High-confidence association rules (min_conf=5.0%) ===
+
+139 Rules Extracted. 
+
+
+
+=========== min_sup:  0.4 	 min_conf: 0.1 ==============
+=== Frequent itemsets (min_sup=40.0%) === 
+
+
+Number of itemsets: 58
+
+=== High-confidence association rules (min_conf=10.0%) ===
+
+139 Rules Extracted. 
+
+
+
+=========== min_sup:  0.4 	 min_conf: 0.15 ==============
+=== Frequent itemsets (min_sup=40.0%) === 
+
+
+Number of itemsets: 58
+
+=== High-confidence association rules (min_conf=15.0%) ===
+
+139 Rules Extracted. 
+
+
+
+=========== min_sup:  0.4 	 min_conf: 0.2 ==============
+=== Frequent itemsets (min_sup=40.0%) === 
+
+
+Number of itemsets: 58
+
+=== High-confidence association rules (min_conf=20.0%) ===
+
+139 Rules Extracted. 
+
+
+
+=========== min_sup:  0.4 	 min_conf: 0.25 ==============
+=== Frequent itemsets (min_sup=40.0%) === 
+
+
+Number of itemsets: 58
+
+=== High-confidence association rules (min_conf=25.0%) ===
+
+139 Rules Extracted. 
+
+
+
+=========== min_sup:  0.4 	 min_conf: 0.3 ==============
+=== Frequent itemsets (min_sup=40.0%) === 
+
+
+Number of itemsets: 58
+
+=== High-confidence association rules (min_conf=30.0%) ===
+
+139 Rules Extracted. 
+
+
+
+=========== min_sup:  0.4 	 min_conf: 0.35 ==============
+=== Frequent itemsets (min_sup=40.0%) === 
+
+
+Number of itemsets: 58
+
+=== High-confidence association rules (min_conf=35.0%) ===
+
+139 Rules Extracted. 
+
+
+
+=========== min_sup:  0.4 	 min_conf: 0.4 ==============
+=== Frequent itemsets (min_sup=40.0%) === 
+
+
+Number of itemsets: 58
+
+=== High-confidence association rules (min_conf=40.0%) ===
+
+139 Rules Extracted. 
+
+
+
+=========== min_sup:  0.4 	 min_conf: 0.45 ==============
+=== Frequent itemsets (min_sup=40.0%) === 
+
+
+Number of itemsets: 58
+
+=== High-confidence association rules (min_conf=45.0%) ===
+
+136 Rules Extracted. 
+
+
+
+=========== min_sup:  0.4 	 min_conf: 0.5 ==============
+=== Frequent itemsets (min_sup=40.0%) === 
+
+
+Number of itemsets: 58
+
+=== High-confidence association rules (min_conf=50.0%) ===
+
+136 Rules Extracted. 
+
+
+
+=========== min_sup:  0.4 	 min_conf: 0.55 ==============
+=== Frequent itemsets (min_sup=40.0%) === 
+
+
+Number of itemsets: 58
+
+=== High-confidence association rules (min_conf=55.00000000000001%) ===
+
+136 Rules Extracted. 
+
+
+
+=========== min_sup:  0.4 	 min_conf: 0.6 ==============
+=== Frequent itemsets (min_sup=40.0%) === 
+
+
+Number of itemsets: 58
+
+=== High-confidence association rules (min_conf=60.0%) ===
+
+129 Rules Extracted. 
+
+
+
+=========== min_sup:  0.4 	 min_conf: 0.65 ==============
+=== Frequent itemsets (min_sup=40.0%) === 
+
+
+Number of itemsets: 58
+
+=== High-confidence association rules (min_conf=65.0%) ===
+
+112 Rules Extracted. 
+
+
+
+=========== min_sup:  0.4 	 min_conf: 0.7 ==============
+=== Frequent itemsets (min_sup=40.0%) === 
+
+
+Number of itemsets: 58
+
+=== High-confidence association rules (min_conf=70.0%) ===
+
+105 Rules Extracted. 
+
+
+
+=========== min_sup:  0.4 	 min_conf: 0.75 ==============
+=== Frequent itemsets (min_sup=40.0%) === 
+
+
+Number of itemsets: 58
+
+=== High-confidence association rules (min_conf=75.0%) ===
+
+80 Rules Extracted. 
+
+
+
+=========== min_sup:  0.4 	 min_conf: 0.8 ==============
+=== Frequent itemsets (min_sup=40.0%) === 
+
+
+Number of itemsets: 58
+
+=== High-confidence association rules (min_conf=80.0%) ===
+
+72 Rules Extracted. 
+
+
+
+=========== min_sup:  0.4 	 min_conf: 0.85 ==============
+=== Frequent itemsets (min_sup=40.0%) === 
+
+
+Number of itemsets: 58
+
+=== High-confidence association rules (min_conf=85.0%) ===
+
+72 Rules Extracted. 
+
+
+
+=========== min_sup:  0.4 	 min_conf: 0.9 ==============
+=== Frequent itemsets (min_sup=40.0%) === 
+
+
+Number of itemsets: 58
+
+=== High-confidence association rules (min_conf=90.0%) ===
+
+70 Rules Extracted. 
+
+
+
+=========== min_sup:  0.4 	 min_conf: 0.95 ==============
+=== Frequent itemsets (min_sup=40.0%) === 
+
+
+Number of itemsets: 58
+
+=== High-confidence association rules (min_conf=95.0%) ===
+
+61 Rules Extracted. 
+
+
+
+=========== min_sup:  0.4 	 min_conf: 1.0 ==============
+=== Frequent itemsets (min_sup=40.0%) === 
+
+
+Number of itemsets: 58
+
+=== High-confidence association rules (min_conf=100.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.45 	 min_conf: 0.05 ==============
+=== Frequent itemsets (min_sup=45.0%) === 
+
+
+Number of itemsets: 32
+
+=== High-confidence association rules (min_conf=5.0%) ===
+
+63 Rules Extracted. 
+
+
+
+=========== min_sup:  0.45 	 min_conf: 0.1 ==============
+=== Frequent itemsets (min_sup=45.0%) === 
+
+
+Number of itemsets: 32
+
+=== High-confidence association rules (min_conf=10.0%) ===
+
+63 Rules Extracted. 
+
+
+
+=========== min_sup:  0.45 	 min_conf: 0.15 ==============
+=== Frequent itemsets (min_sup=45.0%) === 
+
+
+Number of itemsets: 32
+
+=== High-confidence association rules (min_conf=15.0%) ===
+
+63 Rules Extracted. 
+
+
+
+=========== min_sup:  0.45 	 min_conf: 0.2 ==============
+=== Frequent itemsets (min_sup=45.0%) === 
+
+
+Number of itemsets: 32
+
+=== High-confidence association rules (min_conf=20.0%) ===
+
+63 Rules Extracted. 
+
+
+
+=========== min_sup:  0.45 	 min_conf: 0.25 ==============
+=== Frequent itemsets (min_sup=45.0%) === 
+
+
+Number of itemsets: 32
+
+=== High-confidence association rules (min_conf=25.0%) ===
+
+63 Rules Extracted. 
+
+
+
+=========== min_sup:  0.45 	 min_conf: 0.3 ==============
+=== Frequent itemsets (min_sup=45.0%) === 
+
+
+Number of itemsets: 32
+
+=== High-confidence association rules (min_conf=30.0%) ===
+
+63 Rules Extracted. 
+
+
+
+=========== min_sup:  0.45 	 min_conf: 0.35 ==============
+=== Frequent itemsets (min_sup=45.0%) === 
+
+
+Number of itemsets: 32
+
+=== High-confidence association rules (min_conf=35.0%) ===
+
+63 Rules Extracted. 
+
+
+
+=========== min_sup:  0.45 	 min_conf: 0.4 ==============
+=== Frequent itemsets (min_sup=45.0%) === 
+
+
+Number of itemsets: 32
+
+=== High-confidence association rules (min_conf=40.0%) ===
+
+63 Rules Extracted. 
+
+
+
+=========== min_sup:  0.45 	 min_conf: 0.45 ==============
+=== Frequent itemsets (min_sup=45.0%) === 
+
+
+Number of itemsets: 32
+
+=== High-confidence association rules (min_conf=45.0%) ===
+
+63 Rules Extracted. 
+
+
+
+=========== min_sup:  0.45 	 min_conf: 0.5 ==============
+=== Frequent itemsets (min_sup=45.0%) === 
+
+
+Number of itemsets: 32
+
+=== High-confidence association rules (min_conf=50.0%) ===
+
+63 Rules Extracted. 
+
+
+
+=========== min_sup:  0.45 	 min_conf: 0.55 ==============
+=== Frequent itemsets (min_sup=45.0%) === 
+
+
+Number of itemsets: 32
+
+=== High-confidence association rules (min_conf=55.00000000000001%) ===
+
+63 Rules Extracted. 
+
+
+
+=========== min_sup:  0.45 	 min_conf: 0.6 ==============
+=== Frequent itemsets (min_sup=45.0%) === 
+
+
+Number of itemsets: 32
+
+=== High-confidence association rules (min_conf=60.0%) ===
+
+58 Rules Extracted. 
+
+
+
+=========== min_sup:  0.45 	 min_conf: 0.65 ==============
+=== Frequent itemsets (min_sup=45.0%) === 
+
+
+Number of itemsets: 32
+
+=== High-confidence association rules (min_conf=65.0%) ===
+
+54 Rules Extracted. 
+
+
+
+=========== min_sup:  0.45 	 min_conf: 0.7 ==============
+=== Frequent itemsets (min_sup=45.0%) === 
+
+
+Number of itemsets: 32
+
+=== High-confidence association rules (min_conf=70.0%) ===
+
+51 Rules Extracted. 
+
+
+
+=========== min_sup:  0.45 	 min_conf: 0.75 ==============
+=== Frequent itemsets (min_sup=45.0%) === 
+
+
+Number of itemsets: 32
+
+=== High-confidence association rules (min_conf=75.0%) ===
+
+42 Rules Extracted. 
+
+
+
+=========== min_sup:  0.45 	 min_conf: 0.8 ==============
+=== Frequent itemsets (min_sup=45.0%) === 
+
+
+Number of itemsets: 32
+
+=== High-confidence association rules (min_conf=80.0%) ===
+
+38 Rules Extracted. 
+
+
+
+=========== min_sup:  0.45 	 min_conf: 0.85 ==============
+=== Frequent itemsets (min_sup=45.0%) === 
+
+
+Number of itemsets: 32
+
+=== High-confidence association rules (min_conf=85.0%) ===
+
+38 Rules Extracted. 
+
+
+
+=========== min_sup:  0.45 	 min_conf: 0.9 ==============
+=== Frequent itemsets (min_sup=45.0%) === 
+
+
+Number of itemsets: 32
+
+=== High-confidence association rules (min_conf=90.0%) ===
+
+36 Rules Extracted. 
+
+
+
+=========== min_sup:  0.45 	 min_conf: 0.95 ==============
+=== Frequent itemsets (min_sup=45.0%) === 
+
+
+Number of itemsets: 32
+
+=== High-confidence association rules (min_conf=95.0%) ===
+
+30 Rules Extracted. 
+
+
+
+=========== min_sup:  0.45 	 min_conf: 1.0 ==============
+=== Frequent itemsets (min_sup=45.0%) === 
+
+
+Number of itemsets: 32
+
+=== High-confidence association rules (min_conf=100.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.5 	 min_conf: 0.05 ==============
+=== Frequent itemsets (min_sup=50.0%) === 
+
+
+Number of itemsets: 30
+
+=== High-confidence association rules (min_conf=5.0%) ===
+
+57 Rules Extracted. 
+
+
+
+=========== min_sup:  0.5 	 min_conf: 0.1 ==============
+=== Frequent itemsets (min_sup=50.0%) === 
+
+
+Number of itemsets: 30
+
+=== High-confidence association rules (min_conf=10.0%) ===
+
+57 Rules Extracted. 
+
+
+
+=========== min_sup:  0.5 	 min_conf: 0.15 ==============
+=== Frequent itemsets (min_sup=50.0%) === 
+
+
+Number of itemsets: 30
+
+=== High-confidence association rules (min_conf=15.0%) ===
+
+57 Rules Extracted. 
+
+
+
+=========== min_sup:  0.5 	 min_conf: 0.2 ==============
+=== Frequent itemsets (min_sup=50.0%) === 
+
+
+Number of itemsets: 30
+
+=== High-confidence association rules (min_conf=20.0%) ===
+
+57 Rules Extracted. 
+
+
+
+=========== min_sup:  0.5 	 min_conf: 0.25 ==============
+=== Frequent itemsets (min_sup=50.0%) === 
+
+
+Number of itemsets: 30
+
+=== High-confidence association rules (min_conf=25.0%) ===
+
+57 Rules Extracted. 
+
+
+
+=========== min_sup:  0.5 	 min_conf: 0.3 ==============
+=== Frequent itemsets (min_sup=50.0%) === 
+
+
+Number of itemsets: 30
+
+=== High-confidence association rules (min_conf=30.0%) ===
+
+57 Rules Extracted. 
+
+
+
+=========== min_sup:  0.5 	 min_conf: 0.35 ==============
+=== Frequent itemsets (min_sup=50.0%) === 
+
+
+Number of itemsets: 30
+
+=== High-confidence association rules (min_conf=35.0%) ===
+
+57 Rules Extracted. 
+
+
+
+=========== min_sup:  0.5 	 min_conf: 0.4 ==============
+=== Frequent itemsets (min_sup=50.0%) === 
+
+
+Number of itemsets: 30
+
+=== High-confidence association rules (min_conf=40.0%) ===
+
+57 Rules Extracted. 
+
+
+
+=========== min_sup:  0.5 	 min_conf: 0.45 ==============
+=== Frequent itemsets (min_sup=50.0%) === 
+
+
+Number of itemsets: 30
+
+=== High-confidence association rules (min_conf=45.0%) ===
+
+57 Rules Extracted. 
+
+
+
+=========== min_sup:  0.5 	 min_conf: 0.5 ==============
+=== Frequent itemsets (min_sup=50.0%) === 
+
+
+Number of itemsets: 30
+
+=== High-confidence association rules (min_conf=50.0%) ===
+
+57 Rules Extracted. 
+
+
+
+=========== min_sup:  0.5 	 min_conf: 0.55 ==============
+=== Frequent itemsets (min_sup=50.0%) === 
+
+
+Number of itemsets: 30
+
+=== High-confidence association rules (min_conf=55.00000000000001%) ===
+
+57 Rules Extracted. 
+
+
+
+=========== min_sup:  0.5 	 min_conf: 0.6 ==============
+=== Frequent itemsets (min_sup=50.0%) === 
+
+
+Number of itemsets: 30
+
+=== High-confidence association rules (min_conf=60.0%) ===
+
+52 Rules Extracted. 
+
+
+
+=========== min_sup:  0.5 	 min_conf: 0.65 ==============
+=== Frequent itemsets (min_sup=50.0%) === 
+
+
+Number of itemsets: 30
+
+=== High-confidence association rules (min_conf=65.0%) ===
+
+49 Rules Extracted. 
+
+
+
+=========== min_sup:  0.5 	 min_conf: 0.7 ==============
+=== Frequent itemsets (min_sup=50.0%) === 
+
+
+Number of itemsets: 30
+
+=== High-confidence association rules (min_conf=70.0%) ===
+
+47 Rules Extracted. 
+
+
+
+=========== min_sup:  0.5 	 min_conf: 0.75 ==============
+=== Frequent itemsets (min_sup=50.0%) === 
+
+
+Number of itemsets: 30
+
+=== High-confidence association rules (min_conf=75.0%) ===
+
+39 Rules Extracted. 
+
+
+
+=========== min_sup:  0.5 	 min_conf: 0.8 ==============
+=== Frequent itemsets (min_sup=50.0%) === 
+
+
+Number of itemsets: 30
+
+=== High-confidence association rules (min_conf=80.0%) ===
+
+36 Rules Extracted. 
+
+
+
+=========== min_sup:  0.5 	 min_conf: 0.85 ==============
+=== Frequent itemsets (min_sup=50.0%) === 
+
+
+Number of itemsets: 30
+
+=== High-confidence association rules (min_conf=85.0%) ===
+
+36 Rules Extracted. 
+
+
+
+=========== min_sup:  0.5 	 min_conf: 0.9 ==============
+=== Frequent itemsets (min_sup=50.0%) === 
+
+
+Number of itemsets: 30
+
+=== High-confidence association rules (min_conf=90.0%) ===
+
+34 Rules Extracted. 
+
+
+
+=========== min_sup:  0.5 	 min_conf: 0.95 ==============
+=== Frequent itemsets (min_sup=50.0%) === 
+
+
+Number of itemsets: 30
+
+=== High-confidence association rules (min_conf=95.0%) ===
+
+28 Rules Extracted. 
+
+
+
+=========== min_sup:  0.5 	 min_conf: 1.0 ==============
+=== Frequent itemsets (min_sup=50.0%) === 
+
+
+Number of itemsets: 30
+
+=== High-confidence association rules (min_conf=100.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.55 	 min_conf: 0.05 ==============
+=== Frequent itemsets (min_sup=55.00000000000001%) === 
+
+
+Number of itemsets: 24
+
+=== High-confidence association rules (min_conf=5.0%) ===
+
+40 Rules Extracted. 
+
+
+
+=========== min_sup:  0.55 	 min_conf: 0.1 ==============
+=== Frequent itemsets (min_sup=55.00000000000001%) === 
+
+
+Number of itemsets: 24
+
+=== High-confidence association rules (min_conf=10.0%) ===
+
+40 Rules Extracted. 
+
+
+
+=========== min_sup:  0.55 	 min_conf: 0.15 ==============
+=== Frequent itemsets (min_sup=55.00000000000001%) === 
+
+
+Number of itemsets: 24
+
+=== High-confidence association rules (min_conf=15.0%) ===
+
+40 Rules Extracted. 
+
+
+
+=========== min_sup:  0.55 	 min_conf: 0.2 ==============
+=== Frequent itemsets (min_sup=55.00000000000001%) === 
+
+
+Number of itemsets: 24
+
+=== High-confidence association rules (min_conf=20.0%) ===
+
+40 Rules Extracted. 
+
+
+
+=========== min_sup:  0.55 	 min_conf: 0.25 ==============
+=== Frequent itemsets (min_sup=55.00000000000001%) === 
+
+
+Number of itemsets: 24
+
+=== High-confidence association rules (min_conf=25.0%) ===
+
+40 Rules Extracted. 
+
+
+
+=========== min_sup:  0.55 	 min_conf: 0.3 ==============
+=== Frequent itemsets (min_sup=55.00000000000001%) === 
+
+
+Number of itemsets: 24
+
+=== High-confidence association rules (min_conf=30.0%) ===
+
+40 Rules Extracted. 
+
+
+
+=========== min_sup:  0.55 	 min_conf: 0.35 ==============
+=== Frequent itemsets (min_sup=55.00000000000001%) === 
+
+
+Number of itemsets: 24
+
+=== High-confidence association rules (min_conf=35.0%) ===
+
+40 Rules Extracted. 
+
+
+
+=========== min_sup:  0.55 	 min_conf: 0.4 ==============
+=== Frequent itemsets (min_sup=55.00000000000001%) === 
+
+
+Number of itemsets: 24
+
+=== High-confidence association rules (min_conf=40.0%) ===
+
+40 Rules Extracted. 
+
+
+
+=========== min_sup:  0.55 	 min_conf: 0.45 ==============
+=== Frequent itemsets (min_sup=55.00000000000001%) === 
+
+
+Number of itemsets: 24
+
+=== High-confidence association rules (min_conf=45.0%) ===
+
+40 Rules Extracted. 
+
+
+
+=========== min_sup:  0.55 	 min_conf: 0.5 ==============
+=== Frequent itemsets (min_sup=55.00000000000001%) === 
+
+
+Number of itemsets: 24
+
+=== High-confidence association rules (min_conf=50.0%) ===
+
+40 Rules Extracted. 
+
+
+
+=========== min_sup:  0.55 	 min_conf: 0.55 ==============
+=== Frequent itemsets (min_sup=55.00000000000001%) === 
+
+
+Number of itemsets: 24
+
+=== High-confidence association rules (min_conf=55.00000000000001%) ===
+
+40 Rules Extracted. 
+
+
+
+=========== min_sup:  0.55 	 min_conf: 0.6 ==============
+=== Frequent itemsets (min_sup=55.00000000000001%) === 
+
+
+Number of itemsets: 24
+
+=== High-confidence association rules (min_conf=60.0%) ===
+
+37 Rules Extracted. 
+
+
+
+=========== min_sup:  0.55 	 min_conf: 0.65 ==============
+=== Frequent itemsets (min_sup=55.00000000000001%) === 
+
+
+Number of itemsets: 24
+
+=== High-confidence association rules (min_conf=65.0%) ===
+
+34 Rules Extracted. 
+
+
+
+=========== min_sup:  0.55 	 min_conf: 0.7 ==============
+=== Frequent itemsets (min_sup=55.00000000000001%) === 
+
+
+Number of itemsets: 24
+
+=== High-confidence association rules (min_conf=70.0%) ===
+
+32 Rules Extracted. 
+
+
+
+=========== min_sup:  0.55 	 min_conf: 0.75 ==============
+=== Frequent itemsets (min_sup=55.00000000000001%) === 
+
+
+Number of itemsets: 24
+
+=== High-confidence association rules (min_conf=75.0%) ===
+
+27 Rules Extracted. 
+
+
+
+=========== min_sup:  0.55 	 min_conf: 0.8 ==============
+=== Frequent itemsets (min_sup=55.00000000000001%) === 
+
+
+Number of itemsets: 24
+
+=== High-confidence association rules (min_conf=80.0%) ===
+
+27 Rules Extracted. 
+
+
+
+=========== min_sup:  0.55 	 min_conf: 0.85 ==============
+=== Frequent itemsets (min_sup=55.00000000000001%) === 
+
+
+Number of itemsets: 24
+
+=== High-confidence association rules (min_conf=85.0%) ===
+
+27 Rules Extracted. 
+
+
+
+=========== min_sup:  0.55 	 min_conf: 0.9 ==============
+=== Frequent itemsets (min_sup=55.00000000000001%) === 
+
+
+Number of itemsets: 24
+
+=== High-confidence association rules (min_conf=90.0%) ===
+
+25 Rules Extracted. 
+
+
+
+=========== min_sup:  0.55 	 min_conf: 0.95 ==============
+=== Frequent itemsets (min_sup=55.00000000000001%) === 
+
+
+Number of itemsets: 24
+
+=== High-confidence association rules (min_conf=95.0%) ===
+
+22 Rules Extracted. 
+
+
+
+=========== min_sup:  0.55 	 min_conf: 1.0 ==============
+=== Frequent itemsets (min_sup=55.00000000000001%) === 
+
+
+Number of itemsets: 24
+
+=== High-confidence association rules (min_conf=100.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.6 	 min_conf: 0.05 ==============
+=== Frequent itemsets (min_sup=60.0%) === 
+
+
+Number of itemsets: 14
+
+=== High-confidence association rules (min_conf=5.0%) ===
+
+20 Rules Extracted. 
+
+
+
+=========== min_sup:  0.6 	 min_conf: 0.1 ==============
+=== Frequent itemsets (min_sup=60.0%) === 
+
+
+Number of itemsets: 14
+
+=== High-confidence association rules (min_conf=10.0%) ===
+
+20 Rules Extracted. 
+
+
+
+=========== min_sup:  0.6 	 min_conf: 0.15 ==============
+=== Frequent itemsets (min_sup=60.0%) === 
+
+
+Number of itemsets: 14
+
+=== High-confidence association rules (min_conf=15.0%) ===
+
+20 Rules Extracted. 
+
+
+
+=========== min_sup:  0.6 	 min_conf: 0.2 ==============
+=== Frequent itemsets (min_sup=60.0%) === 
+
+
+Number of itemsets: 14
+
+=== High-confidence association rules (min_conf=20.0%) ===
+
+20 Rules Extracted. 
+
+
+
+=========== min_sup:  0.6 	 min_conf: 0.25 ==============
+=== Frequent itemsets (min_sup=60.0%) === 
+
+
+Number of itemsets: 14
+
+=== High-confidence association rules (min_conf=25.0%) ===
+
+20 Rules Extracted. 
+
+
+
+=========== min_sup:  0.6 	 min_conf: 0.3 ==============
+=== Frequent itemsets (min_sup=60.0%) === 
+
+
+Number of itemsets: 14
+
+=== High-confidence association rules (min_conf=30.0%) ===
+
+20 Rules Extracted. 
+
+
+
+=========== min_sup:  0.6 	 min_conf: 0.35 ==============
+=== Frequent itemsets (min_sup=60.0%) === 
+
+
+Number of itemsets: 14
+
+=== High-confidence association rules (min_conf=35.0%) ===
+
+20 Rules Extracted. 
+
+
+
+=========== min_sup:  0.6 	 min_conf: 0.4 ==============
+=== Frequent itemsets (min_sup=60.0%) === 
+
+
+Number of itemsets: 14
+
+=== High-confidence association rules (min_conf=40.0%) ===
+
+20 Rules Extracted. 
+
+
+
+=========== min_sup:  0.6 	 min_conf: 0.45 ==============
+=== Frequent itemsets (min_sup=60.0%) === 
+
+
+Number of itemsets: 14
+
+=== High-confidence association rules (min_conf=45.0%) ===
+
+20 Rules Extracted. 
+
+
+
+=========== min_sup:  0.6 	 min_conf: 0.5 ==============
+=== Frequent itemsets (min_sup=60.0%) === 
+
+
+Number of itemsets: 14
+
+=== High-confidence association rules (min_conf=50.0%) ===
+
+20 Rules Extracted. 
+
+
+
+=========== min_sup:  0.6 	 min_conf: 0.55 ==============
+=== Frequent itemsets (min_sup=60.0%) === 
+
+
+Number of itemsets: 14
+
+=== High-confidence association rules (min_conf=55.00000000000001%) ===
+
+20 Rules Extracted. 
+
+
+
+=========== min_sup:  0.6 	 min_conf: 0.6 ==============
+=== Frequent itemsets (min_sup=60.0%) === 
+
+
+Number of itemsets: 14
+
+=== High-confidence association rules (min_conf=60.0%) ===
+
+20 Rules Extracted. 
+
+
+
+=========== min_sup:  0.6 	 min_conf: 0.65 ==============
+=== Frequent itemsets (min_sup=60.0%) === 
+
+
+Number of itemsets: 14
+
+=== High-confidence association rules (min_conf=65.0%) ===
+
+19 Rules Extracted. 
+
+
+
+=========== min_sup:  0.6 	 min_conf: 0.7 ==============
+=== Frequent itemsets (min_sup=60.0%) === 
+
+
+Number of itemsets: 14
+
+=== High-confidence association rules (min_conf=70.0%) ===
+
+17 Rules Extracted. 
+
+
+
+=========== min_sup:  0.6 	 min_conf: 0.75 ==============
+=== Frequent itemsets (min_sup=60.0%) === 
+
+
+Number of itemsets: 14
+
+=== High-confidence association rules (min_conf=75.0%) ===
+
+12 Rules Extracted. 
+
+
+
+=========== min_sup:  0.6 	 min_conf: 0.8 ==============
+=== Frequent itemsets (min_sup=60.0%) === 
+
+
+Number of itemsets: 14
+
+=== High-confidence association rules (min_conf=80.0%) ===
+
+12 Rules Extracted. 
+
+
+
+=========== min_sup:  0.6 	 min_conf: 0.85 ==============
+=== Frequent itemsets (min_sup=60.0%) === 
+
+
+Number of itemsets: 14
+
+=== High-confidence association rules (min_conf=85.0%) ===
+
+12 Rules Extracted. 
+
+
+
+=========== min_sup:  0.6 	 min_conf: 0.9 ==============
+=== Frequent itemsets (min_sup=60.0%) === 
+
+
+Number of itemsets: 14
+
+=== High-confidence association rules (min_conf=90.0%) ===
+
+12 Rules Extracted. 
+
+
+
+=========== min_sup:  0.6 	 min_conf: 0.95 ==============
+=== Frequent itemsets (min_sup=60.0%) === 
+
+
+Number of itemsets: 14
+
+=== High-confidence association rules (min_conf=95.0%) ===
+
+11 Rules Extracted. 
+
+
+
+=========== min_sup:  0.6 	 min_conf: 1.0 ==============
+=== Frequent itemsets (min_sup=60.0%) === 
+
+
+Number of itemsets: 14
+
+=== High-confidence association rules (min_conf=100.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.65 	 min_conf: 0.05 ==============
+=== Frequent itemsets (min_sup=65.0%) === 
+
+
+Number of itemsets: 11
+
+=== High-confidence association rules (min_conf=5.0%) ===
+
+16 Rules Extracted. 
+
+
+
+=========== min_sup:  0.65 	 min_conf: 0.1 ==============
+=== Frequent itemsets (min_sup=65.0%) === 
+
+
+Number of itemsets: 11
+
+=== High-confidence association rules (min_conf=10.0%) ===
+
+16 Rules Extracted. 
+
+
+
+=========== min_sup:  0.65 	 min_conf: 0.15 ==============
+=== Frequent itemsets (min_sup=65.0%) === 
+
+
+Number of itemsets: 11
+
+=== High-confidence association rules (min_conf=15.0%) ===
+
+16 Rules Extracted. 
+
+
+
+=========== min_sup:  0.65 	 min_conf: 0.2 ==============
+=== Frequent itemsets (min_sup=65.0%) === 
+
+
+Number of itemsets: 11
+
+=== High-confidence association rules (min_conf=20.0%) ===
+
+16 Rules Extracted. 
+
+
+
+=========== min_sup:  0.65 	 min_conf: 0.25 ==============
+=== Frequent itemsets (min_sup=65.0%) === 
+
+
+Number of itemsets: 11
+
+=== High-confidence association rules (min_conf=25.0%) ===
+
+16 Rules Extracted. 
+
+
+
+=========== min_sup:  0.65 	 min_conf: 0.3 ==============
+=== Frequent itemsets (min_sup=65.0%) === 
+
+
+Number of itemsets: 11
+
+=== High-confidence association rules (min_conf=30.0%) ===
+
+16 Rules Extracted. 
+
+
+
+=========== min_sup:  0.65 	 min_conf: 0.35 ==============
+=== Frequent itemsets (min_sup=65.0%) === 
+
+
+Number of itemsets: 11
+
+=== High-confidence association rules (min_conf=35.0%) ===
+
+16 Rules Extracted. 
+
+
+
+=========== min_sup:  0.65 	 min_conf: 0.4 ==============
+=== Frequent itemsets (min_sup=65.0%) === 
+
+
+Number of itemsets: 11
+
+=== High-confidence association rules (min_conf=40.0%) ===
+
+16 Rules Extracted. 
+
+
+
+=========== min_sup:  0.65 	 min_conf: 0.45 ==============
+=== Frequent itemsets (min_sup=65.0%) === 
+
+
+Number of itemsets: 11
+
+=== High-confidence association rules (min_conf=45.0%) ===
+
+16 Rules Extracted. 
+
+
+
+=========== min_sup:  0.65 	 min_conf: 0.5 ==============
+=== Frequent itemsets (min_sup=65.0%) === 
+
+
+Number of itemsets: 11
+
+=== High-confidence association rules (min_conf=50.0%) ===
+
+16 Rules Extracted. 
+
+
+
+=========== min_sup:  0.65 	 min_conf: 0.55 ==============
+=== Frequent itemsets (min_sup=65.0%) === 
+
+
+Number of itemsets: 11
+
+=== High-confidence association rules (min_conf=55.00000000000001%) ===
+
+16 Rules Extracted. 
+
+
+
+=========== min_sup:  0.65 	 min_conf: 0.6 ==============
+=== Frequent itemsets (min_sup=65.0%) === 
+
+
+Number of itemsets: 11
+
+=== High-confidence association rules (min_conf=60.0%) ===
+
+16 Rules Extracted. 
+
+
+
+=========== min_sup:  0.65 	 min_conf: 0.65 ==============
+=== Frequent itemsets (min_sup=65.0%) === 
+
+
+Number of itemsets: 11
+
+=== High-confidence association rules (min_conf=65.0%) ===
+
+16 Rules Extracted. 
+
+
+
+=========== min_sup:  0.65 	 min_conf: 0.7 ==============
+=== Frequent itemsets (min_sup=65.0%) === 
+
+
+Number of itemsets: 11
+
+=== High-confidence association rules (min_conf=70.0%) ===
+
+15 Rules Extracted. 
+
+
+
+=========== min_sup:  0.65 	 min_conf: 0.75 ==============
+=== Frequent itemsets (min_sup=65.0%) === 
+
+
+Number of itemsets: 11
+
+=== High-confidence association rules (min_conf=75.0%) ===
+
+10 Rules Extracted. 
+
+
+
+=========== min_sup:  0.65 	 min_conf: 0.8 ==============
+=== Frequent itemsets (min_sup=65.0%) === 
+
+
+Number of itemsets: 11
+
+=== High-confidence association rules (min_conf=80.0%) ===
+
+10 Rules Extracted. 
+
+
+
+=========== min_sup:  0.65 	 min_conf: 0.85 ==============
+=== Frequent itemsets (min_sup=65.0%) === 
+
+
+Number of itemsets: 11
+
+=== High-confidence association rules (min_conf=85.0%) ===
+
+10 Rules Extracted. 
+
+
+
+=========== min_sup:  0.65 	 min_conf: 0.9 ==============
+=== Frequent itemsets (min_sup=65.0%) === 
+
+
+Number of itemsets: 11
+
+=== High-confidence association rules (min_conf=90.0%) ===
+
+10 Rules Extracted. 
+
+
+
+=========== min_sup:  0.65 	 min_conf: 0.95 ==============
+=== Frequent itemsets (min_sup=65.0%) === 
+
+
+Number of itemsets: 11
+
+=== High-confidence association rules (min_conf=95.0%) ===
+
+10 Rules Extracted. 
+
+
+
+=========== min_sup:  0.65 	 min_conf: 1.0 ==============
+=== Frequent itemsets (min_sup=65.0%) === 
+
+
+Number of itemsets: 11
+
+=== High-confidence association rules (min_conf=100.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.7 	 min_conf: 0.05 ==============
+=== Frequent itemsets (min_sup=70.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=5.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.7 	 min_conf: 0.1 ==============
+=== Frequent itemsets (min_sup=70.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=10.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.7 	 min_conf: 0.15 ==============
+=== Frequent itemsets (min_sup=70.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=15.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.7 	 min_conf: 0.2 ==============
+=== Frequent itemsets (min_sup=70.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=20.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.7 	 min_conf: 0.25 ==============
+=== Frequent itemsets (min_sup=70.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=25.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.7 	 min_conf: 0.3 ==============
+=== Frequent itemsets (min_sup=70.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=30.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.7 	 min_conf: 0.35 ==============
+=== Frequent itemsets (min_sup=70.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=35.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.7 	 min_conf: 0.4 ==============
+=== Frequent itemsets (min_sup=70.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=40.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.7 	 min_conf: 0.45 ==============
+=== Frequent itemsets (min_sup=70.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=45.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.7 	 min_conf: 0.5 ==============
+=== Frequent itemsets (min_sup=70.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=50.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.7 	 min_conf: 0.55 ==============
+=== Frequent itemsets (min_sup=70.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=55.00000000000001%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.7 	 min_conf: 0.6 ==============
+=== Frequent itemsets (min_sup=70.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=60.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.7 	 min_conf: 0.65 ==============
+=== Frequent itemsets (min_sup=70.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=65.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.7 	 min_conf: 0.7 ==============
+=== Frequent itemsets (min_sup=70.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=70.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.7 	 min_conf: 0.75 ==============
+=== Frequent itemsets (min_sup=70.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=75.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.7 	 min_conf: 0.8 ==============
+=== Frequent itemsets (min_sup=70.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=80.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.7 	 min_conf: 0.85 ==============
+=== Frequent itemsets (min_sup=70.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=85.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.7 	 min_conf: 0.9 ==============
+=== Frequent itemsets (min_sup=70.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=90.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.7 	 min_conf: 0.95 ==============
+=== Frequent itemsets (min_sup=70.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=95.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.7 	 min_conf: 1.0 ==============
+=== Frequent itemsets (min_sup=70.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=100.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.75 	 min_conf: 0.05 ==============
+=== Frequent itemsets (min_sup=75.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=5.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.75 	 min_conf: 0.1 ==============
+=== Frequent itemsets (min_sup=75.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=10.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.75 	 min_conf: 0.15 ==============
+=== Frequent itemsets (min_sup=75.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=15.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.75 	 min_conf: 0.2 ==============
+=== Frequent itemsets (min_sup=75.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=20.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.75 	 min_conf: 0.25 ==============
+=== Frequent itemsets (min_sup=75.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=25.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.75 	 min_conf: 0.3 ==============
+=== Frequent itemsets (min_sup=75.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=30.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.75 	 min_conf: 0.35 ==============
+=== Frequent itemsets (min_sup=75.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=35.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.75 	 min_conf: 0.4 ==============
+=== Frequent itemsets (min_sup=75.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=40.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.75 	 min_conf: 0.45 ==============
+=== Frequent itemsets (min_sup=75.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=45.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.75 	 min_conf: 0.5 ==============
+=== Frequent itemsets (min_sup=75.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=50.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.75 	 min_conf: 0.55 ==============
+=== Frequent itemsets (min_sup=75.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=55.00000000000001%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.75 	 min_conf: 0.6 ==============
+=== Frequent itemsets (min_sup=75.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=60.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.75 	 min_conf: 0.65 ==============
+=== Frequent itemsets (min_sup=75.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=65.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.75 	 min_conf: 0.7 ==============
+=== Frequent itemsets (min_sup=75.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=70.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.75 	 min_conf: 0.75 ==============
+=== Frequent itemsets (min_sup=75.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=75.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.75 	 min_conf: 0.8 ==============
+=== Frequent itemsets (min_sup=75.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=80.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.75 	 min_conf: 0.85 ==============
+=== Frequent itemsets (min_sup=75.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=85.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.75 	 min_conf: 0.9 ==============
+=== Frequent itemsets (min_sup=75.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=90.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.75 	 min_conf: 0.95 ==============
+=== Frequent itemsets (min_sup=75.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=95.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.75 	 min_conf: 1.0 ==============
+=== Frequent itemsets (min_sup=75.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=100.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.8 	 min_conf: 0.05 ==============
+=== Frequent itemsets (min_sup=80.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=5.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.8 	 min_conf: 0.1 ==============
+=== Frequent itemsets (min_sup=80.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=10.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.8 	 min_conf: 0.15 ==============
+=== Frequent itemsets (min_sup=80.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=15.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.8 	 min_conf: 0.2 ==============
+=== Frequent itemsets (min_sup=80.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=20.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.8 	 min_conf: 0.25 ==============
+=== Frequent itemsets (min_sup=80.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=25.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.8 	 min_conf: 0.3 ==============
+=== Frequent itemsets (min_sup=80.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=30.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.8 	 min_conf: 0.35 ==============
+=== Frequent itemsets (min_sup=80.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=35.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.8 	 min_conf: 0.4 ==============
+=== Frequent itemsets (min_sup=80.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=40.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.8 	 min_conf: 0.45 ==============
+=== Frequent itemsets (min_sup=80.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=45.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.8 	 min_conf: 0.5 ==============
+=== Frequent itemsets (min_sup=80.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=50.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.8 	 min_conf: 0.55 ==============
+=== Frequent itemsets (min_sup=80.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=55.00000000000001%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.8 	 min_conf: 0.6 ==============
+=== Frequent itemsets (min_sup=80.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=60.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.8 	 min_conf: 0.65 ==============
+=== Frequent itemsets (min_sup=80.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=65.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.8 	 min_conf: 0.7 ==============
+=== Frequent itemsets (min_sup=80.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=70.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.8 	 min_conf: 0.75 ==============
+=== Frequent itemsets (min_sup=80.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=75.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.8 	 min_conf: 0.8 ==============
+=== Frequent itemsets (min_sup=80.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=80.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.8 	 min_conf: 0.85 ==============
+=== Frequent itemsets (min_sup=80.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=85.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.8 	 min_conf: 0.9 ==============
+=== Frequent itemsets (min_sup=80.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=90.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.8 	 min_conf: 0.95 ==============
+=== Frequent itemsets (min_sup=80.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=95.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.8 	 min_conf: 1.0 ==============
+=== Frequent itemsets (min_sup=80.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=100.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.85 	 min_conf: 0.05 ==============
+=== Frequent itemsets (min_sup=85.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=5.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.85 	 min_conf: 0.1 ==============
+=== Frequent itemsets (min_sup=85.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=10.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.85 	 min_conf: 0.15 ==============
+=== Frequent itemsets (min_sup=85.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=15.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.85 	 min_conf: 0.2 ==============
+=== Frequent itemsets (min_sup=85.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=20.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.85 	 min_conf: 0.25 ==============
+=== Frequent itemsets (min_sup=85.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=25.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.85 	 min_conf: 0.3 ==============
+=== Frequent itemsets (min_sup=85.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=30.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.85 	 min_conf: 0.35 ==============
+=== Frequent itemsets (min_sup=85.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=35.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.85 	 min_conf: 0.4 ==============
+=== Frequent itemsets (min_sup=85.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=40.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.85 	 min_conf: 0.45 ==============
+=== Frequent itemsets (min_sup=85.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=45.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.85 	 min_conf: 0.5 ==============
+=== Frequent itemsets (min_sup=85.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=50.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.85 	 min_conf: 0.55 ==============
+=== Frequent itemsets (min_sup=85.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=55.00000000000001%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.85 	 min_conf: 0.6 ==============
+=== Frequent itemsets (min_sup=85.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=60.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.85 	 min_conf: 0.65 ==============
+=== Frequent itemsets (min_sup=85.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=65.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.85 	 min_conf: 0.7 ==============
+=== Frequent itemsets (min_sup=85.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=70.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.85 	 min_conf: 0.75 ==============
+=== Frequent itemsets (min_sup=85.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=75.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.85 	 min_conf: 0.8 ==============
+=== Frequent itemsets (min_sup=85.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=80.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.85 	 min_conf: 0.85 ==============
+=== Frequent itemsets (min_sup=85.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=85.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.85 	 min_conf: 0.9 ==============
+=== Frequent itemsets (min_sup=85.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=90.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.85 	 min_conf: 0.95 ==============
+=== Frequent itemsets (min_sup=85.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=95.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.85 	 min_conf: 1.0 ==============
+=== Frequent itemsets (min_sup=85.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=100.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.9 	 min_conf: 0.05 ==============
+=== Frequent itemsets (min_sup=90.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=5.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.9 	 min_conf: 0.1 ==============
+=== Frequent itemsets (min_sup=90.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=10.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.9 	 min_conf: 0.15 ==============
+=== Frequent itemsets (min_sup=90.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=15.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.9 	 min_conf: 0.2 ==============
+=== Frequent itemsets (min_sup=90.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=20.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.9 	 min_conf: 0.25 ==============
+=== Frequent itemsets (min_sup=90.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=25.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.9 	 min_conf: 0.3 ==============
+=== Frequent itemsets (min_sup=90.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=30.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.9 	 min_conf: 0.35 ==============
+=== Frequent itemsets (min_sup=90.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=35.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.9 	 min_conf: 0.4 ==============
+=== Frequent itemsets (min_sup=90.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=40.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.9 	 min_conf: 0.45 ==============
+=== Frequent itemsets (min_sup=90.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=45.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.9 	 min_conf: 0.5 ==============
+=== Frequent itemsets (min_sup=90.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=50.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.9 	 min_conf: 0.55 ==============
+=== Frequent itemsets (min_sup=90.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=55.00000000000001%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.9 	 min_conf: 0.6 ==============
+=== Frequent itemsets (min_sup=90.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=60.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.9 	 min_conf: 0.65 ==============
+=== Frequent itemsets (min_sup=90.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=65.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.9 	 min_conf: 0.7 ==============
+=== Frequent itemsets (min_sup=90.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=70.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.9 	 min_conf: 0.75 ==============
+=== Frequent itemsets (min_sup=90.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=75.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.9 	 min_conf: 0.8 ==============
+=== Frequent itemsets (min_sup=90.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=80.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.9 	 min_conf: 0.85 ==============
+=== Frequent itemsets (min_sup=90.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=85.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.9 	 min_conf: 0.9 ==============
+=== Frequent itemsets (min_sup=90.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=90.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.9 	 min_conf: 0.95 ==============
+=== Frequent itemsets (min_sup=90.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=95.0%) ===
+
+2 Rules Extracted. 
+
+
+
+=========== min_sup:  0.9 	 min_conf: 1.0 ==============
+=== Frequent itemsets (min_sup=90.0%) === 
+
+
+Number of itemsets: 3
+
+=== High-confidence association rules (min_conf=100.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.95 	 min_conf: 0.05 ==============
+=== Frequent itemsets (min_sup=95.0%) === 
+
+
+Number of itemsets: 1
+
+=== High-confidence association rules (min_conf=5.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.95 	 min_conf: 0.1 ==============
+=== Frequent itemsets (min_sup=95.0%) === 
+
+
+Number of itemsets: 1
+
+=== High-confidence association rules (min_conf=10.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.95 	 min_conf: 0.15 ==============
+=== Frequent itemsets (min_sup=95.0%) === 
+
+
+Number of itemsets: 1
+
+=== High-confidence association rules (min_conf=15.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.95 	 min_conf: 0.2 ==============
+=== Frequent itemsets (min_sup=95.0%) === 
+
+
+Number of itemsets: 1
+
+=== High-confidence association rules (min_conf=20.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.95 	 min_conf: 0.25 ==============
+=== Frequent itemsets (min_sup=95.0%) === 
+
+
+Number of itemsets: 1
+
+=== High-confidence association rules (min_conf=25.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.95 	 min_conf: 0.3 ==============
+=== Frequent itemsets (min_sup=95.0%) === 
+
+
+Number of itemsets: 1
+
+=== High-confidence association rules (min_conf=30.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.95 	 min_conf: 0.35 ==============
+=== Frequent itemsets (min_sup=95.0%) === 
+
+
+Number of itemsets: 1
+
+=== High-confidence association rules (min_conf=35.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.95 	 min_conf: 0.4 ==============
+=== Frequent itemsets (min_sup=95.0%) === 
+
+
+Number of itemsets: 1
+
+=== High-confidence association rules (min_conf=40.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.95 	 min_conf: 0.45 ==============
+=== Frequent itemsets (min_sup=95.0%) === 
+
+
+Number of itemsets: 1
+
+=== High-confidence association rules (min_conf=45.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.95 	 min_conf: 0.5 ==============
+=== Frequent itemsets (min_sup=95.0%) === 
+
+
+Number of itemsets: 1
+
+=== High-confidence association rules (min_conf=50.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.95 	 min_conf: 0.55 ==============
+=== Frequent itemsets (min_sup=95.0%) === 
+
+
+Number of itemsets: 1
+
+=== High-confidence association rules (min_conf=55.00000000000001%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.95 	 min_conf: 0.6 ==============
+=== Frequent itemsets (min_sup=95.0%) === 
+
+
+Number of itemsets: 1
+
+=== High-confidence association rules (min_conf=60.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.95 	 min_conf: 0.65 ==============
+=== Frequent itemsets (min_sup=95.0%) === 
+
+
+Number of itemsets: 1
+
+=== High-confidence association rules (min_conf=65.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.95 	 min_conf: 0.7 ==============
+=== Frequent itemsets (min_sup=95.0%) === 
+
+
+Number of itemsets: 1
+
+=== High-confidence association rules (min_conf=70.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.95 	 min_conf: 0.75 ==============
+=== Frequent itemsets (min_sup=95.0%) === 
+
+
+Number of itemsets: 1
+
+=== High-confidence association rules (min_conf=75.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.95 	 min_conf: 0.8 ==============
+=== Frequent itemsets (min_sup=95.0%) === 
+
+
+Number of itemsets: 1
+
+=== High-confidence association rules (min_conf=80.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.95 	 min_conf: 0.85 ==============
+=== Frequent itemsets (min_sup=95.0%) === 
+
+
+Number of itemsets: 1
+
+=== High-confidence association rules (min_conf=85.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.95 	 min_conf: 0.9 ==============
+=== Frequent itemsets (min_sup=95.0%) === 
+
+
+Number of itemsets: 1
+
+=== High-confidence association rules (min_conf=90.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.95 	 min_conf: 0.95 ==============
+=== Frequent itemsets (min_sup=95.0%) === 
+
+
+Number of itemsets: 1
+
+=== High-confidence association rules (min_conf=95.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  0.95 	 min_conf: 1.0 ==============
+=== Frequent itemsets (min_sup=95.0%) === 
+
+
+Number of itemsets: 1
+
+=== High-confidence association rules (min_conf=100.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  1.0 	 min_conf: 0.05 ==============
+=== Frequent itemsets (min_sup=100.0%) === 
+
+
+Number of itemsets: 0
+
+=== High-confidence association rules (min_conf=5.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  1.0 	 min_conf: 0.1 ==============
+=== Frequent itemsets (min_sup=100.0%) === 
+
+
+Number of itemsets: 0
+
+=== High-confidence association rules (min_conf=10.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  1.0 	 min_conf: 0.15 ==============
+=== Frequent itemsets (min_sup=100.0%) === 
+
+
+Number of itemsets: 0
+
+=== High-confidence association rules (min_conf=15.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  1.0 	 min_conf: 0.2 ==============
+=== Frequent itemsets (min_sup=100.0%) === 
+
+
+Number of itemsets: 0
+
+=== High-confidence association rules (min_conf=20.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  1.0 	 min_conf: 0.25 ==============
+=== Frequent itemsets (min_sup=100.0%) === 
+
+
+Number of itemsets: 0
+
+=== High-confidence association rules (min_conf=25.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  1.0 	 min_conf: 0.3 ==============
+=== Frequent itemsets (min_sup=100.0%) === 
+
+
+Number of itemsets: 0
+
+=== High-confidence association rules (min_conf=30.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  1.0 	 min_conf: 0.35 ==============
+=== Frequent itemsets (min_sup=100.0%) === 
+
+
+Number of itemsets: 0
+
+=== High-confidence association rules (min_conf=35.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  1.0 	 min_conf: 0.4 ==============
+=== Frequent itemsets (min_sup=100.0%) === 
+
+
+Number of itemsets: 0
+
+=== High-confidence association rules (min_conf=40.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  1.0 	 min_conf: 0.45 ==============
+=== Frequent itemsets (min_sup=100.0%) === 
+
+
+Number of itemsets: 0
+
+=== High-confidence association rules (min_conf=45.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  1.0 	 min_conf: 0.5 ==============
+=== Frequent itemsets (min_sup=100.0%) === 
+
+
+Number of itemsets: 0
+
+=== High-confidence association rules (min_conf=50.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  1.0 	 min_conf: 0.55 ==============
+=== Frequent itemsets (min_sup=100.0%) === 
+
+
+Number of itemsets: 0
+
+=== High-confidence association rules (min_conf=55.00000000000001%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  1.0 	 min_conf: 0.6 ==============
+=== Frequent itemsets (min_sup=100.0%) === 
+
+
+Number of itemsets: 0
+
+=== High-confidence association rules (min_conf=60.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  1.0 	 min_conf: 0.65 ==============
+=== Frequent itemsets (min_sup=100.0%) === 
+
+
+Number of itemsets: 0
+
+=== High-confidence association rules (min_conf=65.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  1.0 	 min_conf: 0.7 ==============
+=== Frequent itemsets (min_sup=100.0%) === 
+
+
+Number of itemsets: 0
+
+=== High-confidence association rules (min_conf=70.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  1.0 	 min_conf: 0.75 ==============
+=== Frequent itemsets (min_sup=100.0%) === 
+
+
+Number of itemsets: 0
+
+=== High-confidence association rules (min_conf=75.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  1.0 	 min_conf: 0.8 ==============
+=== Frequent itemsets (min_sup=100.0%) === 
+
+
+Number of itemsets: 0
+
+=== High-confidence association rules (min_conf=80.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  1.0 	 min_conf: 0.85 ==============
+=== Frequent itemsets (min_sup=100.0%) === 
+
+
+Number of itemsets: 0
+
+=== High-confidence association rules (min_conf=85.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  1.0 	 min_conf: 0.9 ==============
+=== Frequent itemsets (min_sup=100.0%) === 
+
+
+Number of itemsets: 0
+
+=== High-confidence association rules (min_conf=90.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  1.0 	 min_conf: 0.95 ==============
+=== Frequent itemsets (min_sup=100.0%) === 
+
+
+Number of itemsets: 0
+
+=== High-confidence association rules (min_conf=95.0%) ===
+
+0 Rules Extracted. 
+
+
+
+=========== min_sup:  1.0 	 min_conf: 1.0 ==============
+=== Frequent itemsets (min_sup=100.0%) === 
+
+
+Number of itemsets: 0
+
+=== High-confidence association rules (min_conf=100.0%) ===
+
+0 Rules Extracted. 

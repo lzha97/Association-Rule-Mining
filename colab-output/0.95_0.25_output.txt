@@ -1,0 +1,6 @@
+=== Frequent itemsets (min_sup=95.0%) === 
+
+['EMOTIONAL_STATUS: Conscious'], 96.4%
+
+=== High-confidence association rules (min_conf=25.0%) ===
+
