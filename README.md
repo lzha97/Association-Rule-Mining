@@ -31,29 +31,29 @@ We attempted the association rule extraction on a few other data sets before ult
 To map the original Motor Collisions data set into the Integrated Dataset (processed_motor_collisions.csv), the following steps were performed.
 
 1. Read the csv file in as a dataframe using pandas
-2. Extract the Year from the COLLISION_DATE field into its own column (YEAR) and keep only the collisions that occurred in 2020
-3. Extract the Hour from the COLLISION_TIME field into its own column (hour)
+2. Extract the Year from the `COLLISION_DATE` field into its own column (`YEAR`) and keep only the collisions that occurred in 2020
+3. Extract the Hour from the `COLLISION_TIME` field into its own column (`hour`)
 4. Drop the following columns:
-     - UNIQUE_ID
-     - COLLISION_ID
-     - PERSON_ID
-     - PERSON_INJURY
-     - PED_ACTION
-     - PED_LOCATION
-     - VEHICLE_ID
-     - CONTRIBUTING_FACTOR_2
-     - CONTRIBUTING_FACTOR_1
-     - COLLISION_TIME
-     - COLLISION_DATE
-     - YEAR
-5. Delete rows where the PERSON_AGE value is not between 1 and 100.
-6. Reconcile the PERSON_TYPE and PED_ROLE fields by changing the PED_ROLE to 'Bicyclist' (from 'Driver') when the PERSON_TYPE is 'Bicyclist'.
-7. Drop the rows where PERSON_TYPE is 'Bicyclist' and the PED_ROLE is 'Passenger' (There should be 8 of them)
-8. Drop the column PERSON_TYPE as its remaining meaningful values ('Pedestrian', 'Occupant') are represented by the 'PED_ROLE' column, as either 'Driver', 'Bicyclist', 'Pedestrian'
+     - `UNIQUE_ID`
+     - `COLLISION_ID`
+     - `PERSON_ID`
+     - `PERSON_INJURY`
+     - `PED_ACTION`
+     - `PED_LOCATION`
+     - `VEHICLE_ID`
+     - `CONTRIBUTING_FACTOR_2`
+     - `CONTRIBUTING_FACTOR_1`
+     - `COLLISION_TIME`
+     - `COLLISION_DATE`
+     - `YEAR`
+5. Delete rows where the `PERSON_AGE` value is not between 1 and 100.
+6. Reconcile the `PERSON_TYPE` and `PED_ROLE` fields by changing the `PED_ROLE` to 'Bicyclist' (from 'Driver') when the `PERSON_TYPE` is 'Bicyclist'.
+7. Drop the rows where `PERSON_TYPE` is 'Bicyclist' and the `PED_ROLE` is 'Passenger' (There should be 8 of them)
+8. Drop the column `PERSON_TYPE` as its remaining meaningful values ('Pedestrian', 'Occupant') are represented by the `PED_ROLE` column, as either 'Driver', 'Bicyclist', 'Pedestrian'
 9. Delete rows with null values or 'Unknown' values
 10. Delete rows with 'Does Not Apply', 'Other', '-', 'U' in any of the columns
-11. Discretize Age into bins (0-10, 0-20, 20-30, 30-40, 40-50, 50-60, 60-75, 75-100)
-12. Label the values in the dataframe by their column name, for example if the value of a cell in the PERSON_SEX column is F, it becomes PERSON_SEX: F
+11. Discretize `PERSON_AGE` into bins (0-10, 0-20, 20-30, 30-40, 40-50, 50-60, 60-75, 75-100) in a new column `AGE_RANGE`
+12. Label the values in the dataframe by their column name, for example if the value of a cell in the `PERSON_SEX` column is 'F', it becomes 'PERSON_SEX: F'
 
 
 ## Internal Project Design
@@ -69,4 +69,4 @@ To find the high confidence association rules, we generate possible association 
 The command line specification of a compelling sample run (i.e., a min_sup, min_conf combination that produces association rules that are revealing, surprising, useful, or helpful; see above). Briefly explain why the results are indeed compelling.
 
 ## Additional Info:
-Sample output for combinations of every 0.05 increment of `min_sup` and `min_conf` are included in the `colab output` folder in [this repo](https://github.com/lzha97/Association-Rule-Mining). The summary of these sample runs can be found in the file `colab-results.txt` in the same repo. These outputs were obtained by running the algorithm for possible 0.05 increment combinations of `min_sup` and `min_conf` in a colaboratory notebook. 
+Sample output for combinations of every 0.05 increment of `min_sup` and `min_conf` are included in the "colab output" folder of [this repo](https://github.com/lzha97/Association-Rule-Mining). The summary of these sample runs can be found in the file "colab-results.txt" in the same repo. These outputs were obtained by running the algorithm for possible 0.05 increment combinations of `min_sup` and `min_conf` in a colaboratory notebook. 
