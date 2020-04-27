@@ -12,6 +12,7 @@ def log(x, s=sys.argv[2], c = sys.argv[3]):
 
 
 def compute_confidence(itemsets, min_conf = sys.argv[3]):
+    rules = {}
     ct_rules_extracted = 0
     for iset in itemsets.keys():
         if type(iset) == tuple:
@@ -24,11 +25,12 @@ def compute_confidence(itemsets, min_conf = sys.argv[3]):
                 numerator = itemsets[rhs]
                 denominator = itemsets[lhs]
                 score = numerator/denominator
-                if score >= float(min_conf):
-                    log('Rule: ' +  str(lhs) + '--> (' +  str(i) +  ')\t Score:' +  str(score))
-                    ct_rules_extracted += 1
-    log(str(ct_rules_extracted) + ' Rules Extracted. ')
-    return
+                if score >= float(min_conf) and (lhs,i) not in rules:
+                        rules[(lhs,i)] = score
+                        #log('Rule: ' +  str(lhs) + '--> (' +  str(i) +  ')\t Score:' +  str(score))
+                        ct_rules_extracted += 1
+    #log(str(ct_rules_extracted) + ' Rules Extracted. ')
+    return rules, ct_rules_extracted
 
 
 ### Returns large 1-itemsets
@@ -53,7 +55,7 @@ def large_k_itemsets(items, table, min_sup):
     k = 2
     while (L != {}):
         C_k = apriori_gen(list(L.keys()),k) # C_k : set of potentially large itemsets that have k number of items
-        log("C_k is after apriori: "+str(C_k))
+        #log("C_k is after apriori: "+str(C_k))
         for row in table:
             for c in C_k:
                 if (set(c) <= set(row)):
@@ -66,7 +68,7 @@ def large_k_itemsets(items, table, min_sup):
         k += 1
         large_itemsets.update(L_k)
         L = L_k # L: set of large itemsets that have k number of items that meet min support out of C_k
-        log("L_k is: "+ str(L_k))
+        #log("L_k is: "+ str(L_k))
 
     return large_itemsets
 
@@ -74,7 +76,7 @@ def large_k_itemsets(items, table, min_sup):
 ## takes a set of large k-1 itemsets and returns a superset of all large k-itemsets.
 def apriori_gen(prior_itemsets,k):
     #log("in apriori")
-    log("prior itemsets: "+str(prior_itemsets))
+    #log("prior itemsets: "+str(prior_itemsets))
     #join
     C_k = set()
     for p in prior_itemsets: # L_(k-1)
@@ -98,10 +100,10 @@ def apriori_gen(prior_itemsets,k):
                 if (len(new_itemset) == k):
                     C_k.add(new_itemset)
     #prune
-    log("C_k is: "+ str(C_k))
+    #log("C_k is: "+ str(C_k))
     C_new = C_k.copy() # C_new is a copy of C_k for deletion during iteration.
     for c in C_k:
-        log("c is: " + str(c))
+        #log("c is: " + str(c))
         subsets = [list(x) for x in itertools.combinations(list(c),k-1)]
         #log("subsets are: "+str(subsets))
         for s in subsets:
@@ -109,10 +111,10 @@ def apriori_gen(prior_itemsets,k):
                 s = s[0]
             else:
                 s = tuple(s)
-            log("subset is: "+str(s))
+            #log("subset is: "+str(s))
             if s not in prior_itemsets:
                 C_new.remove(c)
-                log("s not in prior: "+str(s))
+                #log("s not in prior: "+str(s))
                 break
 
     return dict.fromkeys(C_new,0)
@@ -140,10 +142,10 @@ for row in table:
 
 log('############# ITEMS #############')
 log('Number of items: '+str(len(items)))
-log(str(items)+ '\n\n')
+#log(str(items)+ '\n\n')
 log('\n############# TABLE #############')
 log('Number of rows: '+str(len(table)))
-log(str(table)+ '\n\n')
+#log(str(table)+ '\n\n')
 ### find large itemsets
 itemsets = large_k_itemsets(items,table,min_sup)
 log('\n############# ITEMSETS #############\n')
@@ -152,10 +154,9 @@ for i in itemsets:
 log('\nNumber of itemsets: '+str(len(itemsets)))
 
 
-
-
-#print(itemsets)
-
-
 print('\n############# ASSOCIATION RULES #############\n')
-compute_confidence(itemsets)
+high_conf_rules, ct_rules = compute_confidence(itemsets)
+for r in high_conf_rules:
+    log('Rule: ' +  str(r[0]) + '--> (' +  str(r[1]) +  ')\t Score:' +  str(high_conf_rules[r]))
+    #log(str(i) + ' : ' + str(high_conf_rules[r]))
+log(str(ct_rules) + ' Rules Extracted. ')
