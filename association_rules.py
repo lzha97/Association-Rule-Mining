@@ -124,7 +124,7 @@ min_conf = float(sys.argv[3])
 log('Reading data', print2screen=True)
 
 ### read data
-data = pd.read_csv(dataset)[:100]
+data = pd.read_csv(dataset)
 table = []
 for i in range(data.shape[0]):
     table.append([str(data.values[i,j]) for j in range(data.shape[1])])
@@ -146,6 +146,7 @@ out_f = 'output.txt'
 import os
 if os.path.exists(out_f):
   os.remove(out_f)
+
 
 log('############# ITEMS #############', print2screen=True)
 log('Number of items: '+str(len(items)), print2screen=True)
